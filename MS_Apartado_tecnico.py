@@ -91,3 +91,16 @@ st.markdown("""
 | **Denominador** | **Población FONASA**                                                                        |                                                    |                                                                                                                                                                                                              |                                |                                                                                                                                                                                                                                                                                       |
 |                 | Inscrita y validada según prevalencia: (de 40 y más años x 11,7%)+(de 5 y más años x 10,0%) |                                                    |                                                                                                                                                                                                              |                                |                                                                                                                                                                                                                                                                                       |
 """)
+
+
+# Sección para mostrar el enlace del PDF
+st.header("Orientaciones tecnicas Metas Sanitarias 2024 de la ley 19.813")
+
+# Ruta del archivo PDF
+pdf_path = "DOC/OOTT Metas Sanitarias 2024 APS.pdf"
+
+# Cargar el PDF y crear un enlace de descarga
+with open(pdf_path, "rb") as file:
+    pdf_data = file.read()
+    # Crear el enlace para descargar el PDF
+    st.download_button(label="Descargar o ver el PDF", data=pdf_data, file_name="Metas_Sanitarias_2024_APS.pdf", mime="application/pdf")

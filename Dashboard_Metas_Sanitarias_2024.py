@@ -36,7 +36,7 @@ pages = {
 
 ],
 "Recursos" : [
-    st.Page("MS_Apartado_tecnico.py", title="Fuentes y archivos", icon=":material/description:")
+    st.Page("MS_Apartado_tecnico.py", title="Apartado Tecnico", icon=":material/description:")
 ]
 }
 pg = st.navigation(pages)
