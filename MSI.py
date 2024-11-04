@@ -30,7 +30,7 @@ df_ms1['codigo_nombre']=df_ms1['IdEstablecimiento']+' - '+df_ms1['nombre_estable
 #%%
 
 # Título del dashboard
-st.title('MSI - RECUPERACIÓN DEL DESARROLLO PSICOMOTOR')
+st.title('Meta I: Recuperación del Desarrollo Psicomotor')
 
 st.subheader("Filtros")
 all_servicios = ['Todos los Servicio de Salud', 'Servicio de Salud Metropolitano Norte',

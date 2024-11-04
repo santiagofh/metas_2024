@@ -29,7 +29,7 @@ df_ms7['codigo_nombre']=df_ms7['IdEstablecimiento']+' - '+df_ms7['nombre_estable
 #%%
 
 # Título del dashboard
-st.title('MSVII - COBERTURA DE TRATAMIENTO EN PERSONAS CON ASMA Y EPOC')
+st.title('Meta VII: Cobertura efectiva de tratamiento en enfermedades respiratorias crónicas (asma y EPOC) en personas de 5 años y más')
 
 st.subheader("Filtros")
 all_servicios = ['Todos los Servicio de Salud', 'Servicio de Salud Metropolitano Norte',

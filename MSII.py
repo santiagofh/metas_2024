@@ -29,7 +29,7 @@ df_ms2['codigo_nombre']=df_ms2['IdEstablecimiento']+' - '+df_ms2['nombre_estable
 #%%
 
 # Título del dashboard
-st.title('MSII -DETECCIÓN PRECOZ DEL CÁNCER DE CUELLO UTERINO')
+st.title('Meta II: Detección precoz del cáncer de cuello uterino')
 st.write('PAPANICOLAOU (PAP) O TEST DE VPH VIGENTE EN PERSONAS DE 25 A 64 AÑOS')
 
 st.subheader("Filtros")

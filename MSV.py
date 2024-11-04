@@ -29,7 +29,7 @@ df_ms5['codigo_nombre']=df_ms5['IdEstablecimiento']+' - '+df_ms5['nombre_estable
 #%%
 
 # Título del dashboard
-st.title('MSV - COBERTURA DE TRATAMIENTO EN PERSONAS DE 15 AÑOS Y MÁS CON HIPERTENSIÓN ARTERIAL (HTA)')
+st.title('Meta V: Cobertura de tratamiento en personas con HTA')
 
 st.subheader("Filtros")
 all_servicios = ['Todos los Servicio de Salud', 'Servicio de Salud Metropolitano Norte',

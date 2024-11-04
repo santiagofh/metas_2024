@@ -29,8 +29,7 @@ df_ms4a['codigo_nombre']=df_ms4a['IdEstablecimiento']+' - '+df_ms4a['nombre_esta
 #%%
 
 # Título del dashboard
-st.title('MSIV - COBERTURA DE TRATAMIENTO Y EVALUACIÓN EN PERSONAS CON DIABETES MELLITUS TIPO 2')
-st.write('## IV. A: COBERTURA EFECTIVA DE DIABETES TIPO 2 (DM2) EN PERSONAS DE 15 AÑOS Y MÁS')
+st.title('Meta IV.A: Cobertura efectiva de tratamiento de DM2 en personas de 15 y más años')
 
 st.subheader("Filtros")
 all_servicios = ['Todos los Servicio de Salud', 'Servicio de Salud Metropolitano Norte',

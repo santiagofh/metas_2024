@@ -42,8 +42,7 @@ df_grouped['Porcentaje'] = df_grouped['Numerador'] / df_grouped['Denominador']
 df_grouped['codigo_nombre'] = df_grouped['IdEstablecimiento'] + ' - ' + df_grouped['nombre_establecimiento']
 
 # Título del dashboard
-st.title('MSIII - PROTECCIÓN DE LA SALUD BUCAL EN POBLACIÓN INFANTIL​')
-st.subheader('III. A: CONTROL CON ENFOQUE DE RIESGO ODONTOLÓGICO EN POBLACIÓN DE 0 A 9 AÑOS​')
+st.title('Meta III.A: Control con Enfoque de Riesgo odontológico en población de 0 a 9 años​')
 
 st.subheader("Filtros")
 all_servicios = ['Todos los Servicio de Salud', 'Servicio de Salud Metropolitano Norte',

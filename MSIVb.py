@@ -29,8 +29,7 @@ df_ms4b['codigo_nombre']=df_ms4b['IdEstablecimiento']+' - '+df_ms4b['nombre_esta
 #%%
 
 # Título del dashboard
-st.title('MSIV - COBERTURA DE TRATAMIENTO Y EVALUACIÓN EN PERSONAS CON DIABETES MELLITUS TIPO 2')
-st.write('## IV. B: EVALUACIÓN ANUAL DE LOS PIES EN PERSONAS CON DIABETES BAJO CONTROL DE 15 Y MÁS AÑOS')
+st.title('Meta IV.B: Evaluación anual del pie diabético en personas de 15 años y más')
 
 st.subheader("Filtros")
 all_servicios = ['Todos los Servicio de Salud', 'Servicio de Salud Metropolitano Norte',

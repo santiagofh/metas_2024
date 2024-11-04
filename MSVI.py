@@ -30,7 +30,7 @@ df_ms6['codigo_nombre']=df_ms6['IdEstablecimiento']+' - '+df_ms6['nombre_estable
 #%%
 
 # Título del dashboard
-st.title('MSVI - RECUPERACIÓN DEL DESARROLLO PSICOMOTOR')
+st.title('Meta VI: Prevalencia de Lactancia Materna Exclusiva (LME) en menores de 6 meses de vida')
 
 st.subheader("Filtros")
 all_servicios = ['Todos los Servicio de Salud', 'Servicio de Salud Metropolitano Norte',

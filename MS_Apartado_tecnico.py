@@ -1,6 +1,5 @@
 import streamlit as st
 
-st.title("Apartado Técnico")
 
 # Meta 1
 st.header("Meta 1")
