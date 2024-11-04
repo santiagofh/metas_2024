@@ -114,15 +114,17 @@ st.subheader("Cumplimiento de la Meta Sanitaria")
 total_numerador = df_filtered['Numerador'].sum()
 total_denominador = df_filtered['Denominador'].sum()
 total_porcentaje = total_numerador / total_denominador
-
-col1, col2, col3 = st.columns(3)
+meta_nacional = 0.16
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     st.metric(label='Numerador', value=total_numerador)
 with col2:
     st.metric(label='Denominador', value=total_denominador)
 with col3:
-    st.metric(label='Porcentaje de cumplimiento', value=total_porcentaje*100)
+    st.metric(label='Porcentaje de cumplimiento', value=total_porcentaje)
+with col4:
+    st.metric(label='Meta Nacional', value=meta_nacional)
 
 fig = go.Figure(go.Indicator(
     mode="gauge+number",
@@ -135,8 +137,8 @@ fig = go.Figure(go.Indicator(
             'borderwidth': 2,
             'bordercolor': "gray",
             'steps': [
-                {'range': [0, 15], 'color': "gray"},
-                {'range': [15, 100], 'color': "lightgray"}
+                {'range': [0, 16], 'color': "gray"},
+                {'range': [16, 100], 'color': "lightgray"}
             ],
             'threshold': {
                 'line': {'color': "black", 'width': 4},

@@ -99,11 +99,12 @@ st.write(df_ms6_filtered[col_ms6].rename(columns=rename_ms6))
 total_numerador = df_ms6_filtered['Numerador'].sum()
 total_denominador = df_ms6_filtered['Denominador'].sum()
 total_porcentaje = (total_numerador / total_denominador) * 100 if total_denominador > 0 else 0
+meta_nacional = 0.6
 #%%
 # Mostrar datos de Numerador, Denominador y Porcentaje de cumplimiento
 st.write("## Cumplimiento de la Meta Sanitaria")
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     st.metric(label='Numerador', value=total_numerador)
@@ -111,7 +112,8 @@ with col2:
     st.metric(label='Denominador', value=total_denominador)
 with col3:
     st.metric(label='Porcentaje de cumplimiento', value=total_porcentaje)
-
+with col4:
+    st.metric(label='Meta Nacional', value=meta_nacional)
 #%%
 # Grafico Gauge
 fig = go.Figure(go.Indicator(
