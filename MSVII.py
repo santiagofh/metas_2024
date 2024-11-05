@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 #%%
 # Ordenar dataframe
-df_ms = pd.read_csv('ms2024.csv')
+df_ms = pd.read_csv('MS2024.csv')
 col_est=['Código Vigente','Nombre Oficial','Nombre Dependencia Jerárquica (SEREMI / Servicio de Salud)','Nombre Comuna']
 col_rename={
     'Código Vigente':'IdEstablecimiento',

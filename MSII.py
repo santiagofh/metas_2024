@@ -117,7 +117,7 @@ with col4:
 
 fig = go.Figure(go.Indicator(
     mode="gauge+number",
-    value=total_porcentaje,  # Convertir a porcentaje
+    value=total_porcentaje * 100,  # Convertir a porcentaje
     title={'text': 'Cumplimiento'},
     gauge={
             'axis': {'range': [0, 100]},
@@ -132,7 +132,7 @@ fig = go.Figure(go.Indicator(
             'threshold': {
                 'line': {'color': "black", 'width': 4},
                 'thickness': 0.75,
-                'value': total_porcentaje
+                'value': total_porcentaje* 100
             },
             'shape': "angular"}
 ))
