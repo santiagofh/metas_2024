@@ -252,7 +252,7 @@ fig.add_shape(
 )
 
 # Ajustar el diseño del gráfico
-fig.update_layout(
+fig.update_layout(    
     xaxis_title='Comuna',
     yaxis_title='Porcentaje de Cumplimiento',
     yaxis=dict(range=[0, 100])
@@ -261,3 +261,5 @@ fig.update_layout(
 # Mostrar el gráfico en Streamlit
 st.plotly_chart(fig)
 
+
+# %%

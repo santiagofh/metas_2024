@@ -63,7 +63,7 @@ if 'Todos' not in selected_establecimientos:
 
 # Meses de corte
 all_meses = sorted(list(df_ms2_filtered['Mes'].unique()))
-selected_meses = st.selectbox('Seleccione Establecimientos', all_meses, index=len(all_meses)-1)
+selected_meses = st.selectbox('Seleccione mes de corte', all_meses, index=len(all_meses)-1)
 df_ms2_filtered = df_ms2_filtered[df_ms2_filtered['Mes']==selected_meses]
 #%%
 # Mostrar datos filtrados
