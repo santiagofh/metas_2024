@@ -100,7 +100,7 @@ st.write(df_ms2_filtered[col_ms2].rename(columns=rename_ms2))
 # Calcular el total del numerador y denominador
 total_numerador = df_ms2_filtered['Numerador'].sum()
 total_denominador = df_ms2_filtered['Denominador'].sum()
-total_porcentaje = (total_numerador / total_denominador) * 100 if total_denominador > 0 else 0
+total_porcentaje = (total_numerador / total_denominador) if total_denominador > 0 else 0
 meta_nacional = 0.8
 st.subheader("Cumplimiento de la Meta Sanitaria")
 
