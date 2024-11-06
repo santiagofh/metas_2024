@@ -141,6 +141,7 @@ metas_sanitarias = {
                     "Col34",
                     "Col35",
                     "Col36",
+                    "Col37",
                     ]
         },
         "denominador": {
