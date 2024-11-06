@@ -21,12 +21,23 @@ df_ms6 = df_ms6.merge(df_est, on='IdEstablecimiento', how='left')
 #%%
 # Preparar los datos
 df_ms6 = df_ms6.dropna(subset=['Ano', 'Mes'])
-df_ms6['Ano'] = df_ms6['Ano'].astype(int)
-df_ms6['Mes'] = df_ms6['Mes'].astype(int)
-df_ms6['Porcentaje'] = df_ms6['Numerador']/df_ms6['Denominador']
+df_ms6['Ano'] = df_ms6['Ano'].fillna(0).astype(int)
+df_ms6['Mes'] = df_ms6['Mes'].fillna(0).astype(int)
+df_ms6['Numerador'] = df_ms6['Numerador'].fillna(0).astype(int)
+df_ms6['Denominador'] = df_ms6['Denominador'].fillna(0).astype(int)
 df_ms6['IdEstablecimiento'] = df_ms6['IdEstablecimiento'].astype(str)
 df_ms6['nombre_establecimiento'] = df_ms6['nombre_establecimiento'].astype(str)
 df_ms6['codigo_nombre']=df_ms6['IdEstablecimiento']+' - '+df_ms6['nombre_establecimiento']
+df_ms6 = df_ms6.groupby('IdEstablecimiento').agg({
+    'Ano':'max',
+    'Mes':'max',
+    'Numerador':'sum',
+    'Denominador':'sum',
+    'codigo_nombre':'first',
+    'comuna':'first',
+    'servicio_salud':'first',
+    }).reset_index()
+df_ms6['Porcentaje'] = df_ms6['Numerador']/df_ms6['Denominador']
 #%%
 
 # Título del dashboard
@@ -140,71 +151,71 @@ fig = go.Figure(go.Indicator(
 ))
 st.plotly_chart(fig)
 
-#%%
-# Grafico de metas por mes
-grouped_data = df_ms6_filtered.groupby(['Ano', 'Mes'])[['Denominador', 'Numerador']].sum().reset_index()
+# #%%
+# # Grafico de metas por mes
+# grouped_data = df_ms6_filtered.groupby(['Ano', 'Mes'])[['Denominador', 'Numerador']].sum().reset_index()
 
-grouped_data['Denominador Acumulado'] = grouped_data.groupby('Ano')['Denominador'].cumsum()
-grouped_data['Numerador Acumulado'] = grouped_data.groupby('Ano')['Numerador'].cumsum()
+# grouped_data['Denominador Acumulado'] = grouped_data.groupby('Ano')['Denominador'].cumsum()
+# grouped_data['Numerador Acumulado'] = grouped_data.groupby('Ano')['Numerador'].cumsum()
 
-grouped_data['Cumplimiento'] = (grouped_data['Numerador Acumulado'] / grouped_data['Denominador Acumulado']) * 100
+# grouped_data['Cumplimiento'] = (grouped_data['Numerador Acumulado'] / grouped_data['Denominador Acumulado']) * 100
 
-fig = go.Figure()
+# fig = go.Figure()
 
-# Añadir trazas para el numerador acumulado, denominador acumulado y cumplimiento
-for year in grouped_data['Ano'].unique():
-    year_data = grouped_data[grouped_data['Ano'] == year]
-    fig.add_trace(go.Scatter(
-        x=year_data['Mes'],
-        y=year_data['Numerador Acumulado'],
-        mode='lines',
-        name=f'Numerador Acumulado {year}',
-        line=dict(color='red'),
-        yaxis='y1'
-    ))
+# # Añadir trazas para el numerador acumulado, denominador acumulado y cumplimiento
+# for year in grouped_data['Ano'].unique():
+#     year_data = grouped_data[grouped_data['Ano'] == year]
+#     fig.add_trace(go.Scatter(
+#         x=year_data['Mes'],
+#         y=year_data['Numerador Acumulado'],
+#         mode='lines',
+#         name=f'Numerador Acumulado {year}',
+#         line=dict(color='red'),
+#         yaxis='y1'
+#     ))
 
-    fig.add_trace(go.Scatter(
-        x=year_data['Mes'],
-        y=year_data['Denominador Acumulado'],
-        mode='lines',
-        name=f'Denominador Acumulado {year}',
-        line=dict(color='blue'),
-        yaxis='y1'
-    ))
+#     fig.add_trace(go.Scatter(
+#         x=year_data['Mes'],
+#         y=year_data['Denominador Acumulado'],
+#         mode='lines',
+#         name=f'Denominador Acumulado {year}',
+#         line=dict(color='blue'),
+#         yaxis='y1'
+#     ))
 
-    fig.add_trace(go.Scatter(
-        x=year_data['Mes'],
-        y=year_data['Cumplimiento'],
-        mode='lines',
-        name=f'Cumplimiento {year}',
-        line=dict(color='green'),
-        yaxis='y2'
-    ))
+#     fig.add_trace(go.Scatter(
+#         x=year_data['Mes'],
+#         y=year_data['Cumplimiento'],
+#         mode='lines',
+#         name=f'Cumplimiento {year}',
+#         line=dict(color='green'),
+#         yaxis='y2'
+#     ))
 
-# Configurar el layout del gráfico
-fig.update_layout(
-    title='Denominador, Numerador y Cumplimiento por Mes (MSVI)',
-    xaxis_title='Mes',
-    yaxis=dict(
-        title='Cantidad',
-        # titlefont=dict(color='black'),
-        # tickfont=dict(color='black')
-    ),
-    yaxis2=dict(
-        title='Cumplimiento (%)',
-        # titlefont=dict(color='black'),
-        # tickfont=dict(color='black'),
-        overlaying='y',
-        side='right',
-        range=[0, 100]
-    ),
-    legend_title='Tipo',
-    legend=dict(x=0, y=1, traceorder='normal')
-)
+# # Configurar el layout del gráfico
+# fig.update_layout(
+#     title='Denominador, Numerador y Cumplimiento por Mes (MSVI)',
+#     xaxis_title='Mes',
+#     yaxis=dict(
+#         title='Cantidad',
+#         # titlefont=dict(color='black'),
+#         # tickfont=dict(color='black')
+#     ),
+#     yaxis2=dict(
+#         title='Cumplimiento (%)',
+#         # titlefont=dict(color='black'),
+#         # tickfont=dict(color='black'),
+#         overlaying='y',
+#         side='right',
+#         range=[0, 100]
+#     ),
+#     legend_title='Tipo',
+#     legend=dict(x=0, y=1, traceorder='normal')
+# )
 
-# Mostrar el gráfico en Streamlit
-st.write("## Denominador, Numerador y Cumplimiento por Mes (MSVI)")
-st.plotly_chart(fig)
+# # Mostrar el gráfico en Streamlit
+# st.write("## Denominador, Numerador y Cumplimiento por Mes (MSVI)")
+# st.plotly_chart(fig)
 
 #%%
 # GRAFICO POR COMUNAS

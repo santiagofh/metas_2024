@@ -99,7 +99,7 @@ st.write(df_ms7_filtered[col_ms7].rename(columns=rename_ms7))
 # Calcular el total del numerador y denominador
 total_numerador = df_ms7_filtered['Numerador'].sum()
 total_denominador = df_ms7_filtered['Denominador'].sum()
-total_porcentaje = (total_numerador / total_denominador) * 100 if total_denominador > 0 else 0
+total_porcentaje = (total_numerador / total_denominador) if total_denominador > 0 else 0
 meta_nacional = 0.1
 
 st.subheader("Cumplimiento de la Meta Sanitaria")
@@ -117,7 +117,7 @@ with col4:
 
 fig = go.Figure(go.Indicator(
     mode="gauge+number",
-    value=total_porcentaje,  # Convertir a porcentaje
+    value=total_porcentaje * 100,  # Convertir a porcentaje
     title={'text': 'Cumplimiento'},
     gauge={
             'axis': {'range': [0, 100]},
@@ -132,7 +132,7 @@ fig = go.Figure(go.Indicator(
             'threshold': {
                 'line': {'color': "black", 'width': 4},
                 'thickness': 0.75,
-                'value': total_porcentaje
+                'value': total_porcentaje * 100 
             },
             'shape': "angular"}
 ))
