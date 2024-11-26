@@ -50,7 +50,7 @@ metas_sanitarias = {
             "col": ["Col16", "Col17"]
         },
         "denominador": {
-            "edad": [list(range(0, 7))]
+            "edad": [[6]]
         }
     },
     "MSIVa": {
