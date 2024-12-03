@@ -67,8 +67,8 @@ df_ms4b_filtered = df_ms4b_filtered[df_ms4b_filtered['Mes']==selected_meses]
 #%%
 # Mostrar datos filtrados
 st.write("## Datos para la Meta Sanitaria")
+st.write("Fecha de corte de datos: _Octubre del 2024_")
 
-st.write("Fecha de corte de datos: _Septiembre del 2024_")
 # Información de resumen
 num_services = df_ms4b_filtered['servicio_salud'].nunique()
 num_communes = df_ms4b_filtered['comuna'].nunique()
