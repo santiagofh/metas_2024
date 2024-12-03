@@ -68,6 +68,7 @@ df_ms7_filtered = df_ms7_filtered[df_ms7_filtered['Mes']==selected_meses]
 # Mostrar datos filtrados
 st.write("## Datos para la Meta Sanitaria")
 
+st.write("Fecha de corte de datos: _Septiembre del 2024_")
 num_services = df_ms7_filtered['servicio_salud'].nunique()
 num_communes = df_ms7_filtered['comuna'].nunique()
 num_establishments = df_ms7_filtered['codigo_nombre'].nunique()

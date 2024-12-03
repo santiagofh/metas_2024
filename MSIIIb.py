@@ -76,6 +76,7 @@ if 'Todos' not in selected_establecimientos:
 #%%
 # Mostrar datos filtrados
 st.write("## Datos para la Meta Sanitaria")
+st.write("Fecha de corte de datos: _Septiembre del 2024_")
 
 # Información de resumen
 num_services = df_filtered['servicio_salud'].nunique()
