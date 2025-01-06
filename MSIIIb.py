@@ -58,7 +58,10 @@ else:
     df_filtered = df_grouped[df_grouped['servicio_salud'] == selected_servicios]
 
 # Actualizar la lista de comunas basándose en el filtro de servicios de salud
-all_comunas = ['Todas'] + sorted(list(df_filtered['comuna'].unique()))
+all_comunas = ['Todas'] + sorted(
+    [comuna for comuna in df_filtered['comuna'].unique() if comuna is not None]
+)
+
 selected_comunas = st.multiselect('Seleccione Comunas', all_comunas, default='Todas')
 
 # Filtrar el DataFrame según las Comunas seleccionadas
