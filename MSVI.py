@@ -57,7 +57,15 @@ else:
     df_ms6_filtered = df_ms6[df_ms6['servicio_salud'] == selected_servicios]
 
 # Actualizar la lista de comunas basándose en el filtro de servicios de salud
-all_comunas = ['Todas'] + sorted(list(df_ms6_filtered['comuna'].unique()))
+# Filtrar las comunas que no son nulas
+comunas = df_ms6_filtered['comuna'].dropna().unique()
+
+# Convertir a lista y ordenar
+comunas_ordenadas = sorted(comunas)
+
+# Agregar 'Todas' al inicio de la lista
+all_comunas = ['Todas'] + comunas_ordenadas
+
 selected_comunas = st.multiselect('Seleccione Comunas', all_comunas, default='Todas')
 
 # Filtrar el DataFrame según las Comunas seleccionadas
@@ -75,7 +83,7 @@ if 'Todos' not in selected_establecimientos:
 #%%
 # Mostrar datos filtrados
 st.write(f"## Datos para la Meta Sanitaria")
-st.write("Fecha de corte de datos: _Octubre del 2024_")
+st.write("Fecha de corte de datos: _Enero del 2025_")
 
 # Información de resumen
 num_services = df_ms6_filtered['servicio_salud'].nunique()

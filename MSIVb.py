@@ -44,8 +44,12 @@ if 'Todos los Servicio de Salud' in selected_servicios:
 else:
     df_ms4b_filtered = df_ms4b[df_ms4b['servicio_salud'] == selected_servicios]
 
-# Actualizar la lista de comunas basándose en el filtro de servicios de salud
-all_comunas = ['Todas'] + sorted(list(df_ms4b_filtered['comuna'].unique()))
+# Manejar valores faltantes y convertir a cadena
+df_ms4b_filtered['comuna'] = df_ms4b_filtered['comuna'].fillna('Desconocido').astype(str)
+
+# Obtener las comunas únicas ordenadas
+all_comunas = ['Todas'] + sorted(df_ms4b_filtered['comuna'].unique())
+
 selected_comunas = st.multiselect('Seleccione Comunas', all_comunas, default='Todas')
 
 # Filtrar el DataFrame según las Comunas seleccionadas
@@ -67,7 +71,7 @@ df_ms4b_filtered = df_ms4b_filtered[df_ms4b_filtered['Mes']==selected_meses]
 #%%
 # Mostrar datos filtrados
 st.write("## Datos para la Meta Sanitaria")
-st.write("Fecha de corte de datos: _Octubre del 2024_")
+st.write("Fecha de corte de datos: _Enero del 2025_")
 
 # Información de resumen
 num_services = df_ms4b_filtered['servicio_salud'].nunique()

@@ -162,7 +162,7 @@ for meta in metas_sanitarias.values():
 print(all_codes)
 
 #%% Lectura y filtrado de datos
-directory = r"C:\Users\fariass\OneDrive - SUBSECRETARIA DE SALUD PUBLICA\Escritorio\DATA\REM\archivos_extraidos"
+directory = r"C:\Users\fariass\OneDrive - SUBSECRETARIA DE SALUD PUBLICA\Escritorio\DATA\REM\archivos_extraidos_2024"
 filtered_data = []
 
 # Recorrer carpetas y subcarpetas

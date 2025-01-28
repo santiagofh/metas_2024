@@ -45,7 +45,12 @@ else:
     df_ms7_filtered = df_ms7[df_ms7['servicio_salud'] == selected_servicios]
 
 # Actualizar la lista de comunas basándose en el filtro de servicios de salud
-all_comunas = ['Todas'] + sorted(list(df_ms7_filtered['comuna'].unique()))
+
+# Asegurarse de que la columna 'comuna' tenga un tipo de dato consistente (str)
+df_ms7_filtered['comuna'] = df_ms7_filtered['comuna'].fillna('Desconocido').astype(str)
+
+# Actualizar la lista de comunas basándose en el filtro de servicios de salud
+all_comunas = ['Todas'] + sorted(df_ms7_filtered['comuna'].unique())
 selected_comunas = st.multiselect('Seleccione Comunas', all_comunas, default='Todas')
 
 # Filtrar el DataFrame según las Comunas seleccionadas
@@ -67,7 +72,7 @@ df_ms7_filtered = df_ms7_filtered[df_ms7_filtered['Mes']==selected_meses]
 #%%
 # Mostrar datos filtrados
 st.write("## Datos para la Meta Sanitaria")
-st.write("Fecha de corte de datos: _Octubre del 2024_")
+st.write("Fecha de corte de datos: _Enero del 2025_")
 
 num_services = df_ms7_filtered['servicio_salud'].nunique()
 num_communes = df_ms7_filtered['comuna'].nunique()
