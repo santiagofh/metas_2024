@@ -163,6 +163,7 @@ print(all_codes)
 
 #%% Lectura y filtrado de datos
 directory = r"C:\Users\fariass\OneDrive - SUBSECRETARIA DE SALUD PUBLICA\Escritorio\DATA\REM\archivos_extraidos_2024"
+
 filtered_data = []
 
 # Recorrer carpetas y subcarpetas
@@ -177,7 +178,10 @@ for root, dirs, files in os.walk(directory):
 # Concatenar todos los datos filtrados
 df_rem = pd.concat(filtered_data, ignore_index=True)
 print(df_rem)
-
+#%%
+# Datos DEIS
+path_deis=r"C:\Users\fariass\OneDrive - SUBSECRETARIA DE SALUD PUBLICA\Escritorio\GIE\DEIS\Listado de establecimientos\Establecimientos DEIS MINSAL 07-01-2025 (2).xlsx"
+df_deis=pd.read_excel(path_deis)
 #%% Lectura de datos de FONASA
 fonasa1 = pd.read_excel('FONASA/Copia de T6603_Inscritos.xlsx', sheet_name='Respuesta M', skiprows=4)
 fonasa2 = pd.read_excel('FONASA/Copia de T6603_Inscritos.xlsx', sheet_name='Respuesta S', skiprows=4)
@@ -220,13 +224,13 @@ def calcular_denominador_fonasa(fonasa_rm, metas_sanitarias, key):
             df_denominador = df_denominador.loc[fonasa_rm.Sexo.isin(metas_sanitarias[key]["denominador"]["sexo"])].copy()
     df_denominador=df_denominador.dropna(subset=['Inscritos'])
     df_group_denominador = df_denominador.groupby('Código Centro').sum().reset_index()
-    df_group_denominador = df_group_denominador[['Código Centro', 'Inscritos']]
+    df_group_denominador = df_group_denominador[['Código Centro','Dependencia Adm.' ,'Inscritos']]
     df_group_denominador = df_group_denominador.rename(columns={'Código Centro': 'IdEstablecimiento'})
     df_group_denominador = df_group_denominador.rename(columns={'Inscritos': f'Denominador_{key}'})
     return df_group_denominador
 
 #%% Definición de parámetros y procesamiento
-cols_df = [  'IdEstablecimiento', 'Ano', 'Mes', 'CodigoPrestacion', 'IdRegion']
+cols_df = [  'IdEstablecimiento', 'Ano', 'Mes', 'IdRegion']
 cols_grup = ['IdEstablecimiento', 'Ano', 'Mes']
 cols_merge = ['IdEstablecimiento', 'Ano', 'Mes']
 region_id = 13  # ID de la región para filtrar
@@ -283,6 +287,7 @@ for key, df in resultado.items():
     resultados_list.append(df)
 
 df_final = pd.concat(resultados_list, ignore_index=True)
+df_final = df_final.merge(df_deis[['Código Vigente','Dependencia Administrativa','Nivel de Atención']],left_on='IdEstablecimiento', right_on='Código Vigente')
 df_final.to_csv('MS2024.csv', index=False, encoding='utf-8')
 
 print("Archivo CSV guardado exitosamente.")

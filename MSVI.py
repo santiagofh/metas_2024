@@ -26,7 +26,10 @@ df_ms6['Mes'] = df_ms6['Mes'].fillna(0).astype(int)
 df_ms6['Numerador'] = df_ms6['Numerador'].fillna(0).astype(int)
 df_ms6['Denominador'] = df_ms6['Denominador'].fillna(0).astype(int)
 df_ms6['IdEstablecimiento'] = df_ms6['IdEstablecimiento'].astype(str)
+df_ms6["comuna"] = df_ms6["comuna"].fillna("No especificado").astype(str)
 df_ms6['nombre_establecimiento'] = df_ms6['nombre_establecimiento'].astype(str)
+df_ms6 = df_ms6.dropna(subset=["servicio_salud", "comuna"])
+df_ms6["servicio_salud"] = df_ms6["servicio_salud"].fillna("No especificado").astype(str)
 df_ms6['codigo_nombre']=df_ms6['IdEstablecimiento']+' - '+df_ms6['nombre_establecimiento']
 df_ms6 = df_ms6.groupby('IdEstablecimiento').agg({
     'Ano':'max',
@@ -35,6 +38,8 @@ df_ms6 = df_ms6.groupby('IdEstablecimiento').agg({
     'Denominador':'sum',
     'codigo_nombre':'first',
     'comuna':'first',
+    'Dependencia Administrativa':'first',
+    'Nivel de Atención':'first',
     'servicio_salud':'first',
     }).reset_index()
 df_ms6['Porcentaje'] = df_ms6['Numerador']/df_ms6['Denominador']
@@ -43,42 +48,174 @@ df_ms6['Porcentaje'] = df_ms6['Numerador']/df_ms6['Denominador']
 # Título del dashboard
 st.title('Meta VI: Prevalencia de Lactancia Materna Exclusiva (LME) en menores de 6 meses de vida')
 
-st.subheader("Filtros")
-all_servicios = ['Todos los Servicio de Salud', 'Servicio de Salud Metropolitano Norte',
-                 'Servicio de Salud Metropolitano Occidente', 'Servicio de Salud Metropolitano Central',
-                 'Servicio de Salud Metropolitano Sur', 'Servicio de Salud Metropolitano Oriente',
-                 'Servicio de Salud Metropolitano Sur Oriente']
-selected_servicios = st.selectbox('Seleccione Servicios de Salud', all_servicios, index=0)
+st.subheader("Filtros en Cascada")
 
-# Filtrar el DataFrame según el Servicio de Salud seleccionado
-if 'Todos los Servicio de Salud' in selected_servicios:
-    df_ms6_filtered = df_ms6
-else:
-    df_ms6_filtered = df_ms6[df_ms6['servicio_salud'] == selected_servicios]
+# -----------------------------------------------------
+# 1) DEFINICIÓN DE FUNCIONES PARA RESETEAR FILTROS
+# -----------------------------------------------------
+def reset_comunas_hacia_abajo():
+    """
+    Si el usuario cambia el Servicio de Salud, se resetean
+    todos los filtros inferiores (comuna, dependencia, nivel, establecimiento).
+    """
+    st.session_state["selected_comunas"] = ["Todas"]
+    st.session_state["selected_dependencias"] = ["Todas"]
+    st.session_state["selected_niveles"] = ["Todos"]
+    st.session_state["selected_establecimientos"] = ["Todos"]
 
-# Actualizar la lista de comunas basándose en el filtro de servicios de salud
-# Filtrar las comunas que no son nulas
-comunas = df_ms6_filtered['comuna'].dropna().unique()
+def reset_dependencia_hacia_abajo():
+    """
+    Si cambia la comuna, se resetean los filtros: dependencia, nivel, establecimiento.
+    """
+    st.session_state["selected_dependencias"] = ["Todas"]
+    st.session_state["selected_niveles"] = ["Todos"]
+    st.session_state["selected_establecimientos"] = ["Todos"]
 
-# Convertir a lista y ordenar
-comunas_ordenadas = sorted(comunas)
+def reset_nivel_hacia_abajo():
+    """
+    Si cambia la dependencia, se resetean los filtros: nivel, establecimiento.
+    """
+    st.session_state["selected_niveles"] = ["Todos"]
+    st.session_state["selected_establecimientos"] = ["Todos"]
 
-# Agregar 'Todas' al inicio de la lista
-all_comunas = ['Todas'] + comunas_ordenadas
+def reset_establecimientos():
+    """
+    Si cambia el nivel, se resetea solamente el filtro de establecimientos.
+    """
+    st.session_state["selected_establecimientos"] = ["Todos"]
 
-selected_comunas = st.multiselect('Seleccione Comunas', all_comunas, default='Todas')
 
-# Filtrar el DataFrame según las Comunas seleccionadas
-if 'Todas' not in selected_comunas:
-    df_ms6_filtered = df_ms6_filtered[df_ms6_filtered['comuna'].isin(selected_comunas)]
+# -----------------------------------------------------
+# 2) CREACIÓN DE VALORES POR DEFECTO EN SESSION_STATE
+#    (solo la primera vez que corre la app)
+# -----------------------------------------------------
+if "selected_servicios" not in st.session_state:
+    st.session_state["selected_servicios"] = "Todos"
+if "selected_comunas" not in st.session_state:
+    st.session_state["selected_comunas"] = ["Todas"]
+if "selected_dependencias" not in st.session_state:
+    st.session_state["selected_dependencias"] = ["Todas"]
+if "selected_niveles" not in st.session_state:
+    st.session_state["selected_niveles"] = ["Todos"]
+if "selected_establecimientos" not in st.session_state:
+    st.session_state["selected_establecimientos"] = ["Todos"]
 
-# Actualizar la lista de establecimientos basándose en los filtros anteriores
-all_establecimientos = ['Todos'] + sorted(list(df_ms6_filtered['codigo_nombre'].unique()))
-selected_establecimientos = st.multiselect('Seleccione Establecimientos', all_establecimientos, default='Todos')
+# Guardamos también los valores anteriores para detectar cambios
+if "prev_servicios" not in st.session_state:
+    st.session_state["prev_servicios"] = "Todos"
+if "prev_comunas" not in st.session_state:
+    st.session_state["prev_comunas"] = ["Todas"]
+if "prev_dependencias" not in st.session_state:
+    st.session_state["prev_dependencias"] = ["Todas"]
+if "prev_niveles" not in st.session_state:
+    st.session_state["prev_niveles"] = ["Todos"]
 
-# Filtrar el DataFrame según los Establecimientos seleccionados
-if 'Todos' not in selected_establecimientos:
-    df_ms6_filtered = df_ms6_filtered[df_ms6_filtered['codigo_nombre'].isin(selected_establecimientos)]
+
+# -----------------------------------------------------
+# 3) FILTRO 1: Servicio de Salud
+# -----------------------------------------------------
+all_servicios = ["Todos"] + sorted(df_ms6["servicio_salud"].unique())
+selected_servicios = st.selectbox(
+    "Seleccione Servicios de Salud",
+    all_servicios,
+    index=all_servicios.index(st.session_state["selected_servicios"])  # reiniciar a lo que teníamos
+)
+
+# Si el valor ha cambiado respecto al anterior => resetea todo hacia abajo
+if selected_servicios != st.session_state["prev_servicios"]:
+    reset_comunas_hacia_abajo()
+
+# Tras posibles reseteos, guardamos la selección actual
+st.session_state["selected_servicios"] = selected_servicios
+st.session_state["prev_servicios"] = selected_servicios
+
+# ---- Aplicar este primer filtro ----
+df_ms6_filtered = (
+    df_ms6
+    if selected_servicios == "Todos"
+    else df_ms6[df_ms6["servicio_salud"] == selected_servicios]
+)
+
+
+# -----------------------------------------------------
+# 4) FILTRO 2: Comuna
+# -----------------------------------------------------
+# Construimos las comunas disponibles dentro del subset ya filtrado
+all_comunas = sorted(df_ms6_filtered["comuna"].unique())
+selected_comunas = st.multiselect(
+    "Seleccione Comunas",
+    ["Todas"] + all_comunas,
+    default=st.session_state["selected_comunas"]
+)
+
+# Si cambió la selección de comuna de forma que no coincide con la previa, reseteamos dependencias en adelante
+if selected_comunas != st.session_state["prev_comunas"]:
+    reset_dependencia_hacia_abajo()
+
+# Guardamos la selección (y la previa)
+st.session_state["selected_comunas"] = selected_comunas
+st.session_state["prev_comunas"] = selected_comunas
+
+# Aplicar el filtro de comuna
+if "Todas" not in selected_comunas:
+    df_ms6_filtered = df_ms6_filtered[df_ms6_filtered["comuna"].isin(selected_comunas)]
+
+
+# -----------------------------------------------------
+# 5) FILTRO 3: Dependencia Administrativa
+# -----------------------------------------------------
+all_dependencias = sorted(df_ms6_filtered["Dependencia Administrativa"].dropna().unique())
+selected_dependencias = st.multiselect(
+    "Seleccione Dependencia Administrativa",
+    ["Todas"] + all_dependencias,
+    default=st.session_state["selected_dependencias"]
+)
+
+# Si cambió, resetea filtro de nivel y establecimiento
+if selected_dependencias != st.session_state["prev_dependencias"]:
+    reset_nivel_hacia_abajo()
+
+st.session_state["selected_dependencias"] = selected_dependencias
+st.session_state["prev_dependencias"] = selected_dependencias
+
+if "Todas" not in selected_dependencias:
+    df_ms6_filtered = df_ms6_filtered[df_ms6_filtered["Dependencia Administrativa"].isin(selected_dependencias)]
+
+
+# -----------------------------------------------------
+# 6) FILTRO 4: Nivel de Atención
+# -----------------------------------------------------
+all_niveles = sorted(df_ms6_filtered["Nivel de Atención"].dropna().unique())
+selected_niveles = st.multiselect(
+    "Seleccione Nivel de Atención",
+    ["Todos"] + all_niveles,
+    default=st.session_state["selected_niveles"]
+)
+
+if selected_niveles != st.session_state["prev_niveles"]:
+    reset_establecimientos()
+
+st.session_state["selected_niveles"] = selected_niveles
+st.session_state["prev_niveles"] = selected_niveles
+
+if "Todos" not in selected_niveles:
+    df_ms6_filtered = df_ms6_filtered[df_ms6_filtered["Nivel de Atención"].isin(selected_niveles)]
+
+
+# -----------------------------------------------------
+# 7) FILTRO 5: Establecimientos
+# -----------------------------------------------------
+all_establecimientos = sorted(df_ms6_filtered["codigo_nombre"].dropna().unique())
+selected_establecimientos = st.multiselect(
+    "Seleccione Establecimientos",
+    ["Todos"] + all_establecimientos,
+    default=st.session_state["selected_establecimientos"]
+)
+
+st.session_state["selected_establecimientos"] = selected_establecimientos
+
+if "Todos" not in selected_establecimientos:
+    df_ms6_filtered = df_ms6_filtered[df_ms6_filtered["codigo_nombre"].isin(selected_establecimientos)]
 
 #%%
 # Mostrar datos filtrados

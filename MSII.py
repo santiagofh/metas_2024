@@ -25,6 +25,8 @@ df_ms2['Mes'] = df_ms2['Mes'].astype(int)
 df_ms2['Porcentaje'] = df_ms2['Numerador']/df_ms2['Denominador']
 df_ms2['IdEstablecimiento'] = df_ms2['IdEstablecimiento'].astype(str)
 df_ms2['nombre_establecimiento'] = df_ms2['nombre_establecimiento'].astype(str)
+df_ms2 = df_ms2.dropna(subset=["servicio_salud", "comuna"])
+df_ms2["servicio_salud"] = df_ms2["servicio_salud"].fillna("No especificado").astype(str)
 df_ms2['codigo_nombre']=df_ms2['IdEstablecimiento']+' - '+df_ms2['nombre_establecimiento']
 #%%
 
@@ -32,39 +34,185 @@ df_ms2['codigo_nombre']=df_ms2['IdEstablecimiento']+' - '+df_ms2['nombre_estable
 st.title('Meta II: Detección precoz del cáncer de cuello uterino')
 st.write('PAPANICOLAOU (PAP) O TEST DE VPH VIGENTE EN PERSONAS DE 25 A 64 AÑOS')
 
-st.subheader("Filtros")
-all_servicios = ['Todos los Servicio de Salud', 'Servicio de Salud Metropolitano Norte',
-                 'Servicio de Salud Metropolitano Occidente', 'Servicio de Salud Metropolitano Central',
-                 'Servicio de Salud Metropolitano Sur', 'Servicio de Salud Metropolitano Oriente',
-                 'Servicio de Salud Metropolitano Sur Oriente']
-selected_servicios = st.selectbox('Seleccione Servicios de Salud', all_servicios, index=0)
 
-# Filtrar el DataFrame según el Servicio de Salud seleccionado
-if 'Todos los Servicio de Salud' in selected_servicios:
-    df_ms2_filtered = df_ms2
-else:
-    df_ms2_filtered = df_ms2[df_ms2['servicio_salud'] == selected_servicios]
+st.subheader("Filtros en Cascada")
 
-# Actualizar la lista de comunas basándose en el filtro de servicios de salud
-all_comunas = ['Todas'] + sorted(list(df_ms2_filtered['comuna'].unique()))
-selected_comunas = st.multiselect('Seleccione Comunas', all_comunas, default='Todas')
+# -----------------------------------------------------
+# 1) DEFINICIÓN DE FUNCIONES PARA RESETEAR FILTROS
+# -----------------------------------------------------
+def reset_comunas_hacia_abajo():
+    """
+    Si el usuario cambia el Servicio de Salud, se resetean
+    todos los filtros inferiores (comuna, dependencia, nivel, establecimiento).
+    """
+    st.session_state["selected_comunas"] = ["Todas"]
+    st.session_state["selected_dependencias"] = ["Todas"]
+    st.session_state["selected_niveles"] = ["Todos"]
+    st.session_state["selected_establecimientos"] = ["Todos"]
 
-# Filtrar el DataFrame según las Comunas seleccionadas
-if 'Todas' not in selected_comunas:
-    df_ms2_filtered = df_ms2_filtered[df_ms2_filtered['comuna'].isin(selected_comunas)]
+def reset_dependencia_hacia_abajo():
+    """
+    Si cambia la comuna, se resetean los filtros: dependencia, nivel, establecimiento.
+    """
+    st.session_state["selected_dependencias"] = ["Todas"]
+    st.session_state["selected_niveles"] = ["Todos"]
+    st.session_state["selected_establecimientos"] = ["Todos"]
 
-# Actualizar la lista de establecimientos basándose en los filtros anteriores
-all_establecimientos = ['Todos'] + sorted(list(df_ms2_filtered['codigo_nombre'].unique()))
-selected_establecimientos = st.multiselect('Seleccione Establecimientos', all_establecimientos, default='Todos')
+def reset_nivel_hacia_abajo():
+    """
+    Si cambia la dependencia, se resetean los filtros: nivel, establecimiento.
+    """
+    st.session_state["selected_niveles"] = ["Todos"]
+    st.session_state["selected_establecimientos"] = ["Todos"]
 
-# Filtrar el DataFrame según los Establecimientos seleccionados
-if 'Todos' not in selected_establecimientos:
-    df_ms2_filtered = df_ms2_filtered[df_ms2_filtered['codigo_nombre'].isin(selected_establecimientos)]
+def reset_establecimientos():
+    """
+    Si cambia el nivel, se resetea solamente el filtro de establecimientos.
+    """
+    st.session_state["selected_establecimientos"] = ["Todos"]
 
-# Meses de corte
-all_meses = sorted(list(df_ms2_filtered['Mes'].unique()))
+
+# -----------------------------------------------------
+# 2) CREACIÓN DE VALORES POR DEFECTO EN SESSION_STATE
+#    (solo la primera vez que corre la app)
+# -----------------------------------------------------
+if "selected_servicios" not in st.session_state:
+    st.session_state["selected_servicios"] = "Todos"
+if "selected_comunas" not in st.session_state:
+    st.session_state["selected_comunas"] = ["Todas"]
+if "selected_dependencias" not in st.session_state:
+    st.session_state["selected_dependencias"] = ["Todas"]
+if "selected_niveles" not in st.session_state:
+    st.session_state["selected_niveles"] = ["Todos"]
+if "selected_establecimientos" not in st.session_state:
+    st.session_state["selected_establecimientos"] = ["Todos"]
+
+# Guardamos también los valores anteriores para detectar cambios
+if "prev_servicios" not in st.session_state:
+    st.session_state["prev_servicios"] = "Todos"
+if "prev_comunas" not in st.session_state:
+    st.session_state["prev_comunas"] = ["Todas"]
+if "prev_dependencias" not in st.session_state:
+    st.session_state["prev_dependencias"] = ["Todas"]
+if "prev_niveles" not in st.session_state:
+    st.session_state["prev_niveles"] = ["Todos"]
+
+
+# -----------------------------------------------------
+# 3) FILTRO 1: Servicio de Salud
+# -----------------------------------------------------
+all_servicios = ["Todos"] + sorted(df_ms2["servicio_salud"].unique())
+selected_servicios = st.selectbox(
+    "Seleccione Servicios de Salud",
+    all_servicios,
+    index=all_servicios.index(st.session_state["selected_servicios"])  # reiniciar a lo que teníamos
+)
+
+# Si el valor ha cambiado respecto al anterior => resetea todo hacia abajo
+if selected_servicios != st.session_state["prev_servicios"]:
+    reset_comunas_hacia_abajo()
+
+# Tras posibles reseteos, guardamos la selección actual
+st.session_state["selected_servicios"] = selected_servicios
+st.session_state["prev_servicios"] = selected_servicios
+
+# ---- Aplicar este primer filtro ----
+df_ms2_filtered = (
+    df_ms2
+    if selected_servicios == "Todos"
+    else df_ms2[df_ms2["servicio_salud"] == selected_servicios]
+)
+
+
+# -----------------------------------------------------
+# 4) FILTRO 2: Comuna
+# -----------------------------------------------------
+# Construimos las comunas disponibles dentro del subset ya filtrado
+all_comunas = sorted(df_ms2_filtered["comuna"].unique())
+selected_comunas = st.multiselect(
+    "Seleccione Comunas",
+    ["Todas"] + all_comunas,
+    default=st.session_state["selected_comunas"]
+)
+
+# Si cambió la selección de comuna de forma que no coincide con la previa, reseteamos dependencias en adelante
+if selected_comunas != st.session_state["prev_comunas"]:
+    reset_dependencia_hacia_abajo()
+
+# Guardamos la selección (y la previa)
+st.session_state["selected_comunas"] = selected_comunas
+st.session_state["prev_comunas"] = selected_comunas
+
+# Aplicar el filtro de comuna
+if "Todas" not in selected_comunas:
+    df_ms2_filtered = df_ms2_filtered[df_ms2_filtered["comuna"].isin(selected_comunas)]
+
+
+# -----------------------------------------------------
+# 5) FILTRO 3: Dependencia Administrativa
+# -----------------------------------------------------
+all_dependencias = sorted(df_ms2_filtered["Dependencia Administrativa"].dropna().unique())
+selected_dependencias = st.multiselect(
+    "Seleccione Dependencia Administrativa",
+    ["Todas"] + all_dependencias,
+    default=st.session_state["selected_dependencias"]
+)
+
+# Si cambió, resetea filtro de nivel y establecimiento
+if selected_dependencias != st.session_state["prev_dependencias"]:
+    reset_nivel_hacia_abajo()
+
+st.session_state["selected_dependencias"] = selected_dependencias
+st.session_state["prev_dependencias"] = selected_dependencias
+
+if "Todas" not in selected_dependencias:
+    df_ms2_filtered = df_ms2_filtered[df_ms2_filtered["Dependencia Administrativa"].isin(selected_dependencias)]
+
+
+# -----------------------------------------------------
+# 6) FILTRO 4: Nivel de Atención
+# -----------------------------------------------------
+all_niveles = sorted(df_ms2_filtered["Nivel de Atención"].dropna().unique())
+selected_niveles = st.multiselect(
+    "Seleccione Nivel de Atención",
+    ["Todos"] + all_niveles,
+    default=st.session_state["selected_niveles"]
+)
+
+if selected_niveles != st.session_state["prev_niveles"]:
+    reset_establecimientos()
+
+st.session_state["selected_niveles"] = selected_niveles
+st.session_state["prev_niveles"] = selected_niveles
+
+if "Todos" not in selected_niveles:
+    df_ms2_filtered = df_ms2_filtered[df_ms2_filtered["Nivel de Atención"].isin(selected_niveles)]
+
+
+# -----------------------------------------------------
+# 7) FILTRO 5: Establecimientos
+# -----------------------------------------------------
+all_establecimientos = sorted(df_ms2_filtered["codigo_nombre"].dropna().unique())
+selected_establecimientos = st.multiselect(
+    "Seleccione Establecimientos",
+    ["Todos"] + all_establecimientos,
+    default=st.session_state["selected_establecimientos"]
+)
+
+st.session_state["selected_establecimientos"] = selected_establecimientos
+
+if "Todos" not in selected_establecimientos:
+    df_ms2_filtered = df_ms2_filtered[df_ms2_filtered["codigo_nombre"].isin(selected_establecimientos)]
+
+
+# -----------------------------------------------------
+# 8) FILTRO de Mes (ejemplo)
+# -----------------------------------------------------
+all_meses = sorted(df_ms2_filtered['Mes'].unique())
 selected_meses = st.selectbox('Seleccione mes de corte', all_meses, index=len(all_meses)-1)
-df_ms2_filtered = df_ms2_filtered[df_ms2_filtered['Mes']==selected_meses]
+df_ms2_filtered = df_ms2_filtered[df_ms2_filtered['Mes'] == selected_meses]
+
+
 #%%
 # Mostrar datos filtrados
 st.write("## Datos para la Meta Sanitaria")
