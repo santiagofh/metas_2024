@@ -44,6 +44,7 @@ df_ms1 = df_ms1.groupby('IdEstablecimiento').agg({
 df_ms1['Porcentaje'] = df_ms1['Numerador']/df_ms1['Denominador']
 #%%
 
+st.title('Meta I: Recuperación del Desarrollo Psicomotor')
 st.subheader("Filtros en Cascada")
 
 # -----------------------------------------------------

@@ -32,9 +32,9 @@ df_ms3a["comuna"] = df_ms3a["comuna"].fillna("No especificado").astype(str)
 df_ms3a['codigo_nombre'] = df_ms3a['IdEstablecimiento'] + ' - ' + df_ms3a['nombre_establecimiento']
 
 # Agrupar por IdEstablecimiento, sumar Numerador y calcular promedio de Denominador
-df_grouped = df_ms3a.groupby('IdEstablecimiento').agg({
+df_ms3a = df_ms3a.groupby('IdEstablecimiento').agg({
     'Numerador': 'sum',
-    'Denominador': 'mean',
+    'Denominador': 'first',
     'servicio_salud': 'first',
     'nombre_establecimiento': 'first',
     'Dependencia Administrativa':'first',
@@ -43,8 +43,8 @@ df_grouped = df_ms3a.groupby('IdEstablecimiento').agg({
 }).reset_index()
 
 # Recalcular el porcentaje
-df_grouped['Porcentaje'] = df_grouped['Numerador'] / df_grouped['Denominador']
-df_grouped['codigo_nombre'] = df_grouped['IdEstablecimiento'] + ' - ' + df_grouped['nombre_establecimiento']
+df_ms3a['Porcentaje'] = df_ms3a['Numerador'] / df_ms3a['Denominador']
+df_ms3a['codigo_nombre'] = df_ms3a['IdEstablecimiento'] + ' - ' + df_ms3a['nombre_establecimiento']
 
 # Título del dashboard
 st.title('Meta III.A: Control con Enfoque de Riesgo odontológico en población de 0 a 9 años​')

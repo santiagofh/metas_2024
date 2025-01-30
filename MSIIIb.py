@@ -32,7 +32,7 @@ df_ms3b["comuna"] = df_ms3b["comuna"].fillna("No especificado").astype(str)
 df_ms3b['codigo_nombre'] = df_ms3b['IdEstablecimiento'] + ' - ' + df_ms3b['nombre_establecimiento']
 
 # Agrupar por IdEstablecimiento, sumar Numerador y calcular promedio de Denominador
-df_grouped = df_ms3b.groupby('IdEstablecimiento').agg({
+df_ms3b = df_ms3b.groupby('IdEstablecimiento').agg({
     'Numerador': 'sum',
     'Denominador': 'mean',
     'servicio_salud': 'first',
@@ -43,8 +43,8 @@ df_grouped = df_ms3b.groupby('IdEstablecimiento').agg({
 }).reset_index()
 
 # Recalcular el porcentaje
-df_grouped['Porcentaje'] = df_grouped['Numerador'] / df_grouped['Denominador']
-df_grouped['codigo_nombre'] = df_grouped['IdEstablecimiento'] + ' - ' + df_grouped['nombre_establecimiento']
+df_ms3b['Porcentaje'] = df_ms3b['Numerador'] / df_ms3b['Denominador']
+df_ms3b['codigo_nombre'] = df_ms3b['IdEstablecimiento'] + ' - ' + df_ms3b['nombre_establecimiento']
 
 # Título del dashboard
 st.title('Meta III.B: Niños y niñas de 6 años libres de caries')
