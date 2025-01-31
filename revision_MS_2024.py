@@ -109,8 +109,7 @@ metas_sanitarias = {
     "MSVII": {
         "numerador": {
             "cod": ["P3161041","P3161045"],
-            "col": ["Col01",
-                    "Col06",
+            "col": ["Col06",
                     "Col07",
                     "Col08",
                     "Col09",

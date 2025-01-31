@@ -20,9 +20,9 @@ df_ms3a = df_ms.loc[df_ms.MetaSanitaria == 'MSIIIa']
 df_ms3a = df_ms3a.merge(df_est, on='IdEstablecimiento', how='left')
 
 # Preparar los datos
-df_ms3a = df_ms3a.dropna(subset=['Ano', 'Mes'])
-df_ms3a['Ano'] = df_ms3a['Ano'].astype(int)
-df_ms3a['Mes'] = df_ms3a['Mes'].astype(int)
+# df_ms3a = df_ms3a.fillna(subset=['Ano', 'Mes'])
+# df_ms3a['Ano'] = df_ms3a['Ano'].astype(int)
+# df_ms3a['Mes'] = df_ms3a['Mes'].astype(int)
 df_ms3a['Porcentaje'] = df_ms3a['Numerador'] / df_ms3a['Denominador']
 df_ms3a['IdEstablecimiento'] = df_ms3a['IdEstablecimiento'].astype(str)
 df_ms3a['nombre_establecimiento'] = df_ms3a['nombre_establecimiento'].astype(str)
@@ -30,7 +30,6 @@ df_ms3a = df_ms3a.dropna(subset=["servicio_salud", "comuna"])
 df_ms3a["servicio_salud"] = df_ms3a["servicio_salud"].fillna("No especificado").astype(str)
 df_ms3a["comuna"] = df_ms3a["comuna"].fillna("No especificado").astype(str)
 df_ms3a['codigo_nombre'] = df_ms3a['IdEstablecimiento'] + ' - ' + df_ms3a['nombre_establecimiento']
-
 # Agrupar por IdEstablecimiento, sumar Numerador y calcular promedio de Denominador
 df_ms3a = df_ms3a.groupby('IdEstablecimiento').agg({
     'Numerador': 'sum',

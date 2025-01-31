@@ -108,8 +108,8 @@ metas_sanitarias = {
     },
     "MSVII": {
         "numerador": {
-            "cod": ["P3161041","P3161045"],
-            "col": ["Col01",
+            "cod": ["P3161041"],
+            "col": [
                     "Col06",
                     "Col07",
                     "Col08",
@@ -142,7 +142,9 @@ metas_sanitarias = {
                     "Col35",
                     "Col36",
                     "Col37",
-                    ]
+                    ],
+            "cod2":["P3161045"],
+            "col2":["Col01"]
         },
         "denominador": {
             "edad": [list(range(40, 120)), list(range(5, 40))],
@@ -156,10 +158,15 @@ metas_sanitarias = {
 all_codes = []
 for meta in metas_sanitarias.values():
     all_codes.extend(meta['numerador']['cod'])
+    if 'cod2' in meta['numerador']:
+        all_codes.extend(meta['numerador']['cod2'])
     if 'cod' in meta['denominador']:
         all_codes.extend(meta['denominador']['cod'])
+    if 'cod2' in meta['denominador']:
+        all_codes.extend(meta['denominador']['cod2'])
 
 print(all_codes)
+
 
 #%% Lectura y filtrado de datos
 directory = r"C:\Users\fariass\OneDrive - SUBSECRETARIA DE SALUD PUBLICA\Escritorio\DATA\REM\archivos_extraidos_2024"
@@ -186,19 +193,101 @@ df_deis=pd.read_excel(path_deis)
 fonasa1 = pd.read_excel('FONASA/Copia de T6603_Inscritos.xlsx', sheet_name='Respuesta M', skiprows=4)
 fonasa2 = pd.read_excel('FONASA/Copia de T6603_Inscritos.xlsx', sheet_name='Respuesta S', skiprows=4)
 fonasa = pd.concat([fonasa1, fonasa2])
-ss_rm = ['Metropolitano Central', 'Metropolitano Norte', 'Metropolitano Occidente', 'Metropolitano Oriente', 'Metropolitano Sur', 'Metropolitano Sur Oriente']
+ss_rm = ['Metropolitano Central', 'Metropolitano Norte', 'Metropolitano Occidente', 'Metropolitano Oriente', 'Metropolitano Sur', 'Metropolitano Sur Oriente','Metropolitano Central']
 fonasa_rm = fonasa.loc[fonasa['Servicio de Salud'].isin(ss_rm)]
+#%%
+# Trabajar
+df_deis_concat = df_deis.rename(columns={
+    'Código Vigente': 'IdEstablecimiento',
+    'Código Dependencia Jerárquica (SEREMI / Servicio de Salud)': 'IdServicio',
+    'Código Región': 'IdRegion',
+    'IdComuna':'Código Comuna'
+})
+df_deis_concat['Año'] = 2024
+df_deis_concat = df_deis_concat[['IdEstablecimiento', 'IdServicio', 'IdRegion', 'Año']]
+df_unique = df_deis_concat.drop_duplicates(subset=['IdEstablecimiento', 'IdServicio', 'IdRegion'])
+df_codes = pd.DataFrame({'CodigoPrestacion': all_codes})
+df_deis_concat2 = df_unique.merge(df_codes, how='cross')
+df_months = pd.DataFrame({'Mes': range(1, 13)})
+df_deis_concat2 = df_deis_concat2.merge(df_months, how='cross')
+df_deis_concat2_rm = df_deis_concat2[df_deis_concat2['IdRegion'] == 13]
+#%%
+# df_rem=pd.concat([df_rem,df_deis_concat2_rm])
+# Mes	IdServicio	Ano	IdEstablecimiento	CodigoPrestacion	IdRegion
 
 #%% Definición de funciones
 def calcular_numerador(metas_sanitarias, df_rem, key, region_id, cols_df, cols_grup):
-    df_numerador = df_rem.loc[df_rem.CodigoPrestacion.isin(metas_sanitarias[key]["numerador"]["cod"])]
-    df_numerador_rm = df_numerador.loc[df_numerador.IdRegion == region_id]
-    df_numerador_rm_cols = df_numerador_rm[cols_df + list(metas_sanitarias[key]["numerador"]["col"])].copy()
-    df_numerador_rm_cols.fillna(0, inplace=True)
-    df_numerador_est = df_numerador_rm_cols.groupby(by=cols_grup).sum().reset_index()
-    df_numerador_est[f'Numerador_{key}'] = df_numerador_est[list(metas_sanitarias[key]["numerador"]["col"])].sum(axis=1)
+    """
+    Calcula el numerador de la meta `key` (en metas_sanitarias),
+    para la región `region_id`, agrupando por las columnas en `cols_grup`.
+    Considera por separado el conjunto de códigos 'cod' y sus columnas 'col',
+    y el conjunto 'cod2' con sus columnas 'col2', para luego sumar ambos resultados.
+    """
+
+    # --- Paso 1: Crear DataFrame parcial para cod, col ---
+    if "cod" in metas_sanitarias[key]["numerador"] and "col" in metas_sanitarias[key]["numerador"]:
+        cod1 = metas_sanitarias[key]["numerador"]["cod"]
+        col1 = metas_sanitarias[key]["numerador"]["col"]
+
+        # Filtro por códigos cod1 y región
+        df_cod1 = df_rem.loc[
+            (df_rem.CodigoPrestacion.isin(cod1)) &
+            (df_rem.IdRegion == region_id)
+        ].copy()
+
+        # Nos quedamos con las columnas de identificación + col1
+        df_cod1 = df_cod1[cols_df + col1]
+        df_cod1.fillna(0, inplace=True)
+
+        # Agrupamos y sumamos
+        df_cod1 = df_cod1.groupby(by=cols_grup).sum().reset_index()
+        df_cod1['temp_sum_cod1'] = df_cod1[col1].sum(axis=1)
+        
+        # Nos quedamos con cols de agrupación + columna parcial
+        df_cod1 = df_cod1[cols_grup + ['temp_sum_cod1']]
+    else:
+        # Si no existen 'cod'/'col', dejamos un DF vacío con las columnas necesarias
+        df_cod1 = pd.DataFrame(columns=cols_grup + ['temp_sum_cod1'])
+
+    # --- Paso 2: Crear DataFrame parcial para cod2, col2 ---
+    if "cod2" in metas_sanitarias[key]["numerador"] and "col2" in metas_sanitarias[key]["numerador"]:
+        cod2 = metas_sanitarias[key]["numerador"]["cod2"]
+        col2 = metas_sanitarias[key]["numerador"]["col2"]
+
+        # Filtro por códigos cod2 y región
+        df_cod2 = df_rem.loc[
+            (df_rem.CodigoPrestacion.isin(cod2)) &
+            (df_rem.IdRegion == region_id)
+        ].copy()
+
+        # Nos quedamos con las columnas de identificación + col2
+        df_cod2 = df_cod2[cols_df + col2]
+        df_cod2.fillna(0, inplace=True)
+
+        # Agrupamos y sumamos
+        df_cod2 = df_cod2.groupby(by=cols_grup).sum().reset_index()
+        df_cod2['temp_sum_cod2'] = df_cod2[col2].sum(axis=1)
+
+        # Nos quedamos con cols de agrupación + columna parcial
+        df_cod2 = df_cod2[cols_grup + ['temp_sum_cod2']]
+    else:
+        df_cod2 = pd.DataFrame(columns=cols_grup + ['temp_sum_cod2'])
+
+    # --- Paso 3: Unir (merge) los resultados parciales ---
+    #    Usamos 'outer' para no perder filas si existen en uno y no en otro.
+    df_numerador_est = pd.merge(df_cod1, df_cod2, on=cols_grup, how='outer')
+
+    # Llenar NaN con 0 (en caso de filas que existan en un DF y no en el otro)
+    df_numerador_est[['temp_sum_cod1','temp_sum_cod2']] = df_numerador_est[['temp_sum_cod1','temp_sum_cod2']].fillna(0)
+
+    # --- Paso 4: Sumar los subtotales para el numerador final ---
+    df_numerador_est[f'Numerador_{key}'] = df_numerador_est['temp_sum_cod1'] + df_numerador_est['temp_sum_cod2']
+
+    # --- Paso 5: Quedarnos sólo con las columnas finales ---
     df_numerador_est = df_numerador_est[cols_grup + [f'Numerador_{key}']]
+
     return df_numerador_est
+
 
 def calcular_denominador(metas_sanitarias, df_rem, key, region_id, cols_df, cols_grup):
     df_denominador = df_rem.loc[df_rem.CodigoPrestacion.isin(metas_sanitarias[key]["denominador"]["cod"])]
@@ -285,10 +374,19 @@ for key, df in resultado.items():
         }
     )
     resultados_list.append(df)
-
+#%%
+# Agregar 'Dependencia Administrativa' y 'Nivel de Atención' para hacer filtros
 df_final = pd.concat(resultados_list, ignore_index=True)
-df_final = df_final.merge(df_deis[['Código Vigente','Dependencia Administrativa','Nivel de Atención']],left_on='IdEstablecimiento', right_on='Código Vigente')
-df_final.to_csv('MS2024.csv', index=False, encoding='utf-8')
 
+# Agregar establecimientos que no reportan REM20
+# fonasa_rm_merge=fonasa_rm.rename(columns={
+# 'Código Centro':'',
+# 'Código Comuna':'IdComuna',
+# })
+# df_final=pd.concat([fonasa_rm_merge[['IdEstablecimiento','IdComuna']],df_final])
+
+df_final = df_final.merge(df_deis[['Código Vigente','Dependencia Administrativa','Nivel de Atención']],left_on='IdEstablecimiento', right_on='Código Vigente')
+
+df_final.to_csv('MS2024.csv', index=False, encoding='utf-8')
 print("Archivo CSV guardado exitosamente.")
 # %%
