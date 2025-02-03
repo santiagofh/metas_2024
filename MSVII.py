@@ -5,24 +5,34 @@ import plotly.graph_objects as go
 import plotly.express as px
 #%%
 # Ordenar dataframe
-df_ms = pd.read_csv('MS2024.csv')
-col_est=['Código Vigente','Nombre Oficial','Nombre Dependencia Jerárquica (SEREMI / Servicio de Salud)','Nombre Comuna']
+df_ms = pd.read_csv('MS2024_v2.csv')
+col_est=['Código Vigente','Nombre Oficial','Nombre Dependencia Jerárquica (SEREMI / Servicio de Salud)','Nombre Comuna','Dependencia Administrativa','Nivel de Atención']
 col_rename={
     'Código Vigente':'IdEstablecimiento',
     'Nombre Oficial':'nombre_establecimiento',
     'Nombre Dependencia Jerárquica (SEREMI / Servicio de Salud)':'servicio_salud',
-    'Nombre Comuna':'comuna'
+    'Nombre Comuna':'comuna',
+    'Dependencia Administrativa':'Dependencia Administrativa',
+    'Nivel de Atención':'Nivel de Atención'
 }
 df_est = pd.read_excel('Establecimientos DEIS MINSAL 28-05-2024 (1).xlsx', skiprows=1, usecols=col_est)
 df_est = df_est.rename(columns=col_rename)
 df_ms7 = df_ms.loc[df_ms.MetaSanitaria == 'MSVII']
-df_ms7 = df_ms7.merge(df_est, on='IdEstablecimiento', how='left')
+col_est=['IdEstablecimiento','nombre_establecimiento','servicio_salud','comuna']
+df_ms7 = df_ms7.merge(df_est[col_est], on='IdEstablecimiento', how='left')
+#%%
+df_ms_faltantes=pd.read_csv('data/ms_fonasa.csv')
+df_ms_faltantes=df_ms_faltantes.loc[df_ms_faltantes.MS=='VII']
+df_ms_faltantes['MetaSanitaria']='MSVII'
+df_ms_faltantes=df_ms_faltantes.merge(df_est,on='IdEstablecimiento', how='left')
+df_ms_faltantes['Denominador']=df_ms_faltantes['Inscritos_suma_fonasa']
 #%%
 # Preparar los datos
 df_ms7 = df_ms7.dropna(subset=['Ano', 'Mes'])
 df_ms7['Ano'] = df_ms7['Ano'].astype(int)
-df_ms7['Mes'] = df_ms7['Mes'].astype(int)
-df_ms7['Porcentaje'] = df_ms7['Numerador']/df_ms7['Denominador']
+df_ms7=pd.concat([df_ms7,df_ms_faltantes])
+df_ms7['Mes'] = df_ms7['Mes'].fillna(12)
+df_ms7['Ano'] = df_ms7['Ano'].fillna(2024)
 df_ms7['IdEstablecimiento'] = df_ms7['IdEstablecimiento'].astype(str)
 df_ms7['nombre_establecimiento'] = df_ms7['nombre_establecimiento'].astype(str)
 df_ms7 = df_ms7.dropna(subset=["servicio_salud", "comuna"])
@@ -30,7 +40,8 @@ df_ms7["servicio_salud"] = df_ms7["servicio_salud"].fillna("No especificado").as
 df_ms7["comuna"] = df_ms7["comuna"].fillna("No especificado").astype(str)
 df_ms7['codigo_nombre']=df_ms7['IdEstablecimiento']+' - '+df_ms7['nombre_establecimiento']
 #%%
-
+df_ms7['Porcentaje'] = df_ms7['Numerador']/df_ms7['Denominador']
+#%%
 # Título del dashboard
 st.title('Meta VII: Cobertura efectiva de tratamiento en enfermedades respiratorias crónicas (asma y EPOC) en personas de 5 años y más')
 
