@@ -21,18 +21,20 @@ df_ms7 = df_ms.loc[df_ms.MetaSanitaria == 'MSVII']
 col_est=['IdEstablecimiento','nombre_establecimiento','servicio_salud','comuna']
 df_ms7 = df_ms7.merge(df_est[col_est], on='IdEstablecimiento', how='left')
 #%%
-df_ms_faltantes=pd.read_csv('data/ms_fonasa.csv')
-df_ms_faltantes=df_ms_faltantes.loc[df_ms_faltantes.MS=='VII']
-df_ms_faltantes['MetaSanitaria']='MSVII'
-df_ms_faltantes=df_ms_faltantes.merge(df_est,on='IdEstablecimiento', how='left')
-df_ms_faltantes['Denominador']=df_ms_faltantes['Inscritos_suma_fonasa']
+# df_ms_faltantes=pd.read_csv('data/ms_fonasa.csv')
+# df_ms_faltantes=df_ms_faltantes.loc[df_ms_faltantes.MS=='VII']
+# df_ms_faltantes['MetaSanitaria']='MSVII'
+# df_ms_faltantes=df_ms_faltantes.merge(df_est,on='IdEstablecimiento', how='left')
+# df_ms_faltantes['Denominador']=df_ms_faltantes['Inscritos_suma_fonasa']
+# df_ms_faltantes=df_ms_faltantes.loc[~(df_ms_faltantes.IdEstablecimiento.isin(df_ms7.IdEstablecimiento))]
 #%%
 # Preparar los datos
-df_ms7 = df_ms7.dropna(subset=['Ano', 'Mes'])
-df_ms7['Ano'] = df_ms7['Ano'].astype(int)
-df_ms7=pd.concat([df_ms7,df_ms_faltantes])
+# df_ms7 = df_ms7.dropna(subset=['Ano', 'Mes'])
 df_ms7['Mes'] = df_ms7['Mes'].fillna(12)
 df_ms7['Ano'] = df_ms7['Ano'].fillna(2024)
+df_ms7['Ano'] = df_ms7['Ano'].astype(int)
+df_ms7['Mes'] = df_ms7['Mes'].astype(int)
+# df_ms7=pd.concat([df_ms7,df_ms_faltantes])
 df_ms7['IdEstablecimiento'] = df_ms7['IdEstablecimiento'].astype(str)
 df_ms7['nombre_establecimiento'] = df_ms7['nombre_establecimiento'].astype(str)
 df_ms7 = df_ms7.dropna(subset=["servicio_salud", "comuna"])
