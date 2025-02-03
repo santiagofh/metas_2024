@@ -11,9 +11,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109104,2024.0,7.0,0.0,,MSI,Servicio de Salud,Primario
 109104,2024.0,8.0,0.0,1.0,MSI,Servicio de Salud,Primario
 109104,2024.0,9.0,,2.0,MSI,Servicio de Salud,Primario
-109300,2023.0,10.0,3.0,3.0,MSI,Municipal,Primario
-109300,2023.0,11.0,1.0,2.0,MSI,Municipal,Primario
-109300,2023.0,12.0,3.0,3.0,MSI,Municipal,Primario
+109104,2024.0,10.0,5.0,,MSI,Servicio de Salud,Primario
+109104,2024.0,11.0,0.0,,MSI,Servicio de Salud,Primario
+109300,2023.0,10.0,,3.0,MSI,Municipal,Primario
+109300,2023.0,11.0,,2.0,MSI,Municipal,Primario
+109300,2023.0,12.0,,3.0,MSI,Municipal,Primario
 109300,2024.0,1.0,1.0,2.0,MSI,Municipal,Primario
 109300,2024.0,2.0,1.0,0.0,MSI,Municipal,Primario
 109300,2024.0,3.0,2.0,1.0,MSI,Municipal,Primario
@@ -23,9 +25,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109300,2024.0,7.0,3.0,5.0,MSI,Municipal,Primario
 109300,2024.0,8.0,1.0,3.0,MSI,Municipal,Primario
 109300,2024.0,9.0,6.0,2.0,MSI,Municipal,Primario
-109301,2023.0,10.0,5.0,3.0,MSI,Municipal,Primario
-109301,2023.0,11.0,5.0,4.0,MSI,Municipal,Primario
-109301,2023.0,12.0,2.0,3.0,MSI,Municipal,Primario
+109300,2024.0,10.0,5.0,,MSI,Municipal,Primario
+109300,2024.0,11.0,3.0,,MSI,Municipal,Primario
+109300,2024.0,12.0,3.0,,MSI,Municipal,Primario
+109301,2023.0,10.0,,3.0,MSI,Municipal,Primario
+109301,2023.0,11.0,,4.0,MSI,Municipal,Primario
+109301,2023.0,12.0,,3.0,MSI,Municipal,Primario
 109301,2024.0,1.0,1.0,8.0,MSI,Municipal,Primario
 109301,2024.0,2.0,5.0,4.0,MSI,Municipal,Primario
 109301,2024.0,3.0,6.0,5.0,MSI,Municipal,Primario
@@ -35,9 +40,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109301,2024.0,7.0,3.0,4.0,MSI,Municipal,Primario
 109301,2024.0,8.0,8.0,3.0,MSI,Municipal,Primario
 109301,2024.0,9.0,1.0,2.0,MSI,Municipal,Primario
-109302,2023.0,10.0,1.0,2.0,MSI,Municipal,Primario
-109302,2023.0,11.0,1.0,0.0,MSI,Municipal,Primario
-109302,2023.0,12.0,3.0,1.0,MSI,Municipal,Primario
+109301,2024.0,10.0,4.0,,MSI,Municipal,Primario
+109301,2024.0,11.0,5.0,,MSI,Municipal,Primario
+109301,2024.0,12.0,3.0,,MSI,Municipal,Primario
+109302,2023.0,10.0,,2.0,MSI,Municipal,Primario
+109302,2023.0,11.0,,0.0,MSI,Municipal,Primario
+109302,2023.0,12.0,,1.0,MSI,Municipal,Primario
 109302,2024.0,1.0,,2.0,MSI,Municipal,Primario
 109302,2024.0,2.0,1.0,,MSI,Municipal,Primario
 109302,2024.0,3.0,1.0,,MSI,Municipal,Primario
@@ -47,9 +55,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109302,2024.0,7.0,0.0,,MSI,Municipal,Primario
 109302,2024.0,8.0,,1.0,MSI,Municipal,Primario
 109302,2024.0,9.0,,0.0,MSI,Municipal,Primario
-109303,2023.0,10.0,1.0,8.0,MSI,Municipal,Primario
-109303,2023.0,11.0,0.0,4.0,MSI,Municipal,Primario
-109303,2023.0,12.0,1.0,3.0,MSI,Municipal,Primario
+109302,2024.0,11.0,4.0,,MSI,Municipal,Primario
+109302,2024.0,12.0,1.0,,MSI,Municipal,Primario
+109303,2023.0,10.0,,8.0,MSI,Municipal,Primario
+109303,2023.0,11.0,,4.0,MSI,Municipal,Primario
+109303,2023.0,12.0,,3.0,MSI,Municipal,Primario
 109303,2024.0,1.0,1.0,4.0,MSI,Municipal,Primario
 109303,2024.0,2.0,5.0,2.0,MSI,Municipal,Primario
 109303,2024.0,3.0,2.0,3.0,MSI,Municipal,Primario
@@ -59,9 +69,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109303,2024.0,7.0,2.0,3.0,MSI,Municipal,Primario
 109303,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 109303,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
-109304,2023.0,10.0,2.0,4.0,MSI,Municipal,Primario
+109303,2024.0,10.0,2.0,,MSI,Municipal,Primario
+109303,2024.0,12.0,0.0,,MSI,Municipal,Primario
+109304,2023.0,10.0,,4.0,MSI,Municipal,Primario
 109304,2023.0,11.0,,3.0,MSI,Municipal,Primario
-109304,2023.0,12.0,1.0,,MSI,Municipal,Primario
 109304,2024.0,1.0,2.0,1.0,MSI,Municipal,Primario
 109304,2024.0,2.0,4.0,0.0,MSI,Municipal,Primario
 109304,2024.0,3.0,,1.0,MSI,Municipal,Primario
@@ -70,9 +81,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109304,2024.0,7.0,,1.0,MSI,Municipal,Primario
 109304,2024.0,8.0,,0.0,MSI,Municipal,Primario
 109304,2024.0,9.0,0.0,,MSI,Municipal,Primario
-109305,2023.0,10.0,3.0,0.0,MSI,Municipal,Primario
-109305,2023.0,11.0,3.0,1.0,MSI,Municipal,Primario
-109305,2023.0,12.0,0.0,0.0,MSI,Municipal,Primario
+109304,2024.0,10.0,3.0,,MSI,Municipal,Primario
+109304,2024.0,11.0,0.0,,MSI,Municipal,Primario
+109305,2023.0,10.0,,0.0,MSI,Municipal,Primario
+109305,2023.0,11.0,,1.0,MSI,Municipal,Primario
+109305,2023.0,12.0,,0.0,MSI,Municipal,Primario
 109305,2024.0,1.0,1.0,2.0,MSI,Municipal,Primario
 109305,2024.0,2.0,0.0,2.0,MSI,Municipal,Primario
 109305,2024.0,3.0,0.0,3.0,MSI,Municipal,Primario
@@ -82,9 +95,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109305,2024.0,7.0,2.0,3.0,MSI,Municipal,Primario
 109305,2024.0,8.0,3.0,2.0,MSI,Municipal,Primario
 109305,2024.0,9.0,,2.0,MSI,Municipal,Primario
-109307,2023.0,10.0,0.0,4.0,MSI,Municipal,Primario
-109307,2023.0,11.0,0.0,5.0,MSI,Municipal,Primario
-109307,2023.0,12.0,1.0,3.0,MSI,Municipal,Primario
+109305,2024.0,10.0,5.0,,MSI,Municipal,Primario
+109305,2024.0,11.0,2.0,,MSI,Municipal,Primario
+109305,2024.0,12.0,3.0,,MSI,Municipal,Primario
+109307,2023.0,10.0,,4.0,MSI,Municipal,Primario
+109307,2023.0,11.0,,5.0,MSI,Municipal,Primario
+109307,2023.0,12.0,,3.0,MSI,Municipal,Primario
 109307,2024.0,1.0,0.0,0.0,MSI,Municipal,Primario
 109307,2024.0,2.0,,4.0,MSI,Municipal,Primario
 109307,2024.0,3.0,0.0,0.0,MSI,Municipal,Primario
@@ -94,7 +110,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109307,2024.0,7.0,0.0,0.0,MSI,Municipal,Primario
 109307,2024.0,8.0,2.0,0.0,MSI,Municipal,Primario
 109307,2024.0,9.0,0.0,0.0,MSI,Municipal,Primario
-109308,2023.0,10.0,1.0,0.0,MSI,Municipal,Primario
+109307,2024.0,10.0,2.0,,MSI,Municipal,Primario
+109307,2024.0,11.0,1.0,,MSI,Municipal,Primario
+109307,2024.0,12.0,2.0,,MSI,Municipal,Primario
+109308,2023.0,10.0,,0.0,MSI,Municipal,Primario
 109308,2023.0,11.0,,1.0,MSI,Municipal,Primario
 109308,2023.0,12.0,,1.0,MSI,Municipal,Primario
 109308,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
@@ -106,8 +125,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109308,2024.0,7.0,,1.0,MSI,Municipal,Primario
 109308,2024.0,8.0,4.0,2.0,MSI,Municipal,Primario
 109308,2024.0,9.0,5.0,,MSI,Municipal,Primario
+109308,2024.0,10.0,3.0,,MSI,Municipal,Primario
 109309,2023.0,10.0,,1.0,MSI,Municipal,Primario
-109309,2023.0,11.0,1.0,0.0,MSI,Municipal,Primario
+109309,2023.0,11.0,,0.0,MSI,Municipal,Primario
 109309,2023.0,12.0,,2.0,MSI,Municipal,Primario
 109309,2024.0,1.0,1.0,1.0,MSI,Municipal,Primario
 109309,2024.0,2.0,1.0,3.0,MSI,Municipal,Primario
@@ -118,9 +138,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109309,2024.0,7.0,7.0,2.0,MSI,Municipal,Primario
 109309,2024.0,8.0,0.0,1.0,MSI,Municipal,Primario
 109309,2024.0,9.0,0.0,,MSI,Municipal,Primario
-109310,2023.0,10.0,2.0,7.0,MSI,Municipal,Primario
-109310,2023.0,11.0,1.0,4.0,MSI,Municipal,Primario
-109310,2023.0,12.0,4.0,1.0,MSI,Municipal,Primario
+109309,2024.0,10.0,3.0,,MSI,Municipal,Primario
+109310,2023.0,10.0,,7.0,MSI,Municipal,Primario
+109310,2023.0,11.0,,4.0,MSI,Municipal,Primario
+109310,2023.0,12.0,,1.0,MSI,Municipal,Primario
 109310,2024.0,1.0,4.0,2.0,MSI,Municipal,Primario
 109310,2024.0,2.0,2.0,3.0,MSI,Municipal,Primario
 109310,2024.0,3.0,,1.0,MSI,Municipal,Primario
@@ -130,9 +151,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109310,2024.0,7.0,1.0,3.0,MSI,Municipal,Primario
 109310,2024.0,8.0,1.0,7.0,MSI,Municipal,Primario
 109310,2024.0,9.0,1.0,7.0,MSI,Municipal,Primario
-109311,2023.0,10.0,1.0,2.0,MSI,Municipal,Primario
-109311,2023.0,11.0,1.0,2.0,MSI,Municipal,Primario
-109311,2023.0,12.0,1.0,0.0,MSI,Municipal,Primario
+109310,2024.0,10.0,2.0,,MSI,Municipal,Primario
+109310,2024.0,11.0,4.0,,MSI,Municipal,Primario
+109310,2024.0,12.0,8.0,,MSI,Municipal,Primario
+109311,2023.0,10.0,,2.0,MSI,Municipal,Primario
+109311,2023.0,11.0,,2.0,MSI,Municipal,Primario
+109311,2023.0,12.0,,0.0,MSI,Municipal,Primario
 109311,2024.0,1.0,1.0,2.0,MSI,Municipal,Primario
 109311,2024.0,2.0,2.0,1.0,MSI,Municipal,Primario
 109311,2024.0,3.0,0.0,1.0,MSI,Municipal,Primario
@@ -142,9 +166,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109311,2024.0,7.0,2.0,2.0,MSI,Municipal,Primario
 109311,2024.0,8.0,2.0,1.0,MSI,Municipal,Primario
 109311,2024.0,9.0,1.0,5.0,MSI,Municipal,Primario
-109312,2023.0,10.0,2.0,1.0,MSI,Municipal,Primario
-109312,2023.0,11.0,0.0,1.0,MSI,Municipal,Primario
-109312,2023.0,12.0,0.0,1.0,MSI,Municipal,Primario
+109311,2024.0,11.0,0.0,,MSI,Municipal,Primario
+109311,2024.0,12.0,4.0,,MSI,Municipal,Primario
+109312,2023.0,10.0,,1.0,MSI,Municipal,Primario
+109312,2023.0,11.0,,1.0,MSI,Municipal,Primario
+109312,2023.0,12.0,,1.0,MSI,Municipal,Primario
 109312,2024.0,1.0,1.0,,MSI,Municipal,Primario
 109312,2024.0,2.0,1.0,1.0,MSI,Municipal,Primario
 109312,2024.0,3.0,0.0,1.0,MSI,Municipal,Primario
@@ -152,9 +178,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109312,2024.0,6.0,1.0,1.0,MSI,Municipal,Primario
 109312,2024.0,7.0,,0.0,MSI,Municipal,Primario
 109312,2024.0,9.0,0.0,,MSI,Municipal,Primario
-109313,2023.0,10.0,1.0,1.0,MSI,Municipal,Primario
-109313,2023.0,11.0,1.0,1.0,MSI,Municipal,Primario
-109313,2023.0,12.0,1.0,0.0,MSI,Municipal,Primario
+109312,2024.0,11.0,0.0,,MSI,Municipal,Primario
+109313,2023.0,10.0,,1.0,MSI,Municipal,Primario
+109313,2023.0,11.0,,1.0,MSI,Municipal,Primario
+109313,2023.0,12.0,,0.0,MSI,Municipal,Primario
 109313,2024.0,1.0,1.0,1.0,MSI,Municipal,Primario
 109313,2024.0,2.0,1.0,,MSI,Municipal,Primario
 109313,2024.0,3.0,1.0,,MSI,Municipal,Primario
@@ -162,8 +189,8 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109313,2024.0,6.0,,1.0,MSI,Municipal,Primario
 109313,2024.0,8.0,1.0,0.0,MSI,Municipal,Primario
 109314,2023.0,10.0,,1.0,MSI,Municipal,Primario
-109314,2023.0,11.0,1.0,4.0,MSI,Municipal,Primario
-109314,2023.0,12.0,0.0,0.0,MSI,Municipal,Primario
+109314,2023.0,11.0,,4.0,MSI,Municipal,Primario
+109314,2023.0,12.0,,0.0,MSI,Municipal,Primario
 109314,2024.0,1.0,1.0,2.0,MSI,Municipal,Primario
 109314,2024.0,2.0,0.0,3.0,MSI,Municipal,Primario
 109314,2024.0,3.0,0.0,2.0,MSI,Municipal,Primario
@@ -173,9 +200,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109314,2024.0,7.0,4.0,2.0,MSI,Municipal,Primario
 109314,2024.0,8.0,2.0,1.0,MSI,Municipal,Primario
 109314,2024.0,9.0,2.0,2.0,MSI,Municipal,Primario
+109314,2024.0,10.0,2.0,,MSI,Municipal,Primario
+109314,2024.0,11.0,2.0,,MSI,Municipal,Primario
+109314,2024.0,12.0,1.0,,MSI,Municipal,Primario
 109315,2023.0,10.0,,5.0,MSI,Municipal,Primario
 109315,2023.0,11.0,,4.0,MSI,Municipal,Primario
-109315,2023.0,12.0,4.0,1.0,MSI,Municipal,Primario
+109315,2023.0,12.0,,1.0,MSI,Municipal,Primario
 109315,2024.0,1.0,1.0,2.0,MSI,Municipal,Primario
 109315,2024.0,2.0,2.0,3.0,MSI,Municipal,Primario
 109315,2024.0,3.0,3.0,1.0,MSI,Municipal,Primario
@@ -185,9 +215,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109315,2024.0,7.0,2.0,1.0,MSI,Municipal,Primario
 109315,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 109315,2024.0,9.0,3.0,,MSI,Municipal,Primario
-109316,2023.0,10.0,3.0,3.0,MSI,Municipal,Primario
-109316,2023.0,11.0,0.0,3.0,MSI,Municipal,Primario
-109316,2023.0,12.0,4.0,5.0,MSI,Municipal,Primario
+109315,2024.0,11.0,1.0,,MSI,Municipal,Primario
+109315,2024.0,12.0,3.0,,MSI,Municipal,Primario
+109316,2023.0,10.0,,3.0,MSI,Municipal,Primario
+109316,2023.0,11.0,,3.0,MSI,Municipal,Primario
+109316,2023.0,12.0,,5.0,MSI,Municipal,Primario
 109316,2024.0,1.0,1.0,3.0,MSI,Municipal,Primario
 109316,2024.0,2.0,1.0,1.0,MSI,Municipal,Primario
 109316,2024.0,3.0,,4.0,MSI,Municipal,Primario
@@ -197,9 +229,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109316,2024.0,7.0,4.0,6.0,MSI,Municipal,Primario
 109316,2024.0,8.0,1.0,3.0,MSI,Municipal,Primario
 109316,2024.0,9.0,1.0,,MSI,Municipal,Primario
-109317,2023.0,10.0,1.0,0.0,MSI,Municipal,Primario
-109317,2023.0,11.0,6.0,0.0,MSI,Municipal,Primario
-109317,2023.0,12.0,2.0,0.0,MSI,Municipal,Primario
+109316,2024.0,10.0,3.0,,MSI,Municipal,Primario
+109316,2024.0,11.0,2.0,,MSI,Municipal,Primario
+109317,2023.0,10.0,,0.0,MSI,Municipal,Primario
+109317,2023.0,11.0,,0.0,MSI,Municipal,Primario
+109317,2023.0,12.0,,0.0,MSI,Municipal,Primario
 109317,2024.0,1.0,0.0,0.0,MSI,Municipal,Primario
 109317,2024.0,2.0,,1.0,MSI,Municipal,Primario
 109317,2024.0,3.0,,2.0,MSI,Municipal,Primario
@@ -209,9 +243,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109317,2024.0,7.0,1.0,2.0,MSI,Municipal,Primario
 109317,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 109317,2024.0,9.0,1.0,3.0,MSI,Municipal,Primario
-109320,2023.0,10.0,2.0,,MSI,Municipal,Primario
-109320,2023.0,11.0,0.0,1.0,MSI,Municipal,Primario
-109320,2023.0,12.0,1.0,0.0,MSI,Municipal,Primario
+109317,2024.0,10.0,0.0,,MSI,Municipal,Primario
+109317,2024.0,11.0,0.0,,MSI,Municipal,Primario
+109317,2024.0,12.0,5.0,,MSI,Municipal,Primario
+109320,2023.0,11.0,,1.0,MSI,Municipal,Primario
+109320,2023.0,12.0,,0.0,MSI,Municipal,Primario
 109320,2024.0,1.0,1.0,0.0,MSI,Municipal,Primario
 109320,2024.0,2.0,,0.0,MSI,Municipal,Primario
 109320,2024.0,3.0,0.0,1.0,MSI,Municipal,Primario
@@ -221,8 +257,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109320,2024.0,7.0,0.0,1.0,MSI,Municipal,Primario
 109320,2024.0,8.0,,1.0,MSI,Municipal,Primario
 109320,2024.0,9.0,1.0,0.0,MSI,Municipal,Primario
-109321,2023.0,10.0,2.0,1.0,MSI,Municipal,Primario
-109321,2023.0,11.0,0.0,,MSI,Municipal,Primario
+109320,2024.0,10.0,1.0,,MSI,Municipal,Primario
+109320,2024.0,11.0,0.0,,MSI,Municipal,Primario
+109320,2024.0,12.0,1.0,,MSI,Municipal,Primario
+109321,2023.0,10.0,,1.0,MSI,Municipal,Primario
 109321,2023.0,12.0,,1.0,MSI,Municipal,Primario
 109321,2024.0,1.0,1.0,1.0,MSI,Municipal,Primario
 109321,2024.0,2.0,,2.0,MSI,Municipal,Primario
@@ -233,9 +271,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109321,2024.0,7.0,1.0,0.0,MSI,Municipal,Primario
 109321,2024.0,8.0,2.0,2.0,MSI,Municipal,Primario
 109321,2024.0,9.0,3.0,,MSI,Municipal,Primario
-109323,2023.0,10.0,1.0,2.0,MSI,Municipal,Primario
-109323,2023.0,11.0,1.0,0.0,MSI,Municipal,Primario
-109323,2023.0,12.0,1.0,1.0,MSI,Municipal,Primario
+109321,2024.0,10.0,2.0,,MSI,Municipal,Primario
+109321,2024.0,11.0,0.0,,MSI,Municipal,Primario
+109321,2024.0,12.0,0.0,,MSI,Municipal,Primario
+109323,2023.0,10.0,,2.0,MSI,Municipal,Primario
+109323,2023.0,11.0,,0.0,MSI,Municipal,Primario
+109323,2023.0,12.0,,1.0,MSI,Municipal,Primario
 109323,2024.0,1.0,1.0,2.0,MSI,Municipal,Primario
 109323,2024.0,2.0,1.0,0.0,MSI,Municipal,Primario
 109323,2024.0,3.0,,1.0,MSI,Municipal,Primario
@@ -245,9 +286,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109323,2024.0,7.0,0.0,2.0,MSI,Municipal,Primario
 109323,2024.0,8.0,3.0,1.0,MSI,Municipal,Primario
 109323,2024.0,9.0,3.0,1.0,MSI,Municipal,Primario
-109324,2023.0,10.0,2.0,1.0,MSI,Municipal,Primario
-109324,2023.0,11.0,3.0,3.0,MSI,Municipal,Primario
-109324,2023.0,12.0,1.0,2.0,MSI,Municipal,Primario
+109323,2024.0,10.0,1.0,,MSI,Municipal,Primario
+109323,2024.0,11.0,0.0,,MSI,Municipal,Primario
+109323,2024.0,12.0,3.0,,MSI,Municipal,Primario
+109324,2023.0,10.0,,1.0,MSI,Municipal,Primario
+109324,2023.0,11.0,,3.0,MSI,Municipal,Primario
+109324,2023.0,12.0,,2.0,MSI,Municipal,Primario
 109324,2024.0,1.0,2.0,1.0,MSI,Municipal,Primario
 109324,2024.0,2.0,2.0,0.0,MSI,Municipal,Primario
 109324,2024.0,3.0,3.0,2.0,MSI,Municipal,Primario
@@ -257,9 +301,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109324,2024.0,7.0,1.0,3.0,MSI,Municipal,Primario
 109324,2024.0,8.0,4.0,1.0,MSI,Municipal,Primario
 109324,2024.0,9.0,2.0,1.0,MSI,Municipal,Primario
-109390,2023.0,10.0,0.0,4.0,MSI,Otra Institución,Primario
-109390,2023.0,11.0,0.0,3.0,MSI,Otra Institución,Primario
-109390,2023.0,12.0,0.0,1.0,MSI,Otra Institución,Primario
+109324,2024.0,10.0,2.0,,MSI,Municipal,Primario
+109324,2024.0,11.0,0.0,,MSI,Municipal,Primario
+109324,2024.0,12.0,0.0,,MSI,Municipal,Primario
+109390,2023.0,10.0,,4.0,MSI,Otra Institución,Primario
+109390,2023.0,11.0,,3.0,MSI,Otra Institución,Primario
+109390,2023.0,12.0,,1.0,MSI,Otra Institución,Primario
 109390,2024.0,1.0,2.0,2.0,MSI,Otra Institución,Primario
 109390,2024.0,2.0,1.0,4.0,MSI,Otra Institución,Primario
 109390,2024.0,3.0,,0.0,MSI,Otra Institución,Primario
@@ -269,11 +316,14 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109390,2024.0,7.0,2.0,0.0,MSI,Otra Institución,Primario
 109390,2024.0,8.0,3.0,,MSI,Otra Institución,Primario
 109390,2024.0,9.0,,2.0,MSI,Otra Institución,Primario
+109390,2024.0,10.0,3.0,,MSI,Otra Institución,Primario
+109390,2024.0,11.0,1.0,,MSI,Otra Institución,Primario
+109390,2024.0,12.0,0.0,,MSI,Otra Institución,Primario
 109410,2024.0,4.0,,0.0,MSI,Municipal,Primario
 109413,2023.0,11.0,,1.0,MSI,Municipal,Primario
-109413,2023.0,12.0,0.0,,MSI,Municipal,Primario
 109413,2024.0,2.0,1.0,,MSI,Municipal,Primario
-109414,2023.0,12.0,0.0,0.0,MSI,Municipal,Primario
+109413,2024.0,12.0,0.0,,MSI,Municipal,Primario
+109414,2023.0,12.0,,0.0,MSI,Municipal,Primario
 109414,2024.0,5.0,,1.0,MSI,Municipal,Primario
 109414,2024.0,7.0,,0.0,MSI,Municipal,Primario
 109414,2024.0,9.0,,1.0,MSI,Municipal,Primario
@@ -284,14 +334,13 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109419,2024.0,1.0,,0.0,MSI,Municipal,Primario
 109419,2024.0,7.0,,1.0,MSI,Municipal,Primario
 109420,2023.0,11.0,,0.0,MSI,Municipal,Primario
-109709,2023.0,10.0,5.0,,MSI,Municipal,Primario
-109709,2023.0,11.0,2.0,,MSI,Municipal,Primario
 109709,2024.0,4.0,,0.0,MSI,Municipal,Primario
 109709,2024.0,5.0,1.0,1.0,MSI,Municipal,Primario
 109709,2024.0,6.0,0.0,0.0,MSI,Municipal,Primario
 109709,2024.0,7.0,0.0,1.0,MSI,Municipal,Primario
 109709,2024.0,8.0,0.0,1.0,MSI,Municipal,Primario
-109711,2023.0,10.0,0.0,,MSI,Municipal,Primario
+109709,2024.0,10.0,4.0,,MSI,Municipal,Primario
+109709,2024.0,12.0,1.0,,MSI,Municipal,Primario
 109711,2023.0,11.0,,0.0,MSI,Municipal,Primario
 109711,2024.0,1.0,0.0,0.0,MSI,Municipal,Primario
 109711,2024.0,4.0,,0.0,MSI,Municipal,Primario
@@ -299,7 +348,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109711,2024.0,6.0,,0.0,MSI,Municipal,Primario
 109711,2024.0,8.0,1.0,2.0,MSI,Municipal,Primario
 109711,2024.0,9.0,0.0,,MSI,Municipal,Primario
-109712,2023.0,12.0,1.0,,MSI,Municipal,Primario
+109711,2024.0,10.0,0.0,,MSI,Municipal,Primario
+109711,2024.0,11.0,2.0,,MSI,Municipal,Primario
+109711,2024.0,12.0,0.0,,MSI,Municipal,Primario
 109712,2024.0,1.0,0.0,,MSI,Municipal,Primario
 109712,2024.0,2.0,,1.0,MSI,Municipal,Primario
 109712,2024.0,3.0,,0.0,MSI,Municipal,Primario
@@ -308,26 +359,28 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109712,2024.0,7.0,0.0,1.0,MSI,Municipal,Primario
 109712,2024.0,8.0,0.0,,MSI,Municipal,Primario
 109712,2024.0,9.0,2.0,0.0,MSI,Municipal,Primario
+109712,2024.0,10.0,1.0,,MSI,Municipal,Primario
+109712,2024.0,11.0,0.0,,MSI,Municipal,Primario
+109712,2024.0,12.0,0.0,,MSI,Municipal,Primario
 109713,2024.0,4.0,,0.0,MSI,Municipal,Primario
 109715,2024.0,2.0,,1.0,MSI,Municipal,Primario
 109715,2024.0,4.0,1.0,,MSI,Municipal,Primario
 109715,2024.0,6.0,,1.0,MSI,Municipal,Primario
 109715,2024.0,7.0,,1.0,MSI,Municipal,Primario
 109715,2024.0,9.0,,1.0,MSI,Municipal,Primario
+109715,2024.0,10.0,1.0,,MSI,Municipal,Primario
 109716,2023.0,11.0,,0.0,MSI,Municipal,Primario
 109716,2023.0,12.0,,1.0,MSI,Municipal,Primario
 109716,2024.0,3.0,0.0,0.0,MSI,Municipal,Primario
-109718,2023.0,11.0,2.0,,MSI,Municipal,Primario
-109718,2023.0,12.0,2.0,,MSI,Municipal,Primario
 109718,2024.0,1.0,0.0,2.0,MSI,Municipal,Primario
 109718,2024.0,2.0,,0.0,MSI,Municipal,Primario
 109718,2024.0,3.0,,0.0,MSI,Municipal,Primario
 109718,2024.0,4.0,,0.0,MSI,Municipal,Primario
 109718,2024.0,6.0,0.0,,MSI,Municipal,Primario
 109718,2024.0,8.0,,0.0,MSI,Municipal,Primario
-110160,2023.0,10.0,1.0,4.0,MSI,Servicio de Salud,Primario
-110160,2023.0,11.0,0.0,4.0,MSI,Servicio de Salud,Primario
-110160,2023.0,12.0,0.0,1.0,MSI,Servicio de Salud,Primario
+110160,2023.0,10.0,,4.0,MSI,Servicio de Salud,Primario
+110160,2023.0,11.0,,4.0,MSI,Servicio de Salud,Primario
+110160,2023.0,12.0,,1.0,MSI,Servicio de Salud,Primario
 110160,2024.0,1.0,1.0,3.0,MSI,Servicio de Salud,Primario
 110160,2024.0,2.0,2.0,1.0,MSI,Servicio de Salud,Primario
 110160,2024.0,3.0,2.0,0.0,MSI,Servicio de Salud,Primario
@@ -337,9 +390,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110160,2024.0,7.0,1.0,1.0,MSI,Servicio de Salud,Primario
 110160,2024.0,8.0,3.0,2.0,MSI,Servicio de Salud,Primario
 110160,2024.0,9.0,0.0,2.0,MSI,Servicio de Salud,Primario
-110308,2023.0,10.0,0.0,2.0,MSI,Municipal,Primario
-110308,2023.0,11.0,1.0,2.0,MSI,Municipal,Primario
-110308,2023.0,12.0,1.0,4.0,MSI,Municipal,Primario
+110160,2024.0,10.0,0.0,,MSI,Servicio de Salud,Primario
+110160,2024.0,12.0,2.0,,MSI,Servicio de Salud,Primario
+110308,2023.0,10.0,,2.0,MSI,Municipal,Primario
+110308,2023.0,11.0,,2.0,MSI,Municipal,Primario
+110308,2023.0,12.0,,4.0,MSI,Municipal,Primario
 110308,2024.0,1.0,3.0,0.0,MSI,Municipal,Primario
 110308,2024.0,2.0,1.0,7.0,MSI,Municipal,Primario
 110308,2024.0,3.0,2.0,4.0,MSI,Municipal,Primario
@@ -349,9 +404,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110308,2024.0,7.0,7.0,7.0,MSI,Municipal,Primario
 110308,2024.0,8.0,4.0,,MSI,Municipal,Primario
 110308,2024.0,9.0,3.0,2.0,MSI,Municipal,Primario
+110308,2024.0,10.0,4.0,,MSI,Municipal,Primario
+110308,2024.0,11.0,0.0,,MSI,Municipal,Primario
+110308,2024.0,12.0,1.0,,MSI,Municipal,Primario
 110310,2023.0,10.0,,3.0,MSI,Servicio de Salud,Primario
 110310,2023.0,11.0,,4.0,MSI,Servicio de Salud,Primario
-110310,2023.0,12.0,0.0,0.0,MSI,Servicio de Salud,Primario
+110310,2023.0,12.0,,0.0,MSI,Servicio de Salud,Primario
 110310,2024.0,1.0,,5.0,MSI,Servicio de Salud,Primario
 110310,2024.0,2.0,,5.0,MSI,Servicio de Salud,Primario
 110310,2024.0,3.0,0.0,8.0,MSI,Servicio de Salud,Primario
@@ -361,9 +419,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110310,2024.0,7.0,1.0,4.0,MSI,Servicio de Salud,Primario
 110310,2024.0,8.0,,2.0,MSI,Servicio de Salud,Primario
 110310,2024.0,9.0,1.0,0.0,MSI,Servicio de Salud,Primario
-110315,2023.0,10.0,4.0,0.0,MSI,Municipal,Primario
-110315,2023.0,11.0,0.0,1.0,MSI,Municipal,Primario
-110315,2023.0,12.0,0.0,2.0,MSI,Municipal,Primario
+110310,2024.0,10.0,1.0,,MSI,Servicio de Salud,Primario
+110310,2024.0,11.0,2.0,,MSI,Servicio de Salud,Primario
+110310,2024.0,12.0,6.0,,MSI,Servicio de Salud,Primario
+110315,2023.0,10.0,,0.0,MSI,Municipal,Primario
+110315,2023.0,11.0,,1.0,MSI,Municipal,Primario
+110315,2023.0,12.0,,2.0,MSI,Municipal,Primario
 110315,2024.0,1.0,1.0,2.0,MSI,Municipal,Primario
 110315,2024.0,2.0,2.0,4.0,MSI,Municipal,Primario
 110315,2024.0,3.0,2.0,3.0,MSI,Municipal,Primario
@@ -373,9 +434,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110315,2024.0,7.0,2.0,1.0,MSI,Municipal,Primario
 110315,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 110315,2024.0,9.0,3.0,3.0,MSI,Municipal,Primario
-110316,2023.0,10.0,0.0,2.0,MSI,Municipal,Primario
-110316,2023.0,11.0,1.0,2.0,MSI,Municipal,Primario
-110316,2023.0,12.0,1.0,1.0,MSI,Municipal,Primario
+110315,2024.0,10.0,1.0,,MSI,Municipal,Primario
+110315,2024.0,11.0,4.0,,MSI,Municipal,Primario
+110316,2023.0,10.0,,2.0,MSI,Municipal,Primario
+110316,2023.0,11.0,,2.0,MSI,Municipal,Primario
+110316,2023.0,12.0,,1.0,MSI,Municipal,Primario
 110316,2024.0,1.0,2.0,2.0,MSI,Municipal,Primario
 110316,2024.0,2.0,,0.0,MSI,Municipal,Primario
 110316,2024.0,3.0,2.0,0.0,MSI,Municipal,Primario
@@ -383,9 +446,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110316,2024.0,5.0,1.0,1.0,MSI,Municipal,Primario
 110316,2024.0,7.0,,1.0,MSI,Municipal,Primario
 110316,2024.0,8.0,0.0,0.0,MSI,Municipal,Primario
-110320,2023.0,10.0,2.0,4.0,MSI,Municipal,Primario
-110320,2023.0,11.0,1.0,2.0,MSI,Municipal,Primario
-110320,2023.0,12.0,0.0,3.0,MSI,Municipal,Primario
+110316,2024.0,10.0,2.0,,MSI,Municipal,Primario
+110316,2024.0,11.0,0.0,,MSI,Municipal,Primario
+110316,2024.0,12.0,0.0,,MSI,Municipal,Primario
+110320,2023.0,10.0,,4.0,MSI,Municipal,Primario
+110320,2023.0,11.0,,2.0,MSI,Municipal,Primario
+110320,2023.0,12.0,,3.0,MSI,Municipal,Primario
 110320,2024.0,1.0,3.0,3.0,MSI,Municipal,Primario
 110320,2024.0,2.0,0.0,1.0,MSI,Municipal,Primario
 110320,2024.0,3.0,,1.0,MSI,Municipal,Primario
@@ -395,8 +461,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110320,2024.0,7.0,,1.0,MSI,Municipal,Primario
 110320,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 110320,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
-110325,2023.0,10.0,5.0,3.0,MSI,Municipal,Primario
-110325,2023.0,11.0,1.0,3.0,MSI,Municipal,Primario
+110320,2024.0,10.0,4.0,,MSI,Municipal,Primario
+110320,2024.0,11.0,0.0,,MSI,Municipal,Primario
+110320,2024.0,12.0,1.0,,MSI,Municipal,Primario
+110325,2023.0,10.0,,3.0,MSI,Municipal,Primario
+110325,2023.0,11.0,,3.0,MSI,Municipal,Primario
 110325,2023.0,12.0,,7.0,MSI,Municipal,Primario
 110325,2024.0,1.0,2.0,7.0,MSI,Municipal,Primario
 110325,2024.0,2.0,1.0,3.0,MSI,Municipal,Primario
@@ -407,8 +476,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110325,2024.0,7.0,2.0,6.0,MSI,Municipal,Primario
 110325,2024.0,8.0,1.0,2.0,MSI,Municipal,Primario
 110325,2024.0,9.0,,1.0,MSI,Municipal,Primario
-110330,2023.0,10.0,3.0,4.0,MSI,Municipal,Primario
-110330,2023.0,11.0,0.0,3.0,MSI,Municipal,Primario
+110325,2024.0,10.0,9.0,,MSI,Municipal,Primario
+110325,2024.0,11.0,1.0,,MSI,Municipal,Primario
+110325,2024.0,12.0,2.0,,MSI,Municipal,Primario
+110330,2023.0,10.0,,4.0,MSI,Municipal,Primario
+110330,2023.0,11.0,,3.0,MSI,Municipal,Primario
 110330,2023.0,12.0,,0.0,MSI,Municipal,Primario
 110330,2024.0,1.0,1.0,1.0,MSI,Municipal,Primario
 110330,2024.0,2.0,2.0,4.0,MSI,Municipal,Primario
@@ -419,8 +491,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110330,2024.0,7.0,2.0,3.0,MSI,Municipal,Primario
 110330,2024.0,8.0,2.0,6.0,MSI,Municipal,Primario
 110330,2024.0,9.0,6.0,1.0,MSI,Municipal,Primario
+110330,2024.0,10.0,2.0,,MSI,Municipal,Primario
+110330,2024.0,11.0,3.0,,MSI,Municipal,Primario
+110330,2024.0,12.0,4.0,,MSI,Municipal,Primario
 110331,2023.0,10.0,,2.0,MSI,Municipal,Primario
-110331,2023.0,11.0,1.0,1.0,MSI,Municipal,Primario
+110331,2023.0,11.0,,1.0,MSI,Municipal,Primario
 110331,2023.0,12.0,,0.0,MSI,Municipal,Primario
 110331,2024.0,1.0,0.0,4.0,MSI,Municipal,Primario
 110331,2024.0,2.0,2.0,2.0,MSI,Municipal,Primario
@@ -430,9 +505,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110331,2024.0,7.0,1.0,2.0,MSI,Municipal,Primario
 110331,2024.0,8.0,1.0,7.0,MSI,Municipal,Primario
 110331,2024.0,9.0,,3.0,MSI,Municipal,Primario
-110335,2023.0,10.0,7.0,4.0,MSI,Municipal,Primario
-110335,2023.0,11.0,5.0,1.0,MSI,Municipal,Primario
-110335,2023.0,12.0,1.0,6.0,MSI,Municipal,Primario
+110331,2024.0,10.0,7.0,,MSI,Municipal,Primario
+110331,2024.0,11.0,3.0,,MSI,Municipal,Primario
+110331,2024.0,12.0,3.0,,MSI,Municipal,Primario
+110335,2023.0,10.0,,4.0,MSI,Municipal,Primario
+110335,2023.0,11.0,,1.0,MSI,Municipal,Primario
+110335,2023.0,12.0,,6.0,MSI,Municipal,Primario
 110335,2024.0,1.0,2.0,9.0,MSI,Municipal,Primario
 110335,2024.0,2.0,1.0,6.0,MSI,Municipal,Primario
 110335,2024.0,3.0,3.0,5.0,MSI,Municipal,Primario
@@ -442,9 +520,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110335,2024.0,7.0,5.0,2.0,MSI,Municipal,Primario
 110335,2024.0,8.0,5.0,5.0,MSI,Municipal,Primario
 110335,2024.0,9.0,7.0,3.0,MSI,Municipal,Primario
+110335,2024.0,10.0,2.0,,MSI,Municipal,Primario
+110335,2024.0,11.0,6.0,,MSI,Municipal,Primario
+110335,2024.0,12.0,2.0,,MSI,Municipal,Primario
 110340,2023.0,10.0,,1.0,MSI,Municipal,Primario
-110340,2023.0,11.0,1.0,,MSI,Municipal,Primario
-110340,2023.0,12.0,0.0,1.0,MSI,Municipal,Primario
+110340,2023.0,12.0,,1.0,MSI,Municipal,Primario
 110340,2024.0,1.0,1.0,0.0,MSI,Municipal,Primario
 110340,2024.0,2.0,0.0,2.0,MSI,Municipal,Primario
 110340,2024.0,3.0,0.0,1.0,MSI,Municipal,Primario
@@ -454,9 +534,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110340,2024.0,7.0,3.0,1.0,MSI,Municipal,Primario
 110340,2024.0,8.0,,1.0,MSI,Municipal,Primario
 110340,2024.0,9.0,,2.0,MSI,Municipal,Primario
-110345,2023.0,10.0,1.0,0.0,MSI,Municipal,Primario
+110340,2024.0,10.0,4.0,,MSI,Municipal,Primario
+110340,2024.0,12.0,2.0,,MSI,Municipal,Primario
+110345,2023.0,10.0,,0.0,MSI,Municipal,Primario
 110345,2023.0,11.0,,2.0,MSI,Municipal,Primario
-110345,2023.0,12.0,0.0,3.0,MSI,Municipal,Primario
+110345,2023.0,12.0,,3.0,MSI,Municipal,Primario
 110345,2024.0,1.0,1.0,1.0,MSI,Municipal,Primario
 110345,2024.0,2.0,0.0,1.0,MSI,Municipal,Primario
 110345,2024.0,3.0,0.0,1.0,MSI,Municipal,Primario
@@ -466,9 +548,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110345,2024.0,7.0,1.0,6.0,MSI,Municipal,Primario
 110345,2024.0,8.0,0.0,0.0,MSI,Municipal,Primario
 110345,2024.0,9.0,2.0,0.0,MSI,Municipal,Primario
-110350,2023.0,10.0,1.0,3.0,MSI,Municipal,Primario
-110350,2023.0,11.0,1.0,2.0,MSI,Municipal,Primario
-110350,2023.0,12.0,3.0,2.0,MSI,Municipal,Primario
+110345,2024.0,10.0,2.0,,MSI,Municipal,Primario
+110345,2024.0,11.0,1.0,,MSI,Municipal,Primario
+110345,2024.0,12.0,3.0,,MSI,Municipal,Primario
+110350,2023.0,10.0,,3.0,MSI,Municipal,Primario
+110350,2023.0,11.0,,2.0,MSI,Municipal,Primario
+110350,2023.0,12.0,,2.0,MSI,Municipal,Primario
 110350,2024.0,1.0,2.0,6.0,MSI,Municipal,Primario
 110350,2024.0,2.0,1.0,3.0,MSI,Municipal,Primario
 110350,2024.0,3.0,1.0,0.0,MSI,Municipal,Primario
@@ -478,9 +563,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110350,2024.0,7.0,3.0,2.0,MSI,Municipal,Primario
 110350,2024.0,8.0,2.0,4.0,MSI,Municipal,Primario
 110350,2024.0,9.0,1.0,4.0,MSI,Municipal,Primario
-110351,2023.0,10.0,1.0,6.0,MSI,Municipal,Primario
-110351,2023.0,11.0,2.0,6.0,MSI,Municipal,Primario
-110351,2023.0,12.0,2.0,6.0,MSI,Municipal,Primario
+110350,2024.0,10.0,8.0,,MSI,Municipal,Primario
+110350,2024.0,11.0,0.0,,MSI,Municipal,Primario
+110350,2024.0,12.0,0.0,,MSI,Municipal,Primario
+110351,2023.0,10.0,,6.0,MSI,Municipal,Primario
+110351,2023.0,11.0,,6.0,MSI,Municipal,Primario
+110351,2023.0,12.0,,6.0,MSI,Municipal,Primario
 110351,2024.0,1.0,,8.0,MSI,Municipal,Primario
 110351,2024.0,2.0,1.0,2.0,MSI,Municipal,Primario
 110351,2024.0,3.0,5.0,4.0,MSI,Municipal,Primario
@@ -490,9 +578,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110351,2024.0,7.0,4.0,5.0,MSI,Municipal,Primario
 110351,2024.0,8.0,1.0,2.0,MSI,Municipal,Primario
 110351,2024.0,9.0,2.0,1.0,MSI,Municipal,Primario
+110351,2024.0,10.0,6.0,,MSI,Municipal,Primario
+110351,2024.0,11.0,3.0,,MSI,Municipal,Primario
+110351,2024.0,12.0,4.0,,MSI,Municipal,Primario
 110352,2023.0,10.0,,2.0,MSI,Municipal,Primario
-110352,2023.0,11.0,1.0,5.0,MSI,Municipal,Primario
-110352,2023.0,12.0,0.0,4.0,MSI,Municipal,Primario
+110352,2023.0,11.0,,5.0,MSI,Municipal,Primario
+110352,2023.0,12.0,,4.0,MSI,Municipal,Primario
 110352,2024.0,1.0,0.0,4.0,MSI,Municipal,Primario
 110352,2024.0,2.0,,1.0,MSI,Municipal,Primario
 110352,2024.0,3.0,1.0,3.0,MSI,Municipal,Primario
@@ -502,9 +593,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110352,2024.0,7.0,4.0,4.0,MSI,Municipal,Primario
 110352,2024.0,8.0,6.0,4.0,MSI,Municipal,Primario
 110352,2024.0,9.0,7.0,0.0,MSI,Municipal,Primario
-110353,2023.0,10.0,1.0,2.0,MSI,Municipal,Primario
-110353,2023.0,11.0,1.0,5.0,MSI,Municipal,Primario
-110353,2023.0,12.0,2.0,3.0,MSI,Municipal,Primario
+110352,2024.0,10.0,3.0,,MSI,Municipal,Primario
+110352,2024.0,11.0,1.0,,MSI,Municipal,Primario
+110352,2024.0,12.0,0.0,,MSI,Municipal,Primario
+110353,2023.0,10.0,,2.0,MSI,Municipal,Primario
+110353,2023.0,11.0,,5.0,MSI,Municipal,Primario
+110353,2023.0,12.0,,3.0,MSI,Municipal,Primario
 110353,2024.0,1.0,2.0,1.0,MSI,Municipal,Primario
 110353,2024.0,2.0,1.0,3.0,MSI,Municipal,Primario
 110353,2024.0,3.0,1.0,1.0,MSI,Municipal,Primario
@@ -514,9 +608,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110353,2024.0,7.0,2.0,1.0,MSI,Municipal,Primario
 110353,2024.0,8.0,3.0,0.0,MSI,Municipal,Primario
 110353,2024.0,9.0,0.0,2.0,MSI,Municipal,Primario
-110354,2023.0,10.0,1.0,0.0,MSI,Municipal,Primario
-110354,2023.0,11.0,0.0,0.0,MSI,Municipal,Primario
-110354,2023.0,12.0,1.0,2.0,MSI,Municipal,Primario
+110353,2024.0,10.0,0.0,,MSI,Municipal,Primario
+110353,2024.0,11.0,2.0,,MSI,Municipal,Primario
+110353,2024.0,12.0,1.0,,MSI,Municipal,Primario
+110354,2023.0,10.0,,0.0,MSI,Municipal,Primario
+110354,2023.0,11.0,,0.0,MSI,Municipal,Primario
+110354,2023.0,12.0,,2.0,MSI,Municipal,Primario
 110354,2024.0,1.0,0.0,2.0,MSI,Municipal,Primario
 110354,2024.0,2.0,,0.0,MSI,Municipal,Primario
 110354,2024.0,3.0,2.0,2.0,MSI,Municipal,Primario
@@ -526,9 +623,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110354,2024.0,7.0,1.0,2.0,MSI,Municipal,Primario
 110354,2024.0,8.0,0.0,2.0,MSI,Municipal,Primario
 110354,2024.0,9.0,3.0,0.0,MSI,Municipal,Primario
+110354,2024.0,10.0,2.0,,MSI,Municipal,Primario
+110354,2024.0,11.0,3.0,,MSI,Municipal,Primario
+110354,2024.0,12.0,0.0,,MSI,Municipal,Primario
 110355,2023.0,10.0,,3.0,MSI,Municipal,Primario
-110355,2023.0,11.0,1.0,2.0,MSI,Municipal,Primario
-110355,2023.0,12.0,1.0,2.0,MSI,Municipal,Primario
+110355,2023.0,11.0,,2.0,MSI,Municipal,Primario
+110355,2023.0,12.0,,2.0,MSI,Municipal,Primario
 110355,2024.0,1.0,0.0,4.0,MSI,Municipal,Primario
 110355,2024.0,2.0,4.0,2.0,MSI,Municipal,Primario
 110355,2024.0,3.0,1.0,3.0,MSI,Municipal,Primario
@@ -538,9 +638,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110355,2024.0,7.0,2.0,7.0,MSI,Municipal,Primario
 110355,2024.0,8.0,8.0,8.0,MSI,Municipal,Primario
 110355,2024.0,9.0,5.0,1.0,MSI,Municipal,Primario
-110360,2023.0,10.0,1.0,1.0,MSI,Municipal,Primario
+110355,2024.0,10.0,3.0,,MSI,Municipal,Primario
+110355,2024.0,11.0,4.0,,MSI,Municipal,Primario
+110355,2024.0,12.0,5.0,,MSI,Municipal,Primario
+110360,2023.0,10.0,,1.0,MSI,Municipal,Primario
 110360,2023.0,11.0,,1.0,MSI,Municipal,Primario
-110360,2023.0,12.0,1.0,1.0,MSI,Municipal,Primario
+110360,2023.0,12.0,,1.0,MSI,Municipal,Primario
 110360,2024.0,1.0,4.0,5.0,MSI,Municipal,Primario
 110360,2024.0,2.0,2.0,4.0,MSI,Municipal,Primario
 110360,2024.0,3.0,3.0,9.0,MSI,Municipal,Primario
@@ -550,9 +653,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110360,2024.0,7.0,1.0,3.0,MSI,Municipal,Primario
 110360,2024.0,8.0,1.0,4.0,MSI,Municipal,Primario
 110360,2024.0,9.0,0.0,2.0,MSI,Municipal,Primario
-110361,2023.0,10.0,4.0,0.0,MSI,Municipal,Primario
-110361,2023.0,11.0,1.0,0.0,MSI,Municipal,Primario
-110361,2023.0,12.0,3.0,0.0,MSI,Municipal,Primario
+110360,2024.0,10.0,2.0,,MSI,Municipal,Primario
+110360,2024.0,12.0,2.0,,MSI,Municipal,Primario
+110361,2023.0,10.0,,0.0,MSI,Municipal,Primario
+110361,2023.0,11.0,,0.0,MSI,Municipal,Primario
+110361,2023.0,12.0,,0.0,MSI,Municipal,Primario
 110361,2024.0,1.0,1.0,3.0,MSI,Municipal,Primario
 110361,2024.0,2.0,1.0,4.0,MSI,Municipal,Primario
 110361,2024.0,3.0,3.0,7.0,MSI,Municipal,Primario
@@ -562,8 +667,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110361,2024.0,7.0,9.0,3.0,MSI,Municipal,Primario
 110361,2024.0,8.0,4.0,3.0,MSI,Municipal,Primario
 110361,2024.0,9.0,3.0,5.0,MSI,Municipal,Primario
-110362,2023.0,10.0,1.0,2.0,MSI,Municipal,Primario
-110362,2023.0,11.0,1.0,1.0,MSI,Municipal,Primario
+110361,2024.0,10.0,3.0,,MSI,Municipal,Primario
+110361,2024.0,11.0,2.0,,MSI,Municipal,Primario
+110361,2024.0,12.0,0.0,,MSI,Municipal,Primario
+110362,2023.0,10.0,,2.0,MSI,Municipal,Primario
+110362,2023.0,11.0,,1.0,MSI,Municipal,Primario
 110362,2023.0,12.0,,0.0,MSI,Municipal,Primario
 110362,2024.0,1.0,2.0,1.0,MSI,Municipal,Primario
 110362,2024.0,2.0,,0.0,MSI,Municipal,Primario
@@ -574,9 +682,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110362,2024.0,7.0,2.0,4.0,MSI,Municipal,Primario
 110362,2024.0,8.0,1.0,2.0,MSI,Municipal,Primario
 110362,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
-110364,2023.0,10.0,0.0,,MSI,Municipal,Primario
-110364,2023.0,11.0,1.0,1.0,MSI,Municipal,Primario
-110364,2023.0,12.0,3.0,,MSI,Municipal,Primario
+110362,2024.0,10.0,5.0,,MSI,Municipal,Primario
+110362,2024.0,11.0,2.0,,MSI,Municipal,Primario
+110362,2024.0,12.0,1.0,,MSI,Municipal,Primario
+110364,2023.0,11.0,,1.0,MSI,Municipal,Primario
 110364,2024.0,1.0,,1.0,MSI,Municipal,Primario
 110364,2024.0,2.0,,1.0,MSI,Municipal,Primario
 110364,2024.0,3.0,0.0,1.0,MSI,Municipal,Primario
@@ -586,9 +695,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110364,2024.0,7.0,,3.0,MSI,Municipal,Primario
 110364,2024.0,8.0,0.0,0.0,MSI,Municipal,Primario
 110364,2024.0,9.0,1.0,,MSI,Municipal,Primario
-110366,2023.0,10.0,2.0,3.0,MSI,Municipal,Primario
-110366,2023.0,11.0,4.0,5.0,MSI,Municipal,Primario
-110366,2023.0,12.0,2.0,5.0,MSI,Municipal,Primario
+110364,2024.0,10.0,2.0,,MSI,Municipal,Primario
+110366,2023.0,10.0,,3.0,MSI,Municipal,Primario
+110366,2023.0,11.0,,5.0,MSI,Municipal,Primario
+110366,2023.0,12.0,,5.0,MSI,Municipal,Primario
 110366,2024.0,1.0,6.0,6.0,MSI,Municipal,Primario
 110366,2024.0,2.0,1.0,5.0,MSI,Municipal,Primario
 110366,2024.0,3.0,6.0,5.0,MSI,Municipal,Primario
@@ -598,8 +708,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110366,2024.0,7.0,2.0,10.0,MSI,Municipal,Primario
 110366,2024.0,8.0,3.0,10.0,MSI,Municipal,Primario
 110366,2024.0,9.0,0.0,6.0,MSI,Municipal,Primario
+110366,2024.0,10.0,11.0,,MSI,Municipal,Primario
+110366,2024.0,11.0,9.0,,MSI,Municipal,Primario
+110366,2024.0,12.0,10.0,,MSI,Municipal,Primario
 110369,2023.0,10.0,,5.0,MSI,Municipal,Primario
-110369,2023.0,12.0,0.0,2.0,MSI,Municipal,Primario
+110369,2023.0,12.0,,2.0,MSI,Municipal,Primario
 110369,2024.0,1.0,0.0,2.0,MSI,Municipal,Primario
 110369,2024.0,2.0,,1.0,MSI,Municipal,Primario
 110369,2024.0,3.0,3.0,3.0,MSI,Municipal,Primario
@@ -609,8 +722,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110369,2024.0,7.0,3.0,2.0,MSI,Municipal,Primario
 110369,2024.0,8.0,1.0,8.0,MSI,Municipal,Primario
 110369,2024.0,9.0,1.0,2.0,MSI,Municipal,Primario
-110370,2023.0,10.0,6.0,0.0,MSI,Municipal,Primario
-110370,2023.0,11.0,0.0,1.0,MSI,Municipal,Primario
+110369,2024.0,10.0,2.0,,MSI,Municipal,Primario
+110369,2024.0,11.0,1.0,,MSI,Municipal,Primario
+110369,2024.0,12.0,2.0,,MSI,Municipal,Primario
+110370,2023.0,10.0,,0.0,MSI,Municipal,Primario
+110370,2023.0,11.0,,1.0,MSI,Municipal,Primario
 110370,2023.0,12.0,,0.0,MSI,Municipal,Primario
 110370,2024.0,1.0,0.0,6.0,MSI,Municipal,Primario
 110370,2024.0,2.0,0.0,2.0,MSI,Municipal,Primario
@@ -621,9 +737,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110370,2024.0,7.0,4.0,1.0,MSI,Municipal,Primario
 110370,2024.0,8.0,2.0,0.0,MSI,Municipal,Primario
 110370,2024.0,9.0,2.0,,MSI,Municipal,Primario
-110375,2023.0,10.0,2.0,1.0,MSI,Municipal,Primario
-110375,2023.0,11.0,1.0,2.0,MSI,Municipal,Primario
-110375,2023.0,12.0,1.0,2.0,MSI,Municipal,Primario
+110370,2024.0,10.0,1.0,,MSI,Municipal,Primario
+110370,2024.0,12.0,1.0,,MSI,Municipal,Primario
+110375,2023.0,10.0,,1.0,MSI,Municipal,Primario
+110375,2023.0,11.0,,2.0,MSI,Municipal,Primario
+110375,2023.0,12.0,,2.0,MSI,Municipal,Primario
 110375,2024.0,1.0,,1.0,MSI,Municipal,Primario
 110375,2024.0,2.0,2.0,3.0,MSI,Municipal,Primario
 110375,2024.0,3.0,,1.0,MSI,Municipal,Primario
@@ -633,9 +751,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110375,2024.0,7.0,1.0,2.0,MSI,Municipal,Primario
 110375,2024.0,8.0,3.0,0.0,MSI,Municipal,Primario
 110375,2024.0,9.0,,0.0,MSI,Municipal,Primario
-110378,2023.0,10.0,1.0,1.0,MSI,Municipal,Primario
-110378,2023.0,11.0,6.0,6.0,MSI,Municipal,Primario
-110378,2023.0,12.0,2.0,2.0,MSI,Municipal,Primario
+110375,2024.0,10.0,1.0,,MSI,Municipal,Primario
+110375,2024.0,11.0,1.0,,MSI,Municipal,Primario
+110375,2024.0,12.0,1.0,,MSI,Municipal,Primario
+110378,2023.0,10.0,,1.0,MSI,Municipal,Primario
+110378,2023.0,11.0,,6.0,MSI,Municipal,Primario
+110378,2023.0,12.0,,2.0,MSI,Municipal,Primario
 110378,2024.0,1.0,0.0,6.0,MSI,Municipal,Primario
 110378,2024.0,2.0,2.0,4.0,MSI,Municipal,Primario
 110378,2024.0,3.0,3.0,2.0,MSI,Municipal,Primario
@@ -645,9 +766,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110378,2024.0,7.0,2.0,8.0,MSI,Municipal,Primario
 110378,2024.0,8.0,2.0,5.0,MSI,Municipal,Primario
 110378,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
-110379,2023.0,10.0,0.0,1.0,MSI,Municipal,Primario
+110378,2024.0,10.0,11.0,,MSI,Municipal,Primario
+110378,2024.0,11.0,3.0,,MSI,Municipal,Primario
+110378,2024.0,12.0,0.0,,MSI,Municipal,Primario
+110379,2023.0,10.0,,1.0,MSI,Municipal,Primario
 110379,2023.0,11.0,,0.0,MSI,Municipal,Primario
-110379,2023.0,12.0,0.0,1.0,MSI,Municipal,Primario
+110379,2023.0,12.0,,1.0,MSI,Municipal,Primario
 110379,2024.0,1.0,2.0,4.0,MSI,Municipal,Primario
 110379,2024.0,2.0,1.0,3.0,MSI,Municipal,Primario
 110379,2024.0,3.0,1.0,3.0,MSI,Municipal,Primario
@@ -657,7 +781,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110379,2024.0,7.0,,3.0,MSI,Municipal,Primario
 110379,2024.0,8.0,0.0,2.0,MSI,Municipal,Primario
 110379,2024.0,9.0,1.0,3.0,MSI,Municipal,Primario
-110380,2023.0,10.0,5.0,3.0,MSI,Municipal,Primario
+110379,2024.0,10.0,3.0,,MSI,Municipal,Primario
+110379,2024.0,11.0,6.0,,MSI,Municipal,Primario
+110380,2023.0,10.0,,3.0,MSI,Municipal,Primario
 110380,2023.0,11.0,,0.0,MSI,Municipal,Primario
 110380,2023.0,12.0,,1.0,MSI,Municipal,Primario
 110380,2024.0,1.0,0.0,3.0,MSI,Municipal,Primario
@@ -669,9 +795,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110380,2024.0,7.0,2.0,1.0,MSI,Municipal,Primario
 110380,2024.0,8.0,,4.0,MSI,Municipal,Primario
 110380,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
-110381,2023.0,10.0,1.0,,MSI,Municipal,Primario
+110380,2024.0,10.0,0.0,,MSI,Municipal,Primario
+110380,2024.0,11.0,3.0,,MSI,Municipal,Primario
 110381,2023.0,11.0,,1.0,MSI,Municipal,Primario
-110381,2023.0,12.0,1.0,,MSI,Municipal,Primario
 110381,2024.0,1.0,,0.0,MSI,Municipal,Primario
 110381,2024.0,2.0,,0.0,MSI,Municipal,Primario
 110381,2024.0,3.0,,1.0,MSI,Municipal,Primario
@@ -680,9 +806,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110381,2024.0,6.0,1.0,0.0,MSI,Municipal,Primario
 110381,2024.0,8.0,1.0,0.0,MSI,Municipal,Primario
 110381,2024.0,9.0,,0.0,MSI,Municipal,Primario
+110381,2024.0,10.0,0.0,,MSI,Municipal,Primario
+110381,2024.0,11.0,0.0,,MSI,Municipal,Primario
+110381,2024.0,12.0,0.0,,MSI,Municipal,Primario
 110385,2023.0,10.0,,1.0,MSI,Municipal,Primario
 110385,2023.0,11.0,,1.0,MSI,Municipal,Primario
-110385,2023.0,12.0,0.0,,MSI,Municipal,Primario
 110385,2024.0,1.0,,0.0,MSI,Municipal,Primario
 110385,2024.0,2.0,1.0,,MSI,Municipal,Primario
 110385,2024.0,3.0,,1.0,MSI,Municipal,Primario
@@ -690,8 +818,8 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110385,2024.0,6.0,,0.0,MSI,Municipal,Primario
 110385,2024.0,7.0,1.0,,MSI,Municipal,Primario
 110385,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
+110385,2024.0,12.0,1.0,,MSI,Municipal,Primario
 110387,2023.0,11.0,,0.0,MSI,Municipal,Primario
-110387,2023.0,12.0,0.0,,MSI,Municipal,Primario
 110387,2024.0,1.0,1.0,0.0,MSI,Municipal,Primario
 110387,2024.0,3.0,,0.0,MSI,Municipal,Primario
 110387,2024.0,4.0,0.0,1.0,MSI,Municipal,Primario
@@ -699,9 +827,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110387,2024.0,7.0,1.0,1.0,MSI,Municipal,Primario
 110387,2024.0,8.0,,3.0,MSI,Municipal,Primario
 110387,2024.0,9.0,,2.0,MSI,Municipal,Primario
-110390,2023.0,10.0,3.0,0.0,MSI,Municipal,Primario
-110390,2023.0,11.0,2.0,0.0,MSI,Municipal,Primario
-110390,2023.0,12.0,1.0,1.0,MSI,Municipal,Primario
+110387,2024.0,10.0,1.0,,MSI,Municipal,Primario
+110387,2024.0,11.0,3.0,,MSI,Municipal,Primario
+110387,2024.0,12.0,1.0,,MSI,Municipal,Primario
+110390,2023.0,10.0,,0.0,MSI,Municipal,Primario
+110390,2023.0,11.0,,0.0,MSI,Municipal,Primario
+110390,2023.0,12.0,,1.0,MSI,Municipal,Primario
 110390,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
 110390,2024.0,2.0,0.0,1.0,MSI,Municipal,Primario
 110390,2024.0,3.0,2.0,3.0,MSI,Municipal,Primario
@@ -711,8 +842,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110390,2024.0,7.0,0.0,2.0,MSI,Municipal,Primario
 110390,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 110390,2024.0,9.0,1.0,,MSI,Municipal,Primario
-110393,2023.0,10.0,2.0,0.0,MSI,Municipal,Primario
-110393,2023.0,11.0,1.0,,MSI,Municipal,Primario
+110390,2024.0,10.0,0.0,,MSI,Municipal,Primario
+110390,2024.0,11.0,1.0,,MSI,Municipal,Primario
+110390,2024.0,12.0,1.0,,MSI,Municipal,Primario
+110393,2023.0,10.0,,0.0,MSI,Municipal,Primario
 110393,2024.0,3.0,,1.0,MSI,Municipal,Primario
 110393,2024.0,4.0,,1.0,MSI,Municipal,Primario
 110393,2024.0,6.0,2.0,,MSI,Municipal,Primario
@@ -720,9 +853,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110400,2024.0,1.0,,0.0,MSI,Municipal,Primario
 110400,2024.0,3.0,0.0,,MSI,Municipal,Primario
 110400,2024.0,4.0,,0.0,MSI,Municipal,Primario
-110425,2023.0,10.0,1.0,0.0,MSI,Municipal,Primario
-110425,2023.0,11.0,0.0,1.0,MSI,Municipal,Primario
-110425,2023.0,12.0,0.0,0.0,MSI,Municipal,Primario
+110400,2024.0,10.0,1.0,,MSI,Municipal,Primario
+110425,2023.0,10.0,,0.0,MSI,Municipal,Primario
+110425,2023.0,11.0,,1.0,MSI,Municipal,Primario
+110425,2023.0,12.0,,0.0,MSI,Municipal,Primario
 110425,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
 110425,2024.0,2.0,1.0,4.0,MSI,Municipal,Primario
 110425,2024.0,3.0,,2.0,MSI,Municipal,Primario
@@ -732,14 +866,15 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110425,2024.0,7.0,1.0,1.0,MSI,Municipal,Primario
 110425,2024.0,8.0,1.0,,MSI,Municipal,Primario
 110425,2024.0,9.0,,0.0,MSI,Municipal,Primario
-110430,2023.0,11.0,1.0,,MSI,Municipal,Primario
+110425,2024.0,10.0,1.0,,MSI,Municipal,Primario
+110425,2024.0,11.0,1.0,,MSI,Municipal,Primario
+110425,2024.0,12.0,0.0,,MSI,Municipal,Primario
 110430,2023.0,12.0,,1.0,MSI,Municipal,Primario
 110430,2024.0,1.0,0.0,,MSI,Municipal,Primario
 110430,2024.0,2.0,0.0,,MSI,Municipal,Primario
 110430,2024.0,3.0,1.0,,MSI,Municipal,Primario
 110430,2024.0,5.0,,1.0,MSI,Municipal,Primario
 110430,2024.0,8.0,1.0,,MSI,Municipal,Primario
-110431,2023.0,10.0,1.0,,MSI,Municipal,Primario
 110431,2023.0,11.0,,0.0,MSI,Municipal,Primario
 110431,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
 110431,2024.0,5.0,,0.0,MSI,Municipal,Primario
@@ -749,12 +884,14 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110432,2024.0,2.0,1.0,0.0,MSI,Municipal,Primario
 110432,2024.0,3.0,1.0,,MSI,Municipal,Primario
 110432,2024.0,6.0,,0.0,MSI,Municipal,Primario
+110432,2024.0,10.0,0.0,,MSI,Municipal,Primario
 110440,2024.0,2.0,,0.0,MSI,Municipal,Primario
 110440,2024.0,3.0,,1.0,MSI,Municipal,Primario
 110440,2024.0,7.0,,4.0,MSI,Municipal,Primario
 110440,2024.0,8.0,1.0,2.0,MSI,Municipal,Primario
-110445,2023.0,10.0,1.0,2.0,MSI,Municipal,Primario
-110445,2023.0,11.0,0.0,,MSI,Municipal,Primario
+110440,2024.0,10.0,4.0,,MSI,Municipal,Primario
+110440,2024.0,11.0,2.0,,MSI,Municipal,Primario
+110445,2023.0,10.0,,2.0,MSI,Municipal,Primario
 110445,2023.0,12.0,,2.0,MSI,Municipal,Primario
 110445,2024.0,1.0,3.0,0.0,MSI,Municipal,Primario
 110445,2024.0,3.0,1.0,,MSI,Municipal,Primario
@@ -762,19 +899,20 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110445,2024.0,5.0,1.0,,MSI,Municipal,Primario
 110445,2024.0,7.0,,1.0,MSI,Municipal,Primario
 110445,2024.0,9.0,,1.0,MSI,Municipal,Primario
-110455,2023.0,10.0,0.0,,MSI,Municipal,Primario
+110445,2024.0,10.0,2.0,,MSI,Municipal,Primario
 110455,2024.0,5.0,,1.0,MSI,Municipal,Primario
 110455,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
+110455,2024.0,10.0,1.0,,MSI,Municipal,Primario
 110465,2024.0,3.0,,1.0,MSI,Municipal,Primario
 110465,2024.0,6.0,,0.0,MSI,Municipal,Primario
 110465,2024.0,9.0,,0.0,MSI,Municipal,Primario
+110465,2024.0,12.0,0.0,,MSI,Municipal,Primario
 110470,2023.0,12.0,,1.0,MSI,Municipal,Primario
 110470,2024.0,1.0,1.0,,MSI,Municipal,Primario
 110475,2023.0,11.0,,1.0,MSI,Municipal,Primario
-110475,2023.0,12.0,1.0,,MSI,Municipal,Primario
 110475,2024.0,1.0,1.0,2.0,MSI,Municipal,Primario
 110475,2024.0,5.0,2.0,,MSI,Municipal,Primario
-110477,2023.0,10.0,0.0,1.0,MSI,Servicio de Salud,Primario
+110477,2023.0,10.0,,1.0,MSI,Servicio de Salud,Primario
 110477,2023.0,11.0,,1.0,MSI,Servicio de Salud,Primario
 110477,2023.0,12.0,,1.0,MSI,Servicio de Salud,Primario
 110477,2024.0,4.0,1.0,0.0,MSI,Servicio de Salud,Primario
@@ -786,12 +924,13 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110485,2024.0,2.0,,0.0,MSI,Municipal,Primario
 110485,2024.0,5.0,0.0,,MSI,Municipal,Primario
 110485,2024.0,8.0,,0.0,MSI,Municipal,Primario
-110490,2023.0,10.0,0.0,,MSI,Municipal,Primario
+110485,2024.0,12.0,0.0,,MSI,Municipal,Primario
 110490,2024.0,3.0,,0.0,MSI,Municipal,Primario
 110490,2024.0,9.0,,0.0,MSI,Municipal,Primario
+110490,2024.0,12.0,0.0,,MSI,Municipal,Primario
 110495,2023.0,10.0,,1.0,MSI,Municipal,Primario
 110495,2023.0,11.0,,0.0,MSI,Municipal,Primario
-110495,2023.0,12.0,1.0,1.0,MSI,Municipal,Primario
+110495,2023.0,12.0,,1.0,MSI,Municipal,Primario
 110495,2024.0,1.0,1.0,,MSI,Municipal,Primario
 110495,2024.0,2.0,,1.0,MSI,Municipal,Primario
 110495,2024.0,4.0,1.0,,MSI,Municipal,Primario
@@ -799,6 +938,8 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110495,2024.0,6.0,0.0,,MSI,Municipal,Primario
 110495,2024.0,7.0,,1.0,MSI,Municipal,Primario
 110495,2024.0,8.0,,1.0,MSI,Municipal,Primario
+110495,2024.0,10.0,1.0,,MSI,Municipal,Primario
+110495,2024.0,11.0,1.0,,MSI,Municipal,Primario
 110503,2023.0,11.0,,1.0,MSI,Municipal,Primario
 110503,2024.0,1.0,,0.0,MSI,Municipal,Primario
 110503,2024.0,2.0,,0.0,MSI,Municipal,Primario
@@ -807,7 +948,8 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110503,2024.0,7.0,0.0,,MSI,Municipal,Primario
 110503,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 110503,2024.0,9.0,0.0,1.0,MSI,Municipal,Primario
-110720,2023.0,10.0,1.0,,MSI,Municipal,Primario
+110503,2024.0,10.0,1.0,,MSI,Municipal,Primario
+110503,2024.0,11.0,1.0,,MSI,Municipal,Primario
 110720,2023.0,11.0,,0.0,MSI,Municipal,Primario
 110720,2023.0,12.0,,0.0,MSI,Municipal,Primario
 110720,2024.0,1.0,,1.0,MSI,Municipal,Primario
@@ -815,7 +957,6 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110720,2024.0,4.0,,1.0,MSI,Municipal,Primario
 110720,2024.0,5.0,1.0,,MSI,Municipal,Primario
 110720,2024.0,9.0,,1.0,MSI,Municipal,Primario
-110725,2023.0,11.0,1.0,,MSI,Municipal,Primario
 110725,2024.0,1.0,,2.0,MSI,Municipal,Primario
 110725,2024.0,2.0,,0.0,MSI,Municipal,Primario
 110725,2024.0,3.0,,2.0,MSI,Municipal,Primario
@@ -824,15 +965,16 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110725,2024.0,6.0,,3.0,MSI,Municipal,Primario
 110725,2024.0,7.0,2.0,,MSI,Municipal,Primario
 110725,2024.0,9.0,1.0,,MSI,Municipal,Primario
+110725,2024.0,10.0,3.0,,MSI,Municipal,Primario
 110735,2023.0,11.0,,2.0,MSI,Municipal,Primario
 110735,2024.0,1.0,,0.0,MSI,Municipal,Primario
 110735,2024.0,3.0,,0.0,MSI,Municipal,Primario
 110735,2024.0,4.0,0.0,,MSI,Municipal,Primario
-110750,2023.0,10.0,0.0,,MSI,Municipal,Primario
 110750,2024.0,7.0,1.0,,MSI,Municipal,Primario
 110754,2023.0,12.0,,1.0,MSI,Municipal,Primario
 110754,2024.0,3.0,1.0,1.0,MSI,Municipal,Primario
 110754,2024.0,9.0,,0.0,MSI,Municipal,Primario
+110754,2024.0,11.0,1.0,,MSI,Municipal,Primario
 110756,2024.0,2.0,,0.0,MSI,Municipal,Primario
 110756,2024.0,5.0,,1.0,MSI,Municipal,Primario
 110756,2024.0,8.0,,1.0,MSI,Municipal,Primario
@@ -843,6 +985,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110760,2024.0,7.0,,0.0,MSI,Servicio de Salud,Primario
 110760,2024.0,8.0,,0.0,MSI,Servicio de Salud,Primario
 110760,2024.0,9.0,1.0,1.0,MSI,Servicio de Salud,Primario
+110760,2024.0,12.0,0.0,,MSI,Servicio de Salud,Primario
 110775,2023.0,10.0,,0.0,MSI,Municipal,Primario
 110775,2024.0,1.0,1.0,,MSI,Municipal,Primario
 110775,2024.0,2.0,,1.0,MSI,Municipal,Primario
@@ -850,9 +993,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110775,2024.0,5.0,1.0,2.0,MSI,Municipal,Primario
 110775,2024.0,6.0,,0.0,MSI,Municipal,Primario
 110775,2024.0,8.0,1.0,0.0,MSI,Municipal,Primario
-110778,2023.0,10.0,3.0,3.0,MSI,Municipal,Primario
-110778,2023.0,11.0,3.0,,MSI,Municipal,Primario
-110778,2023.0,12.0,1.0,,MSI,Municipal,Primario
+110775,2024.0,10.0,1.0,,MSI,Municipal,Primario
+110775,2024.0,12.0,1.0,,MSI,Municipal,Primario
+110778,2023.0,10.0,,3.0,MSI,Municipal,Primario
 110778,2024.0,1.0,1.0,,MSI,Municipal,Primario
 110778,2024.0,2.0,,1.0,MSI,Municipal,Primario
 110778,2024.0,3.0,,1.0,MSI,Municipal,Primario
@@ -861,19 +1004,22 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110778,2024.0,7.0,1.0,0.0,MSI,Municipal,Primario
 110778,2024.0,8.0,,1.0,MSI,Municipal,Primario
 110778,2024.0,9.0,0.0,,MSI,Municipal,Primario
+110778,2024.0,10.0,1.0,,MSI,Municipal,Primario
+110778,2024.0,12.0,1.0,,MSI,Municipal,Primario
 110781,2023.0,10.0,,1.0,MSI,Municipal,Primario
-110781,2023.0,11.0,0.0,,MSI,Municipal,Primario
 110781,2024.0,1.0,,1.0,MSI,Municipal,Primario
 110781,2024.0,4.0,1.0,0.0,MSI,Municipal,Primario
 110781,2024.0,6.0,1.0,2.0,MSI,Municipal,Primario
 110781,2024.0,7.0,1.0,1.0,MSI,Municipal,Primario
 110781,2024.0,8.0,,1.0,MSI,Municipal,Primario
+110781,2024.0,10.0,3.0,,MSI,Municipal,Primario
+110781,2024.0,11.0,0.0,,MSI,Municipal,Primario
 110783,2024.0,1.0,,1.0,MSI,Municipal,Primario
 110783,2024.0,3.0,,0.0,MSI,Municipal,Primario
 110783,2024.0,5.0,1.0,,MSI,Municipal,Primario
 111300,2023.0,10.0,,4.0,MSI,Servicio de Salud,Primario
-111300,2023.0,11.0,3.0,7.0,MSI,Servicio de Salud,Primario
-111300,2023.0,12.0,1.0,7.0,MSI,Servicio de Salud,Primario
+111300,2023.0,11.0,,7.0,MSI,Servicio de Salud,Primario
+111300,2023.0,12.0,,7.0,MSI,Servicio de Salud,Primario
 111300,2024.0,1.0,,9.0,MSI,Servicio de Salud,Primario
 111300,2024.0,2.0,3.0,0.0,MSI,Servicio de Salud,Primario
 111300,2024.0,3.0,6.0,3.0,MSI,Servicio de Salud,Primario
@@ -883,9 +1029,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111300,2024.0,7.0,3.0,6.0,MSI,Servicio de Salud,Primario
 111300,2024.0,8.0,9.0,3.0,MSI,Servicio de Salud,Primario
 111300,2024.0,9.0,2.0,6.0,MSI,Servicio de Salud,Primario
-111301,2023.0,10.0,2.0,5.0,MSI,Servicio de Salud,Primario
-111301,2023.0,11.0,0.0,9.0,MSI,Servicio de Salud,Primario
-111301,2023.0,12.0,1.0,2.0,MSI,Servicio de Salud,Primario
+111300,2024.0,10.0,11.0,,MSI,Servicio de Salud,Primario
+111300,2024.0,11.0,7.0,,MSI,Servicio de Salud,Primario
+111300,2024.0,12.0,7.0,,MSI,Servicio de Salud,Primario
+111301,2023.0,10.0,,5.0,MSI,Servicio de Salud,Primario
+111301,2023.0,11.0,,9.0,MSI,Servicio de Salud,Primario
+111301,2023.0,12.0,,2.0,MSI,Servicio de Salud,Primario
 111301,2024.0,1.0,1.0,3.0,MSI,Servicio de Salud,Primario
 111301,2024.0,2.0,2.0,1.0,MSI,Servicio de Salud,Primario
 111301,2024.0,3.0,1.0,5.0,MSI,Servicio de Salud,Primario
@@ -895,9 +1044,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111301,2024.0,7.0,1.0,5.0,MSI,Servicio de Salud,Primario
 111301,2024.0,8.0,3.0,7.0,MSI,Servicio de Salud,Primario
 111301,2024.0,9.0,1.0,0.0,MSI,Servicio de Salud,Primario
-111302,2023.0,10.0,0.0,4.0,MSI,Servicio de Salud,Primario
-111302,2023.0,11.0,4.0,2.0,MSI,Servicio de Salud,Primario
-111302,2023.0,12.0,4.0,2.0,MSI,Servicio de Salud,Primario
+111301,2024.0,11.0,3.0,,MSI,Servicio de Salud,Primario
+111301,2024.0,12.0,1.0,,MSI,Servicio de Salud,Primario
+111302,2023.0,10.0,,4.0,MSI,Servicio de Salud,Primario
+111302,2023.0,11.0,,2.0,MSI,Servicio de Salud,Primario
+111302,2023.0,12.0,,2.0,MSI,Servicio de Salud,Primario
 111302,2024.0,1.0,,3.0,MSI,Servicio de Salud,Primario
 111302,2024.0,2.0,3.0,1.0,MSI,Servicio de Salud,Primario
 111302,2024.0,3.0,4.0,6.0,MSI,Servicio de Salud,Primario
@@ -907,8 +1058,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111302,2024.0,7.0,2.0,4.0,MSI,Servicio de Salud,Primario
 111302,2024.0,8.0,3.0,0.0,MSI,Servicio de Salud,Primario
 111302,2024.0,9.0,3.0,1.0,MSI,Servicio de Salud,Primario
-111303,2023.0,10.0,2.0,3.0,MSI,Municipal,Primario
-111303,2023.0,11.0,1.0,1.0,MSI,Municipal,Primario
+111302,2024.0,10.0,5.0,,MSI,Servicio de Salud,Primario
+111302,2024.0,11.0,2.0,,MSI,Servicio de Salud,Primario
+111302,2024.0,12.0,2.0,,MSI,Servicio de Salud,Primario
+111303,2023.0,10.0,,3.0,MSI,Municipal,Primario
+111303,2023.0,11.0,,1.0,MSI,Municipal,Primario
 111303,2023.0,12.0,,0.0,MSI,Municipal,Primario
 111303,2024.0,1.0,0.0,6.0,MSI,Municipal,Primario
 111303,2024.0,2.0,0.0,1.0,MSI,Municipal,Primario
@@ -919,9 +1073,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111303,2024.0,7.0,,2.0,MSI,Municipal,Primario
 111303,2024.0,8.0,2.0,1.0,MSI,Municipal,Primario
 111303,2024.0,9.0,0.0,4.0,MSI,Municipal,Primario
-111304,2023.0,10.0,3.0,0.0,MSI,Servicio de Salud,Primario
-111304,2023.0,11.0,1.0,1.0,MSI,Servicio de Salud,Primario
-111304,2023.0,12.0,1.0,5.0,MSI,Servicio de Salud,Primario
+111303,2024.0,10.0,1.0,,MSI,Municipal,Primario
+111303,2024.0,11.0,1.0,,MSI,Municipal,Primario
+111303,2024.0,12.0,2.0,,MSI,Municipal,Primario
+111304,2023.0,10.0,,0.0,MSI,Servicio de Salud,Primario
+111304,2023.0,11.0,,1.0,MSI,Servicio de Salud,Primario
+111304,2023.0,12.0,,5.0,MSI,Servicio de Salud,Primario
 111304,2024.0,1.0,4.0,2.0,MSI,Servicio de Salud,Primario
 111304,2024.0,2.0,2.0,2.0,MSI,Servicio de Salud,Primario
 111304,2024.0,3.0,3.0,6.0,MSI,Servicio de Salud,Primario
@@ -931,9 +1088,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111304,2024.0,7.0,0.0,3.0,MSI,Servicio de Salud,Primario
 111304,2024.0,8.0,1.0,2.0,MSI,Servicio de Salud,Primario
 111304,2024.0,9.0,4.0,3.0,MSI,Servicio de Salud,Primario
+111304,2024.0,10.0,1.0,,MSI,Servicio de Salud,Primario
+111304,2024.0,11.0,1.0,,MSI,Servicio de Salud,Primario
+111304,2024.0,12.0,0.0,,MSI,Servicio de Salud,Primario
 111305,2023.0,10.0,,6.0,MSI,Servicio de Salud,Primario
-111305,2023.0,11.0,0.0,3.0,MSI,Servicio de Salud,Primario
-111305,2023.0,12.0,0.0,5.0,MSI,Servicio de Salud,Primario
+111305,2023.0,11.0,,3.0,MSI,Servicio de Salud,Primario
+111305,2023.0,12.0,,5.0,MSI,Servicio de Salud,Primario
 111305,2024.0,1.0,1.0,8.0,MSI,Servicio de Salud,Primario
 111305,2024.0,2.0,,5.0,MSI,Servicio de Salud,Primario
 111305,2024.0,3.0,,10.0,MSI,Servicio de Salud,Primario
@@ -943,9 +1103,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111305,2024.0,7.0,1.0,7.0,MSI,Servicio de Salud,Primario
 111305,2024.0,8.0,6.0,5.0,MSI,Servicio de Salud,Primario
 111305,2024.0,9.0,4.0,1.0,MSI,Servicio de Salud,Primario
+111305,2024.0,10.0,3.0,,MSI,Servicio de Salud,Primario
+111305,2024.0,11.0,3.0,,MSI,Servicio de Salud,Primario
+111305,2024.0,12.0,2.0,,MSI,Servicio de Salud,Primario
 111306,2023.0,10.0,,7.0,MSI,Servicio de Salud,Primario
-111306,2023.0,11.0,2.0,1.0,MSI,Servicio de Salud,Primario
-111306,2023.0,12.0,0.0,0.0,MSI,Servicio de Salud,Primario
+111306,2023.0,11.0,,1.0,MSI,Servicio de Salud,Primario
+111306,2023.0,12.0,,0.0,MSI,Servicio de Salud,Primario
 111306,2024.0,1.0,1.0,1.0,MSI,Servicio de Salud,Primario
 111306,2024.0,2.0,2.0,2.0,MSI,Servicio de Salud,Primario
 111306,2024.0,3.0,2.0,1.0,MSI,Servicio de Salud,Primario
@@ -955,9 +1118,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111306,2024.0,7.0,2.0,0.0,MSI,Servicio de Salud,Primario
 111306,2024.0,8.0,1.0,0.0,MSI,Servicio de Salud,Primario
 111306,2024.0,9.0,4.0,0.0,MSI,Servicio de Salud,Primario
-111307,2023.0,10.0,0.0,1.0,MSI,Servicio de Salud,Primario
-111307,2023.0,11.0,1.0,3.0,MSI,Servicio de Salud,Primario
-111307,2023.0,12.0,0.0,0.0,MSI,Servicio de Salud,Primario
+111306,2024.0,10.0,0.0,,MSI,Servicio de Salud,Primario
+111306,2024.0,11.0,0.0,,MSI,Servicio de Salud,Primario
+111306,2024.0,12.0,0.0,,MSI,Servicio de Salud,Primario
+111307,2023.0,10.0,,1.0,MSI,Servicio de Salud,Primario
+111307,2023.0,11.0,,3.0,MSI,Servicio de Salud,Primario
+111307,2023.0,12.0,,0.0,MSI,Servicio de Salud,Primario
 111307,2024.0,1.0,,2.0,MSI,Servicio de Salud,Primario
 111307,2024.0,2.0,0.0,3.0,MSI,Servicio de Salud,Primario
 111307,2024.0,3.0,2.0,2.0,MSI,Servicio de Salud,Primario
@@ -967,9 +1133,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111307,2024.0,7.0,1.0,0.0,MSI,Servicio de Salud,Primario
 111307,2024.0,8.0,1.0,0.0,MSI,Servicio de Salud,Primario
 111307,2024.0,9.0,1.0,,MSI,Servicio de Salud,Primario
-111308,2023.0,10.0,3.0,1.0,MSI,Servicio de Salud,Primario
-111308,2023.0,11.0,1.0,5.0,MSI,Servicio de Salud,Primario
-111308,2023.0,12.0,2.0,0.0,MSI,Servicio de Salud,Primario
+111307,2024.0,10.0,2.0,,MSI,Servicio de Salud,Primario
+111307,2024.0,11.0,1.0,,MSI,Servicio de Salud,Primario
+111307,2024.0,12.0,1.0,,MSI,Servicio de Salud,Primario
+111308,2023.0,10.0,,1.0,MSI,Servicio de Salud,Primario
+111308,2023.0,11.0,,5.0,MSI,Servicio de Salud,Primario
+111308,2023.0,12.0,,0.0,MSI,Servicio de Salud,Primario
 111308,2024.0,1.0,1.0,2.0,MSI,Servicio de Salud,Primario
 111308,2024.0,2.0,2.0,3.0,MSI,Servicio de Salud,Primario
 111308,2024.0,3.0,2.0,4.0,MSI,Servicio de Salud,Primario
@@ -979,9 +1148,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111308,2024.0,7.0,3.0,1.0,MSI,Servicio de Salud,Primario
 111308,2024.0,8.0,4.0,6.0,MSI,Servicio de Salud,Primario
 111308,2024.0,9.0,2.0,3.0,MSI,Servicio de Salud,Primario
-111309,2023.0,10.0,3.0,0.0,MSI,Servicio de Salud,Primario
-111309,2023.0,11.0,3.0,4.0,MSI,Servicio de Salud,Primario
-111309,2023.0,12.0,1.0,1.0,MSI,Servicio de Salud,Primario
+111308,2024.0,10.0,3.0,,MSI,Servicio de Salud,Primario
+111308,2024.0,11.0,3.0,,MSI,Servicio de Salud,Primario
+111308,2024.0,12.0,2.0,,MSI,Servicio de Salud,Primario
+111309,2023.0,10.0,,0.0,MSI,Servicio de Salud,Primario
+111309,2023.0,11.0,,4.0,MSI,Servicio de Salud,Primario
+111309,2023.0,12.0,,1.0,MSI,Servicio de Salud,Primario
 111309,2024.0,1.0,3.0,3.0,MSI,Servicio de Salud,Primario
 111309,2024.0,2.0,1.0,3.0,MSI,Servicio de Salud,Primario
 111309,2024.0,3.0,3.0,6.0,MSI,Servicio de Salud,Primario
@@ -991,8 +1163,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111309,2024.0,7.0,3.0,5.0,MSI,Servicio de Salud,Primario
 111309,2024.0,8.0,6.0,1.0,MSI,Servicio de Salud,Primario
 111309,2024.0,9.0,4.0,0.0,MSI,Servicio de Salud,Primario
+111309,2024.0,10.0,9.0,,MSI,Servicio de Salud,Primario
+111309,2024.0,11.0,1.0,,MSI,Servicio de Salud,Primario
+111309,2024.0,12.0,1.0,,MSI,Servicio de Salud,Primario
 111310,2023.0,10.0,,2.0,MSI,Servicio de Salud,Primario
-111310,2023.0,11.0,4.0,,MSI,Servicio de Salud,Primario
 111310,2024.0,1.0,,4.0,MSI,Servicio de Salud,Primario
 111310,2024.0,2.0,2.0,0.0,MSI,Servicio de Salud,Primario
 111310,2024.0,3.0,1.0,2.0,MSI,Servicio de Salud,Primario
@@ -1002,9 +1176,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111310,2024.0,7.0,1.0,1.0,MSI,Servicio de Salud,Primario
 111310,2024.0,8.0,1.0,3.0,MSI,Servicio de Salud,Primario
 111310,2024.0,9.0,2.0,1.0,MSI,Servicio de Salud,Primario
-111370,2023.0,10.0,1.0,2.0,MSI,Municipal,Primario
+111310,2024.0,10.0,2.0,,MSI,Servicio de Salud,Primario
+111310,2024.0,11.0,0.0,,MSI,Servicio de Salud,Primario
+111310,2024.0,12.0,1.0,,MSI,Servicio de Salud,Primario
+111370,2023.0,10.0,,2.0,MSI,Municipal,Primario
 111370,2023.0,11.0,,1.0,MSI,Municipal,Primario
-111370,2023.0,12.0,1.0,0.0,MSI,Municipal,Primario
+111370,2023.0,12.0,,0.0,MSI,Municipal,Primario
 111370,2024.0,1.0,1.0,0.0,MSI,Municipal,Primario
 111370,2024.0,2.0,0.0,1.0,MSI,Municipal,Primario
 111370,2024.0,3.0,1.0,1.0,MSI,Municipal,Primario
@@ -1014,9 +1191,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111370,2024.0,7.0,,1.0,MSI,Municipal,Primario
 111370,2024.0,8.0,2.0,3.0,MSI,Municipal,Primario
 111370,2024.0,9.0,0.0,1.0,MSI,Municipal,Primario
-111372,2023.0,10.0,0.0,3.0,MSI,Municipal,Primario
-111372,2023.0,11.0,1.0,0.0,MSI,Municipal,Primario
-111372,2023.0,12.0,1.0,2.0,MSI,Municipal,Primario
+111370,2024.0,11.0,1.0,,MSI,Municipal,Primario
+111372,2023.0,10.0,,3.0,MSI,Municipal,Primario
+111372,2023.0,11.0,,0.0,MSI,Municipal,Primario
+111372,2023.0,12.0,,2.0,MSI,Municipal,Primario
 111372,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
 111372,2024.0,2.0,1.0,0.0,MSI,Municipal,Primario
 111372,2024.0,3.0,0.0,2.0,MSI,Municipal,Primario
@@ -1026,9 +1204,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111372,2024.0,7.0,1.0,3.0,MSI,Municipal,Primario
 111372,2024.0,8.0,,2.0,MSI,Municipal,Primario
 111372,2024.0,9.0,3.0,,MSI,Municipal,Primario
-111376,2023.0,10.0,1.0,4.0,MSI,Municipal,Primario
-111376,2023.0,11.0,4.0,1.0,MSI,Municipal,Primario
-111376,2023.0,12.0,0.0,1.0,MSI,Municipal,Primario
+111372,2024.0,11.0,1.0,,MSI,Municipal,Primario
+111372,2024.0,12.0,0.0,,MSI,Municipal,Primario
+111376,2023.0,10.0,,4.0,MSI,Municipal,Primario
+111376,2023.0,11.0,,1.0,MSI,Municipal,Primario
+111376,2023.0,12.0,,1.0,MSI,Municipal,Primario
 111376,2024.0,1.0,2.0,0.0,MSI,Municipal,Primario
 111376,2024.0,2.0,0.0,4.0,MSI,Municipal,Primario
 111376,2024.0,3.0,2.0,3.0,MSI,Municipal,Primario
@@ -1038,9 +1218,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111376,2024.0,7.0,5.0,4.0,MSI,Municipal,Primario
 111376,2024.0,8.0,1.0,0.0,MSI,Municipal,Primario
 111376,2024.0,9.0,5.0,2.0,MSI,Municipal,Primario
-111378,2023.0,10.0,2.0,3.0,MSI,Municipal,Primario
-111378,2023.0,11.0,3.0,3.0,MSI,Municipal,Primario
-111378,2023.0,12.0,0.0,,MSI,Municipal,Primario
+111376,2024.0,11.0,0.0,,MSI,Municipal,Primario
+111376,2024.0,12.0,1.0,,MSI,Municipal,Primario
+111378,2023.0,10.0,,3.0,MSI,Municipal,Primario
+111378,2023.0,11.0,,3.0,MSI,Municipal,Primario
 111378,2024.0,1.0,2.0,2.0,MSI,Municipal,Primario
 111378,2024.0,2.0,2.0,1.0,MSI,Municipal,Primario
 111378,2024.0,3.0,1.0,1.0,MSI,Municipal,Primario
@@ -1050,8 +1231,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111378,2024.0,7.0,,1.0,MSI,Municipal,Primario
 111378,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 111378,2024.0,9.0,0.0,2.0,MSI,Municipal,Primario
-111379,2023.0,10.0,1.0,1.0,MSI,Municipal,Primario
-111379,2023.0,11.0,0.0,2.0,MSI,Municipal,Primario
+111378,2024.0,10.0,1.0,,MSI,Municipal,Primario
+111378,2024.0,11.0,0.0,,MSI,Municipal,Primario
+111378,2024.0,12.0,3.0,,MSI,Municipal,Primario
+111379,2023.0,10.0,,1.0,MSI,Municipal,Primario
+111379,2023.0,11.0,,2.0,MSI,Municipal,Primario
 111379,2023.0,12.0,,2.0,MSI,Municipal,Primario
 111379,2024.0,1.0,1.0,0.0,MSI,Municipal,Primario
 111379,2024.0,2.0,0.0,2.0,MSI,Municipal,Primario
@@ -1062,9 +1246,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111379,2024.0,7.0,2.0,0.0,MSI,Municipal,Primario
 111379,2024.0,8.0,0.0,,MSI,Municipal,Primario
 111379,2024.0,9.0,3.0,1.0,MSI,Municipal,Primario
+111379,2024.0,12.0,1.0,,MSI,Municipal,Primario
 111380,2023.0,10.0,,0.0,MSI,Municipal,Primario
-111380,2023.0,11.0,1.0,2.0,MSI,Municipal,Primario
-111380,2023.0,12.0,1.0,2.0,MSI,Municipal,Primario
+111380,2023.0,11.0,,2.0,MSI,Municipal,Primario
+111380,2023.0,12.0,,2.0,MSI,Municipal,Primario
 111380,2024.0,1.0,,2.0,MSI,Municipal,Primario
 111380,2024.0,2.0,1.0,0.0,MSI,Municipal,Primario
 111380,2024.0,3.0,1.0,1.0,MSI,Municipal,Primario
@@ -1073,9 +1258,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111380,2024.0,7.0,2.0,1.0,MSI,Municipal,Primario
 111380,2024.0,8.0,2.0,2.0,MSI,Municipal,Primario
 111380,2024.0,9.0,,1.0,MSI,Municipal,Primario
-111381,2023.0,10.0,1.0,0.0,MSI,Municipal,Primario
-111381,2023.0,11.0,3.0,2.0,MSI,Municipal,Primario
-111381,2023.0,12.0,0.0,1.0,MSI,Municipal,Primario
+111380,2024.0,10.0,1.0,,MSI,Municipal,Primario
+111380,2024.0,11.0,1.0,,MSI,Municipal,Primario
+111381,2023.0,10.0,,0.0,MSI,Municipal,Primario
+111381,2023.0,11.0,,2.0,MSI,Municipal,Primario
+111381,2023.0,12.0,,1.0,MSI,Municipal,Primario
 111381,2024.0,1.0,0.0,3.0,MSI,Municipal,Primario
 111381,2024.0,2.0,0.0,0.0,MSI,Municipal,Primario
 111381,2024.0,3.0,2.0,2.0,MSI,Municipal,Primario
@@ -1085,9 +1272,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111381,2024.0,7.0,2.0,0.0,MSI,Municipal,Primario
 111381,2024.0,8.0,0.0,2.0,MSI,Municipal,Primario
 111381,2024.0,9.0,1.0,2.0,MSI,Municipal,Primario
-111382,2023.0,10.0,1.0,3.0,MSI,Municipal,Primario
-111382,2023.0,11.0,3.0,6.0,MSI,Municipal,Primario
-111382,2023.0,12.0,3.0,3.0,MSI,Municipal,Primario
+111381,2024.0,10.0,0.0,,MSI,Municipal,Primario
+111381,2024.0,11.0,1.0,,MSI,Municipal,Primario
+111381,2024.0,12.0,2.0,,MSI,Municipal,Primario
+111382,2023.0,10.0,,3.0,MSI,Municipal,Primario
+111382,2023.0,11.0,,6.0,MSI,Municipal,Primario
+111382,2023.0,12.0,,3.0,MSI,Municipal,Primario
 111382,2024.0,1.0,0.0,10.0,MSI,Municipal,Primario
 111382,2024.0,2.0,1.0,3.0,MSI,Municipal,Primario
 111382,2024.0,3.0,1.0,4.0,MSI,Municipal,Primario
@@ -1097,9 +1287,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111382,2024.0,7.0,4.0,1.0,MSI,Municipal,Primario
 111382,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 111382,2024.0,9.0,2.0,2.0,MSI,Municipal,Primario
+111382,2024.0,10.0,1.0,,MSI,Municipal,Primario
+111382,2024.0,11.0,1.0,,MSI,Municipal,Primario
+111382,2024.0,12.0,0.0,,MSI,Municipal,Primario
 111383,2023.0,10.0,,4.0,MSI,Municipal,Primario
-111383,2023.0,11.0,0.0,1.0,MSI,Municipal,Primario
-111383,2023.0,12.0,0.0,0.0,MSI,Municipal,Primario
+111383,2023.0,11.0,,1.0,MSI,Municipal,Primario
+111383,2023.0,12.0,,0.0,MSI,Municipal,Primario
 111383,2024.0,1.0,1.0,3.0,MSI,Municipal,Primario
 111383,2024.0,2.0,3.0,,MSI,Municipal,Primario
 111383,2024.0,3.0,1.0,3.0,MSI,Municipal,Primario
@@ -1109,9 +1302,13 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111383,2024.0,7.0,3.0,1.0,MSI,Municipal,Primario
 111383,2024.0,8.0,1.0,4.0,MSI,Municipal,Primario
 111383,2024.0,9.0,3.0,,MSI,Municipal,Primario
+111383,2024.0,10.0,1.0,,MSI,Municipal,Primario
+111383,2024.0,11.0,3.0,,MSI,Municipal,Primario
+111383,2024.0,12.0,2.0,,MSI,Municipal,Primario
 111400,2024.0,7.0,,1.0,MSI,Servicio de Salud,Primario
 111400,2024.0,8.0,,1.0,MSI,Servicio de Salud,Primario
 111400,2024.0,9.0,,1.0,MSI,Servicio de Salud,Primario
+111400,2024.0,11.0,1.0,,MSI,Servicio de Salud,Primario
 111704,2023.0,12.0,,1.0,MSI,Servicio de Salud,Primario
 111780,2024.0,8.0,,1.0,MSI,Servicio de Salud,Primario
 111781,2023.0,11.0,,1.0,MSI,Servicio de Salud,Primario
@@ -1123,7 +1320,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111781,2024.0,6.0,,0.0,MSI,Servicio de Salud,Primario
 111781,2024.0,7.0,,0.0,MSI,Servicio de Salud,Primario
 111781,2024.0,8.0,0.0,0.0,MSI,Servicio de Salud,Primario
-111783,2023.0,10.0,1.0,0.0,MSI,Municipal,Primario
+111783,2023.0,10.0,,0.0,MSI,Municipal,Primario
 111783,2023.0,11.0,,1.0,MSI,Municipal,Primario
 111783,2024.0,1.0,,2.0,MSI,Municipal,Primario
 111783,2024.0,3.0,,1.0,MSI,Municipal,Primario
@@ -1133,24 +1330,24 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111783,2024.0,7.0,,1.0,MSI,Municipal,Primario
 111783,2024.0,8.0,0.0,,MSI,Municipal,Primario
 111783,2024.0,9.0,1.0,,MSI,Municipal,Primario
+111783,2024.0,10.0,1.0,,MSI,Municipal,Primario
 111784,2024.0,4.0,1.0,,MSI,Municipal,Primario
 111784,2024.0,5.0,,1.0,MSI,Municipal,Primario
 111784,2024.0,9.0,1.0,,MSI,Municipal,Primario
-112301,2023.0,11.0,0.0,,MSI,Municipal,Primario
 112301,2024.0,1.0,1.0,2.0,MSI,Municipal,Primario
 112301,2024.0,4.0,1.0,,MSI,Municipal,Primario
 112301,2024.0,5.0,,1.0,MSI,Municipal,Primario
 112301,2024.0,6.0,1.0,1.0,MSI,Municipal,Primario
 112301,2024.0,7.0,,1.0,MSI,Municipal,Primario
 112301,2024.0,9.0,2.0,,MSI,Municipal,Primario
-112302,2023.0,10.0,1.0,,MSI,Municipal,Primario
+112301,2024.0,12.0,1.0,,MSI,Municipal,Primario
 112302,2023.0,11.0,,2.0,MSI,Municipal,Primario
 112302,2024.0,2.0,,1.0,MSI,Municipal,Primario
 112302,2024.0,4.0,,0.0,MSI,Municipal,Primario
 112302,2024.0,5.0,,0.0,MSI,Municipal,Primario
 112302,2024.0,6.0,1.0,,MSI,Municipal,Primario
 112302,2024.0,8.0,,1.0,MSI,Municipal,Primario
-112303,2023.0,11.0,2.0,,MSI,Municipal,Primario
+112302,2024.0,12.0,1.0,,MSI,Municipal,Primario
 112303,2024.0,4.0,0.0,,MSI,Municipal,Primario
 112303,2024.0,9.0,,0.0,MSI,Municipal,Primario
 112304,2024.0,2.0,,0.0,MSI,Municipal,Primario
@@ -1158,7 +1355,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112304,2024.0,9.0,,1.0,MSI,Municipal,Primario
 112306,2023.0,10.0,,2.0,MSI,Municipal,Primario
 112306,2023.0,11.0,,3.0,MSI,Municipal,Primario
-112306,2023.0,12.0,0.0,1.0,MSI,Municipal,Primario
+112306,2023.0,12.0,,1.0,MSI,Municipal,Primario
 112306,2024.0,1.0,1.0,0.0,MSI,Municipal,Primario
 112306,2024.0,2.0,1.0,1.0,MSI,Municipal,Primario
 112306,2024.0,3.0,2.0,,MSI,Municipal,Primario
@@ -1167,8 +1364,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112306,2024.0,7.0,,0.0,MSI,Municipal,Primario
 112306,2024.0,8.0,0.0,1.0,MSI,Municipal,Primario
 112306,2024.0,9.0,1.0,,MSI,Municipal,Primario
-112307,2023.0,10.0,5.0,0.0,MSI,Municipal,Primario
-112307,2023.0,11.0,0.0,0.0,MSI,Municipal,Primario
+112306,2024.0,10.0,1.0,,MSI,Municipal,Primario
+112307,2023.0,10.0,,0.0,MSI,Municipal,Primario
+112307,2023.0,11.0,,0.0,MSI,Municipal,Primario
 112307,2024.0,1.0,,1.0,MSI,Municipal,Primario
 112307,2024.0,2.0,0.0,1.0,MSI,Municipal,Primario
 112307,2024.0,3.0,,0.0,MSI,Municipal,Primario
@@ -1178,9 +1376,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112307,2024.0,7.0,2.0,4.0,MSI,Municipal,Primario
 112307,2024.0,8.0,2.0,1.0,MSI,Municipal,Primario
 112307,2024.0,9.0,2.0,2.0,MSI,Municipal,Primario
+112307,2024.0,10.0,4.0,,MSI,Municipal,Primario
+112307,2024.0,11.0,1.0,,MSI,Municipal,Primario
+112307,2024.0,12.0,1.0,,MSI,Municipal,Primario
 112309,2023.0,10.0,,0.0,MSI,Municipal,Primario
 112309,2023.0,11.0,,0.0,MSI,Municipal,Primario
-112309,2023.0,12.0,0.0,1.0,MSI,Municipal,Primario
+112309,2023.0,12.0,,1.0,MSI,Municipal,Primario
 112309,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
 112309,2024.0,3.0,,2.0,MSI,Municipal,Primario
 112309,2024.0,4.0,1.0,1.0,MSI,Municipal,Primario
@@ -1188,9 +1389,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112309,2024.0,7.0,0.0,1.0,MSI,Municipal,Primario
 112309,2024.0,8.0,1.0,0.0,MSI,Municipal,Primario
 112309,2024.0,9.0,0.0,0.0,MSI,Municipal,Primario
+112309,2024.0,10.0,0.0,,MSI,Municipal,Primario
+112309,2024.0,11.0,0.0,,MSI,Municipal,Primario
 112310,2023.0,10.0,,3.0,MSI,Municipal,Primario
-112310,2023.0,11.0,1.0,1.0,MSI,Municipal,Primario
-112310,2023.0,12.0,0.0,0.0,MSI,Municipal,Primario
+112310,2023.0,11.0,,1.0,MSI,Municipal,Primario
+112310,2023.0,12.0,,0.0,MSI,Municipal,Primario
 112310,2024.0,1.0,,1.0,MSI,Municipal,Primario
 112310,2024.0,2.0,1.0,2.0,MSI,Municipal,Primario
 112310,2024.0,3.0,1.0,,MSI,Municipal,Primario
@@ -1199,8 +1402,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112310,2024.0,7.0,3.0,2.0,MSI,Municipal,Primario
 112310,2024.0,8.0,2.0,,MSI,Municipal,Primario
 112310,2024.0,9.0,2.0,2.0,MSI,Municipal,Primario
+112310,2024.0,10.0,1.0,,MSI,Municipal,Primario
+112310,2024.0,12.0,1.0,,MSI,Municipal,Primario
 112311,2023.0,10.0,,1.0,MSI,Municipal,Primario
-112311,2023.0,11.0,1.0,1.0,MSI,Municipal,Primario
+112311,2023.0,11.0,,1.0,MSI,Municipal,Primario
 112311,2023.0,12.0,,2.0,MSI,Municipal,Primario
 112311,2024.0,1.0,1.0,3.0,MSI,Municipal,Primario
 112311,2024.0,2.0,2.0,,MSI,Municipal,Primario
@@ -1211,7 +1416,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112311,2024.0,7.0,0.0,3.0,MSI,Municipal,Primario
 112311,2024.0,8.0,1.0,3.0,MSI,Municipal,Primario
 112311,2024.0,9.0,4.0,3.0,MSI,Municipal,Primario
-112312,2023.0,10.0,2.0,1.0,MSI,Municipal,Primario
+112311,2024.0,10.0,2.0,,MSI,Municipal,Primario
+112311,2024.0,11.0,4.0,,MSI,Municipal,Primario
+112311,2024.0,12.0,1.0,,MSI,Municipal,Primario
+112312,2023.0,10.0,,1.0,MSI,Municipal,Primario
 112312,2023.0,11.0,,2.0,MSI,Municipal,Primario
 112312,2023.0,12.0,,0.0,MSI,Municipal,Primario
 112312,2024.0,1.0,1.0,1.0,MSI,Municipal,Primario
@@ -1222,9 +1430,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112312,2024.0,7.0,2.0,,MSI,Municipal,Primario
 112312,2024.0,8.0,0.0,0.0,MSI,Municipal,Primario
 112312,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
-112313,2023.0,10.0,0.0,7.0,MSI,Municipal,Primario
-112313,2023.0,11.0,1.0,1.0,MSI,Municipal,Primario
-112313,2023.0,12.0,2.0,2.0,MSI,Municipal,Primario
+112312,2024.0,11.0,0.0,,MSI,Municipal,Primario
+112312,2024.0,12.0,1.0,,MSI,Municipal,Primario
+112313,2023.0,10.0,,7.0,MSI,Municipal,Primario
+112313,2023.0,11.0,,1.0,MSI,Municipal,Primario
+112313,2023.0,12.0,,2.0,MSI,Municipal,Primario
 112313,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
 112313,2024.0,2.0,,2.0,MSI,Municipal,Primario
 112313,2024.0,3.0,,1.0,MSI,Municipal,Primario
@@ -1233,9 +1443,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112313,2024.0,6.0,2.0,1.0,MSI,Municipal,Primario
 112313,2024.0,7.0,0.0,2.0,MSI,Municipal,Primario
 112313,2024.0,9.0,1.0,3.0,MSI,Municipal,Primario
-112314,2023.0,10.0,2.0,4.0,MSI,Municipal,Primario
-112314,2023.0,11.0,1.0,0.0,MSI,Municipal,Primario
-112314,2023.0,12.0,1.0,1.0,MSI,Municipal,Primario
+112313,2024.0,10.0,3.0,,MSI,Municipal,Primario
+112313,2024.0,11.0,1.0,,MSI,Municipal,Primario
+112313,2024.0,12.0,2.0,,MSI,Municipal,Primario
+112314,2023.0,10.0,,4.0,MSI,Municipal,Primario
+112314,2023.0,11.0,,0.0,MSI,Municipal,Primario
+112314,2023.0,12.0,,1.0,MSI,Municipal,Primario
 112314,2024.0,1.0,2.0,1.0,MSI,Municipal,Primario
 112314,2024.0,2.0,,2.0,MSI,Municipal,Primario
 112314,2024.0,3.0,2.0,3.0,MSI,Municipal,Primario
@@ -1245,9 +1458,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112314,2024.0,7.0,1.0,4.0,MSI,Municipal,Primario
 112314,2024.0,8.0,0.0,0.0,MSI,Municipal,Primario
 112314,2024.0,9.0,1.0,0.0,MSI,Municipal,Primario
-112315,2023.0,10.0,6.0,1.0,MSI,Municipal,Primario
-112315,2023.0,11.0,3.0,1.0,MSI,Municipal,Primario
-112315,2023.0,12.0,0.0,1.0,MSI,Municipal,Primario
+112314,2024.0,10.0,1.0,,MSI,Municipal,Primario
+112314,2024.0,11.0,2.0,,MSI,Municipal,Primario
+112314,2024.0,12.0,1.0,,MSI,Municipal,Primario
+112315,2023.0,10.0,,1.0,MSI,Municipal,Primario
+112315,2023.0,11.0,,1.0,MSI,Municipal,Primario
+112315,2023.0,12.0,,1.0,MSI,Municipal,Primario
 112315,2024.0,1.0,4.0,4.0,MSI,Municipal,Primario
 112315,2024.0,2.0,0.0,2.0,MSI,Municipal,Primario
 112315,2024.0,3.0,,1.0,MSI,Municipal,Primario
@@ -1257,9 +1473,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112315,2024.0,7.0,3.0,5.0,MSI,Municipal,Primario
 112315,2024.0,8.0,2.0,,MSI,Municipal,Primario
 112315,2024.0,9.0,2.0,,MSI,Municipal,Primario
-112316,2023.0,10.0,1.0,6.0,MSI,Municipal,Primario
-112316,2023.0,11.0,1.0,5.0,MSI,Municipal,Primario
-112316,2023.0,12.0,0.0,4.0,MSI,Municipal,Primario
+112315,2024.0,11.0,1.0,,MSI,Municipal,Primario
+112315,2024.0,12.0,0.0,,MSI,Municipal,Primario
+112316,2023.0,10.0,,6.0,MSI,Municipal,Primario
+112316,2023.0,11.0,,5.0,MSI,Municipal,Primario
+112316,2023.0,12.0,,4.0,MSI,Municipal,Primario
 112316,2024.0,1.0,4.0,3.0,MSI,Municipal,Primario
 112316,2024.0,2.0,0.0,6.0,MSI,Municipal,Primario
 112316,2024.0,3.0,5.0,1.0,MSI,Municipal,Primario
@@ -1269,9 +1487,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112316,2024.0,7.0,1.0,5.0,MSI,Municipal,Primario
 112316,2024.0,8.0,1.0,5.0,MSI,Municipal,Primario
 112316,2024.0,9.0,2.0,2.0,MSI,Municipal,Primario
-112317,2023.0,10.0,1.0,0.0,MSI,Municipal,Primario
-112317,2023.0,11.0,2.0,1.0,MSI,Municipal,Primario
-112317,2023.0,12.0,2.0,2.0,MSI,Municipal,Primario
+112316,2024.0,10.0,1.0,,MSI,Municipal,Primario
+112316,2024.0,11.0,4.0,,MSI,Municipal,Primario
+112316,2024.0,12.0,3.0,,MSI,Municipal,Primario
+112317,2023.0,10.0,,0.0,MSI,Municipal,Primario
+112317,2023.0,11.0,,1.0,MSI,Municipal,Primario
+112317,2023.0,12.0,,2.0,MSI,Municipal,Primario
 112317,2024.0,1.0,0.0,,MSI,Municipal,Primario
 112317,2024.0,2.0,2.0,0.0,MSI,Municipal,Primario
 112317,2024.0,3.0,2.0,1.0,MSI,Municipal,Primario
@@ -1280,9 +1501,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112317,2024.0,7.0,,1.0,MSI,Municipal,Primario
 112317,2024.0,8.0,,2.0,MSI,Municipal,Primario
 112317,2024.0,9.0,1.0,2.0,MSI,Municipal,Primario
-112318,2023.0,10.0,2.0,0.0,MSI,Municipal,Primario
-112318,2023.0,11.0,2.0,0.0,MSI,Municipal,Primario
-112318,2023.0,12.0,2.0,1.0,MSI,Municipal,Primario
+112317,2024.0,10.0,3.0,,MSI,Municipal,Primario
+112317,2024.0,11.0,1.0,,MSI,Municipal,Primario
+112317,2024.0,12.0,3.0,,MSI,Municipal,Primario
+112318,2023.0,10.0,,0.0,MSI,Municipal,Primario
+112318,2023.0,11.0,,0.0,MSI,Municipal,Primario
+112318,2023.0,12.0,,1.0,MSI,Municipal,Primario
 112318,2024.0,1.0,1.0,4.0,MSI,Municipal,Primario
 112318,2024.0,2.0,0.0,6.0,MSI,Municipal,Primario
 112318,2024.0,3.0,1.0,0.0,MSI,Municipal,Primario
@@ -1292,8 +1516,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112318,2024.0,7.0,3.0,2.0,MSI,Municipal,Primario
 112318,2024.0,8.0,3.0,0.0,MSI,Municipal,Primario
 112318,2024.0,9.0,4.0,1.0,MSI,Municipal,Primario
+112318,2024.0,10.0,0.0,,MSI,Municipal,Primario
+112318,2024.0,11.0,0.0,,MSI,Municipal,Primario
+112318,2024.0,12.0,0.0,,MSI,Municipal,Primario
 112319,2023.0,10.0,,1.0,MSI,Municipal,Primario
-112319,2023.0,11.0,2.0,2.0,MSI,Municipal,Primario
+112319,2023.0,11.0,,2.0,MSI,Municipal,Primario
 112319,2023.0,12.0,,0.0,MSI,Municipal,Primario
 112319,2024.0,1.0,,2.0,MSI,Municipal,Primario
 112319,2024.0,2.0,2.0,2.0,MSI,Municipal,Primario
@@ -1304,9 +1531,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112319,2024.0,7.0,,2.0,MSI,Municipal,Primario
 112319,2024.0,8.0,2.0,1.0,MSI,Municipal,Primario
 112319,2024.0,9.0,,3.0,MSI,Municipal,Primario
-112320,2023.0,10.0,3.0,1.0,MSI,Municipal,Primario
+112319,2024.0,10.0,4.0,,MSI,Municipal,Primario
+112319,2024.0,11.0,2.0,,MSI,Municipal,Primario
+112319,2024.0,12.0,2.0,,MSI,Municipal,Primario
+112320,2023.0,10.0,,1.0,MSI,Municipal,Primario
 112320,2023.0,11.0,,2.0,MSI,Municipal,Primario
-112320,2023.0,12.0,1.0,1.0,MSI,Municipal,Primario
+112320,2023.0,12.0,,1.0,MSI,Municipal,Primario
 112320,2024.0,1.0,,1.0,MSI,Municipal,Primario
 112320,2024.0,2.0,2.0,1.0,MSI,Municipal,Primario
 112320,2024.0,3.0,1.0,1.0,MSI,Municipal,Primario
@@ -1316,9 +1546,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112320,2024.0,7.0,2.0,3.0,MSI,Municipal,Primario
 112320,2024.0,8.0,3.0,1.0,MSI,Municipal,Primario
 112320,2024.0,9.0,0.0,1.0,MSI,Municipal,Primario
-112321,2023.0,10.0,2.0,1.0,MSI,Municipal,Primario
-112321,2023.0,11.0,1.0,1.0,MSI,Municipal,Primario
-112321,2023.0,12.0,2.0,2.0,MSI,Municipal,Primario
+112320,2024.0,10.0,2.0,,MSI,Municipal,Primario
+112320,2024.0,11.0,1.0,,MSI,Municipal,Primario
+112321,2023.0,10.0,,1.0,MSI,Municipal,Primario
+112321,2023.0,11.0,,1.0,MSI,Municipal,Primario
+112321,2023.0,12.0,,2.0,MSI,Municipal,Primario
 112321,2024.0,2.0,1.0,3.0,MSI,Municipal,Primario
 112321,2024.0,3.0,1.0,6.0,MSI,Municipal,Primario
 112321,2024.0,4.0,1.0,3.0,MSI,Municipal,Primario
@@ -1327,9 +1559,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112321,2024.0,7.0,3.0,4.0,MSI,Municipal,Primario
 112321,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 112321,2024.0,9.0,4.0,0.0,MSI,Municipal,Primario
-112322,2023.0,10.0,3.0,6.0,MSI,Municipal,Primario
-112322,2023.0,11.0,1.0,3.0,MSI,Municipal,Primario
-112322,2023.0,12.0,1.0,3.0,MSI,Municipal,Primario
+112321,2024.0,10.0,2.0,,MSI,Municipal,Primario
+112321,2024.0,11.0,5.0,,MSI,Municipal,Primario
+112321,2024.0,12.0,2.0,,MSI,Municipal,Primario
+112322,2023.0,10.0,,6.0,MSI,Municipal,Primario
+112322,2023.0,11.0,,3.0,MSI,Municipal,Primario
+112322,2023.0,12.0,,3.0,MSI,Municipal,Primario
 112322,2024.0,1.0,5.0,1.0,MSI,Municipal,Primario
 112322,2024.0,2.0,2.0,1.0,MSI,Municipal,Primario
 112322,2024.0,3.0,1.0,3.0,MSI,Municipal,Primario
@@ -1339,6 +1574,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112322,2024.0,7.0,3.0,0.0,MSI,Municipal,Primario
 112322,2024.0,8.0,7.0,2.0,MSI,Municipal,Primario
 112322,2024.0,9.0,2.0,3.0,MSI,Municipal,Primario
+112322,2024.0,10.0,3.0,,MSI,Municipal,Primario
+112322,2024.0,11.0,2.0,,MSI,Municipal,Primario
+112322,2024.0,12.0,0.0,,MSI,Municipal,Primario
 112707,2023.0,11.0,,0.0,MSI,Municipal,Primario
 112707,2024.0,1.0,,1.0,MSI,Municipal,Primario
 112707,2024.0,4.0,,0.0,MSI,Municipal,Primario
@@ -1349,16 +1587,16 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112716,2024.0,3.0,0.0,,MSI,Municipal,Primario
 112716,2024.0,4.0,1.0,,MSI,Municipal,Primario
 112716,2024.0,5.0,2.0,,MSI,Municipal,Primario
+112716,2024.0,11.0,0.0,,MSI,Municipal,Primario
 112717,2023.0,11.0,,0.0,MSI,Municipal,Primario
-112717,2023.0,12.0,1.0,,MSI,Municipal,Primario
 112717,2024.0,3.0,,1.0,MSI,Municipal,Primario
 112717,2024.0,6.0,,0.0,MSI,Municipal,Primario
 112717,2024.0,8.0,,1.0,MSI,Municipal,Primario
 112799,2023.0,10.0,,1.0,MSI,Municipal,Primario
 112799,2023.0,11.0,,0.0,MSI,Municipal,Primario
 112799,2024.0,2.0,,1.0,MSI,Municipal,Primario
-113300,2023.0,10.0,5.0,0.0,MSI,Municipal,Primario
-113300,2023.0,11.0,2.0,4.0,MSI,Municipal,Primario
+113300,2023.0,10.0,,0.0,MSI,Municipal,Primario
+113300,2023.0,11.0,,4.0,MSI,Municipal,Primario
 113300,2023.0,12.0,,0.0,MSI,Municipal,Primario
 113300,2024.0,1.0,1.0,5.0,MSI,Municipal,Primario
 113300,2024.0,2.0,2.0,6.0,MSI,Municipal,Primario
@@ -1369,9 +1607,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113300,2024.0,7.0,5.0,3.0,MSI,Municipal,Primario
 113300,2024.0,8.0,0.0,4.0,MSI,Municipal,Primario
 113300,2024.0,9.0,2.0,1.0,MSI,Municipal,Primario
+113300,2024.0,10.0,5.0,,MSI,Municipal,Primario
+113300,2024.0,11.0,3.0,,MSI,Municipal,Primario
+113300,2024.0,12.0,0.0,,MSI,Municipal,Primario
 113301,2023.0,10.0,,1.0,MSI,Municipal,Primario
 113301,2023.0,11.0,,1.0,MSI,Municipal,Primario
-113301,2023.0,12.0,1.0,3.0,MSI,Municipal,Primario
+113301,2023.0,12.0,,3.0,MSI,Municipal,Primario
 113301,2024.0,1.0,,1.0,MSI,Municipal,Primario
 113301,2024.0,2.0,0.0,,MSI,Municipal,Primario
 113301,2024.0,3.0,1.0,0.0,MSI,Municipal,Primario
@@ -1380,8 +1621,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113301,2024.0,7.0,1.0,0.0,MSI,Municipal,Primario
 113301,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 113301,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
-113302,2023.0,10.0,1.0,2.0,MSI,Municipal,Primario
-113302,2023.0,11.0,2.0,0.0,MSI,Municipal,Primario
+113301,2024.0,10.0,1.0,,MSI,Municipal,Primario
+113301,2024.0,12.0,0.0,,MSI,Municipal,Primario
+113302,2023.0,10.0,,2.0,MSI,Municipal,Primario
+113302,2023.0,11.0,,0.0,MSI,Municipal,Primario
 113302,2024.0,1.0,,1.0,MSI,Municipal,Primario
 113302,2024.0,2.0,,2.0,MSI,Municipal,Primario
 113302,2024.0,3.0,0.0,2.0,MSI,Municipal,Primario
@@ -1391,9 +1634,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113302,2024.0,7.0,3.0,3.0,MSI,Municipal,Primario
 113302,2024.0,8.0,1.0,3.0,MSI,Municipal,Primario
 113302,2024.0,9.0,2.0,1.0,MSI,Municipal,Primario
-113303,2023.0,10.0,1.0,0.0,MSI,Municipal,Primario
-113303,2023.0,11.0,2.0,0.0,MSI,Municipal,Primario
-113303,2023.0,12.0,0.0,,MSI,Municipal,Primario
+113302,2024.0,10.0,1.0,,MSI,Municipal,Primario
+113302,2024.0,11.0,2.0,,MSI,Municipal,Primario
+113302,2024.0,12.0,3.0,,MSI,Municipal,Primario
+113303,2023.0,10.0,,0.0,MSI,Municipal,Primario
+113303,2023.0,11.0,,0.0,MSI,Municipal,Primario
 113303,2024.0,1.0,0.0,2.0,MSI,Municipal,Primario
 113303,2024.0,2.0,,1.0,MSI,Municipal,Primario
 113303,2024.0,3.0,0.0,2.0,MSI,Municipal,Primario
@@ -1403,8 +1648,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113303,2024.0,7.0,0.0,1.0,MSI,Municipal,Primario
 113303,2024.0,8.0,0.0,1.0,MSI,Municipal,Primario
 113303,2024.0,9.0,,2.0,MSI,Municipal,Primario
-113305,2023.0,11.0,0.0,1.0,MSI,Municipal,Primario
-113305,2023.0,12.0,2.0,1.0,MSI,Municipal,Primario
+113303,2024.0,10.0,1.0,,MSI,Municipal,Primario
+113303,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113303,2024.0,12.0,1.0,,MSI,Municipal,Primario
+113305,2023.0,11.0,,1.0,MSI,Municipal,Primario
+113305,2023.0,12.0,,1.0,MSI,Municipal,Primario
 113305,2024.0,1.0,1.0,3.0,MSI,Municipal,Primario
 113305,2024.0,2.0,1.0,,MSI,Municipal,Primario
 113305,2024.0,3.0,,1.0,MSI,Municipal,Primario
@@ -1414,9 +1662,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113305,2024.0,7.0,,0.0,MSI,Municipal,Primario
 113305,2024.0,8.0,1.0,2.0,MSI,Municipal,Primario
 113305,2024.0,9.0,0.0,1.0,MSI,Municipal,Primario
-113306,2023.0,10.0,2.0,0.0,MSI,Municipal,Primario
-113306,2023.0,11.0,0.0,3.0,MSI,Municipal,Primario
-113306,2023.0,12.0,0.0,1.0,MSI,Municipal,Primario
+113305,2024.0,10.0,3.0,,MSI,Municipal,Primario
+113305,2024.0,12.0,1.0,,MSI,Municipal,Primario
+113306,2023.0,10.0,,0.0,MSI,Municipal,Primario
+113306,2023.0,11.0,,3.0,MSI,Municipal,Primario
+113306,2023.0,12.0,,1.0,MSI,Municipal,Primario
 113306,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
 113306,2024.0,2.0,1.0,0.0,MSI,Municipal,Primario
 113306,2024.0,3.0,1.0,3.0,MSI,Municipal,Primario
@@ -1426,9 +1676,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113306,2024.0,7.0,4.0,1.0,MSI,Municipal,Primario
 113306,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 113306,2024.0,9.0,0.0,1.0,MSI,Municipal,Primario
-113307,2023.0,10.0,1.0,4.0,MSI,Municipal,Primario
-113307,2023.0,11.0,2.0,3.0,MSI,Municipal,Primario
-113307,2023.0,12.0,0.0,0.0,MSI,Municipal,Primario
+113306,2024.0,10.0,1.0,,MSI,Municipal,Primario
+113306,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113306,2024.0,12.0,0.0,,MSI,Municipal,Primario
+113307,2023.0,10.0,,4.0,MSI,Municipal,Primario
+113307,2023.0,11.0,,3.0,MSI,Municipal,Primario
+113307,2023.0,12.0,,0.0,MSI,Municipal,Primario
 113307,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
 113307,2024.0,2.0,2.0,1.0,MSI,Municipal,Primario
 113307,2024.0,3.0,1.0,0.0,MSI,Municipal,Primario
@@ -1438,7 +1691,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113307,2024.0,7.0,0.0,1.0,MSI,Municipal,Primario
 113307,2024.0,8.0,2.0,2.0,MSI,Municipal,Primario
 113307,2024.0,9.0,1.0,3.0,MSI,Municipal,Primario
-113308,2023.0,10.0,1.0,,MSI,Municipal,Primario
+113307,2024.0,10.0,2.0,,MSI,Municipal,Primario
+113307,2024.0,11.0,0.0,,MSI,Municipal,Primario
+113307,2024.0,12.0,2.0,,MSI,Municipal,Primario
 113308,2023.0,11.0,,1.0,MSI,Municipal,Primario
 113308,2023.0,12.0,,1.0,MSI,Municipal,Primario
 113308,2024.0,1.0,1.0,3.0,MSI,Municipal,Primario
@@ -1450,9 +1705,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113308,2024.0,7.0,0.0,2.0,MSI,Municipal,Primario
 113308,2024.0,8.0,0.0,,MSI,Municipal,Primario
 113308,2024.0,9.0,,3.0,MSI,Municipal,Primario
-113309,2023.0,10.0,2.0,1.0,MSI,Municipal,Primario
-113309,2023.0,11.0,2.0,3.0,MSI,Municipal,Primario
-113309,2023.0,12.0,0.0,2.0,MSI,Municipal,Primario
+113308,2024.0,10.0,1.0,,MSI,Municipal,Primario
+113308,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113309,2023.0,10.0,,1.0,MSI,Municipal,Primario
+113309,2023.0,11.0,,3.0,MSI,Municipal,Primario
+113309,2023.0,12.0,,2.0,MSI,Municipal,Primario
 113309,2024.0,1.0,1.0,6.0,MSI,Municipal,Primario
 113309,2024.0,2.0,4.0,5.0,MSI,Municipal,Primario
 113309,2024.0,3.0,2.0,0.0,MSI,Municipal,Primario
@@ -1462,9 +1719,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113309,2024.0,7.0,0.0,1.0,MSI,Municipal,Primario
 113309,2024.0,8.0,2.0,2.0,MSI,Municipal,Primario
 113309,2024.0,9.0,2.0,3.0,MSI,Municipal,Primario
+113309,2024.0,10.0,1.0,,MSI,Municipal,Primario
+113309,2024.0,11.0,2.0,,MSI,Municipal,Primario
+113309,2024.0,12.0,1.0,,MSI,Municipal,Primario
 113310,2023.0,10.0,,2.0,MSI,Municipal,Primario
-113310,2023.0,11.0,0.0,1.0,MSI,Municipal,Primario
-113310,2023.0,12.0,2.0,1.0,MSI,Municipal,Primario
+113310,2023.0,11.0,,1.0,MSI,Municipal,Primario
+113310,2023.0,12.0,,1.0,MSI,Municipal,Primario
 113310,2024.0,1.0,1.0,,MSI,Municipal,Primario
 113310,2024.0,2.0,0.0,1.0,MSI,Municipal,Primario
 113310,2024.0,3.0,1.0,2.0,MSI,Municipal,Primario
@@ -1474,9 +1734,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113310,2024.0,7.0,2.0,3.0,MSI,Municipal,Primario
 113310,2024.0,8.0,4.0,1.0,MSI,Municipal,Primario
 113310,2024.0,9.0,,0.0,MSI,Municipal,Primario
-113311,2023.0,10.0,3.0,8.0,MSI,Municipal,Primario
-113311,2023.0,11.0,2.0,1.0,MSI,Municipal,Primario
-113311,2023.0,12.0,2.0,1.0,MSI,Municipal,Primario
+113310,2024.0,10.0,2.0,,MSI,Municipal,Primario
+113310,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113310,2024.0,12.0,0.0,,MSI,Municipal,Primario
+113311,2023.0,10.0,,8.0,MSI,Municipal,Primario
+113311,2023.0,11.0,,1.0,MSI,Municipal,Primario
+113311,2023.0,12.0,,1.0,MSI,Municipal,Primario
 113311,2024.0,1.0,4.0,3.0,MSI,Municipal,Primario
 113311,2024.0,2.0,3.0,5.0,MSI,Municipal,Primario
 113311,2024.0,3.0,5.0,4.0,MSI,Municipal,Primario
@@ -1486,9 +1749,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113311,2024.0,7.0,4.0,6.0,MSI,Municipal,Primario
 113311,2024.0,8.0,1.0,3.0,MSI,Municipal,Primario
 113311,2024.0,9.0,1.0,5.0,MSI,Municipal,Primario
-113312,2023.0,10.0,1.0,1.0,MSI,Municipal,Primario
-113312,2023.0,11.0,4.0,3.0,MSI,Municipal,Primario
-113312,2023.0,12.0,2.0,2.0,MSI,Municipal,Primario
+113311,2024.0,10.0,4.0,,MSI,Municipal,Primario
+113311,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113311,2024.0,12.0,6.0,,MSI,Municipal,Primario
+113312,2023.0,10.0,,1.0,MSI,Municipal,Primario
+113312,2023.0,11.0,,3.0,MSI,Municipal,Primario
+113312,2023.0,12.0,,2.0,MSI,Municipal,Primario
 113312,2024.0,1.0,1.0,1.0,MSI,Municipal,Primario
 113312,2024.0,2.0,0.0,1.0,MSI,Municipal,Primario
 113312,2024.0,3.0,1.0,4.0,MSI,Municipal,Primario
@@ -1498,9 +1764,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113312,2024.0,7.0,1.0,1.0,MSI,Municipal,Primario
 113312,2024.0,8.0,6.0,1.0,MSI,Municipal,Primario
 113312,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
-113313,2023.0,10.0,2.0,2.0,MSI,Municipal,Primario
-113313,2023.0,11.0,1.0,0.0,MSI,Municipal,Primario
-113313,2023.0,12.0,0.0,0.0,MSI,Municipal,Primario
+113312,2024.0,10.0,1.0,,MSI,Municipal,Primario
+113312,2024.0,11.0,5.0,,MSI,Municipal,Primario
+113312,2024.0,12.0,1.0,,MSI,Municipal,Primario
+113313,2023.0,10.0,,2.0,MSI,Municipal,Primario
+113313,2023.0,11.0,,0.0,MSI,Municipal,Primario
+113313,2023.0,12.0,,0.0,MSI,Municipal,Primario
 113313,2024.0,1.0,,1.0,MSI,Municipal,Primario
 113313,2024.0,2.0,,3.0,MSI,Municipal,Primario
 113313,2024.0,3.0,0.0,0.0,MSI,Municipal,Primario
@@ -1510,8 +1779,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113313,2024.0,7.0,,2.0,MSI,Municipal,Primario
 113313,2024.0,8.0,3.0,2.0,MSI,Municipal,Primario
 113313,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
-113314,2023.0,10.0,2.0,2.0,MSI,Municipal,Primario
-113314,2023.0,11.0,2.0,3.0,MSI,Municipal,Primario
+113313,2024.0,10.0,4.0,,MSI,Municipal,Primario
+113313,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113313,2024.0,12.0,3.0,,MSI,Municipal,Primario
+113314,2023.0,10.0,,2.0,MSI,Municipal,Primario
+113314,2023.0,11.0,,3.0,MSI,Municipal,Primario
 113314,2023.0,12.0,,2.0,MSI,Municipal,Primario
 113314,2024.0,1.0,0.0,2.0,MSI,Municipal,Primario
 113314,2024.0,2.0,1.0,1.0,MSI,Municipal,Primario
@@ -1522,8 +1794,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113314,2024.0,7.0,3.0,6.0,MSI,Municipal,Primario
 113314,2024.0,8.0,0.0,2.0,MSI,Municipal,Primario
 113314,2024.0,9.0,2.0,1.0,MSI,Municipal,Primario
-113315,2023.0,10.0,1.0,3.0,MSI,Municipal,Primario
-113315,2023.0,11.0,1.0,2.0,MSI,Municipal,Primario
+113314,2024.0,10.0,6.0,,MSI,Municipal,Primario
+113314,2024.0,11.0,3.0,,MSI,Municipal,Primario
+113314,2024.0,12.0,2.0,,MSI,Municipal,Primario
+113315,2023.0,10.0,,3.0,MSI,Municipal,Primario
+113315,2023.0,11.0,,2.0,MSI,Municipal,Primario
 113315,2023.0,12.0,,2.0,MSI,Municipal,Primario
 113315,2024.0,1.0,,4.0,MSI,Municipal,Primario
 113315,2024.0,3.0,,2.0,MSI,Municipal,Primario
@@ -1533,8 +1808,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113315,2024.0,7.0,2.0,,MSI,Municipal,Primario
 113315,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 113315,2024.0,9.0,3.0,0.0,MSI,Municipal,Primario
-113316,2023.0,10.0,3.0,0.0,MSI,Municipal,Primario
-113316,2023.0,11.0,2.0,5.0,MSI,Municipal,Primario
+113315,2024.0,10.0,2.0,,MSI,Municipal,Primario
+113315,2024.0,11.0,2.0,,MSI,Municipal,Primario
+113315,2024.0,12.0,0.0,,MSI,Municipal,Primario
+113316,2023.0,10.0,,0.0,MSI,Municipal,Primario
+113316,2023.0,11.0,,5.0,MSI,Municipal,Primario
 113316,2023.0,12.0,,1.0,MSI,Municipal,Primario
 113316,2024.0,1.0,2.0,1.0,MSI,Municipal,Primario
 113316,2024.0,2.0,1.0,7.0,MSI,Municipal,Primario
@@ -1545,9 +1823,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113316,2024.0,7.0,,5.0,MSI,Municipal,Primario
 113316,2024.0,8.0,5.0,2.0,MSI,Municipal,Primario
 113316,2024.0,9.0,1.0,0.0,MSI,Municipal,Primario
-113317,2023.0,10.0,1.0,1.0,MSI,Municipal,Primario
-113317,2023.0,11.0,5.0,1.0,MSI,Municipal,Primario
-113317,2023.0,12.0,1.0,2.0,MSI,Municipal,Primario
+113316,2024.0,10.0,3.0,,MSI,Municipal,Primario
+113316,2024.0,11.0,3.0,,MSI,Municipal,Primario
+113316,2024.0,12.0,3.0,,MSI,Municipal,Primario
+113317,2023.0,10.0,,1.0,MSI,Municipal,Primario
+113317,2023.0,11.0,,1.0,MSI,Municipal,Primario
+113317,2023.0,12.0,,2.0,MSI,Municipal,Primario
 113317,2024.0,1.0,3.0,,MSI,Municipal,Primario
 113317,2024.0,2.0,,2.0,MSI,Municipal,Primario
 113317,2024.0,3.0,1.0,3.0,MSI,Municipal,Primario
@@ -1557,9 +1838,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113317,2024.0,7.0,2.0,2.0,MSI,Municipal,Primario
 113317,2024.0,8.0,3.0,0.0,MSI,Municipal,Primario
 113317,2024.0,9.0,2.0,3.0,MSI,Municipal,Primario
-113318,2023.0,10.0,1.0,4.0,MSI,Municipal,Primario
-113318,2023.0,11.0,5.0,5.0,MSI,Municipal,Primario
-113318,2023.0,12.0,2.0,10.0,MSI,Municipal,Primario
+113317,2024.0,10.0,6.0,,MSI,Municipal,Primario
+113317,2024.0,11.0,4.0,,MSI,Municipal,Primario
+113317,2024.0,12.0,0.0,,MSI,Municipal,Primario
+113318,2023.0,10.0,,4.0,MSI,Municipal,Primario
+113318,2023.0,11.0,,5.0,MSI,Municipal,Primario
+113318,2023.0,12.0,,10.0,MSI,Municipal,Primario
 113318,2024.0,1.0,1.0,7.0,MSI,Municipal,Primario
 113318,2024.0,2.0,2.0,5.0,MSI,Municipal,Primario
 113318,2024.0,3.0,2.0,7.0,MSI,Municipal,Primario
@@ -1569,9 +1853,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113318,2024.0,7.0,3.0,6.0,MSI,Municipal,Primario
 113318,2024.0,8.0,2.0,11.0,MSI,Municipal,Primario
 113318,2024.0,9.0,2.0,5.0,MSI,Municipal,Primario
-113319,2023.0,10.0,0.0,1.0,MSI,Municipal,Primario
-113319,2023.0,11.0,0.0,3.0,MSI,Municipal,Primario
-113319,2023.0,12.0,0.0,2.0,MSI,Municipal,Primario
+113318,2024.0,10.0,8.0,,MSI,Municipal,Primario
+113318,2024.0,11.0,8.0,,MSI,Municipal,Primario
+113319,2023.0,10.0,,1.0,MSI,Municipal,Primario
+113319,2023.0,11.0,,3.0,MSI,Municipal,Primario
+113319,2023.0,12.0,,2.0,MSI,Municipal,Primario
 113319,2024.0,1.0,1.0,1.0,MSI,Municipal,Primario
 113319,2024.0,2.0,0.0,1.0,MSI,Municipal,Primario
 113319,2024.0,3.0,1.0,7.0,MSI,Municipal,Primario
@@ -1581,7 +1867,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113319,2024.0,7.0,2.0,4.0,MSI,Municipal,Primario
 113319,2024.0,8.0,2.0,4.0,MSI,Municipal,Primario
 113319,2024.0,9.0,2.0,1.0,MSI,Municipal,Primario
-113320,2023.0,10.0,1.0,0.0,MSI,Municipal,Primario
+113319,2024.0,10.0,2.0,,MSI,Municipal,Primario
+113319,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113319,2024.0,12.0,6.0,,MSI,Municipal,Primario
+113320,2023.0,10.0,,0.0,MSI,Municipal,Primario
 113320,2023.0,11.0,,0.0,MSI,Municipal,Primario
 113320,2023.0,12.0,,0.0,MSI,Municipal,Primario
 113320,2024.0,1.0,0.0,5.0,MSI,Municipal,Primario
@@ -1593,7 +1882,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113320,2024.0,7.0,,2.0,MSI,Municipal,Primario
 113320,2024.0,8.0,1.0,6.0,MSI,Municipal,Primario
 113320,2024.0,9.0,1.0,0.0,MSI,Municipal,Primario
-113321,2023.0,11.0,1.0,2.0,MSI,Municipal,Primario
+113320,2024.0,10.0,4.0,,MSI,Municipal,Primario
+113320,2024.0,11.0,4.0,,MSI,Municipal,Primario
+113320,2024.0,12.0,4.0,,MSI,Municipal,Primario
+113321,2023.0,11.0,,2.0,MSI,Municipal,Primario
 113321,2023.0,12.0,,1.0,MSI,Municipal,Primario
 113321,2024.0,1.0,,2.0,MSI,Municipal,Primario
 113321,2024.0,2.0,,0.0,MSI,Municipal,Primario
@@ -1601,9 +1893,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113321,2024.0,5.0,2.0,2.0,MSI,Municipal,Primario
 113321,2024.0,7.0,1.0,1.0,MSI,Municipal,Primario
 113321,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
-113322,2023.0,10.0,1.0,0.0,MSI,Municipal,Primario
+113321,2024.0,10.0,2.0,,MSI,Municipal,Primario
+113321,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113322,2023.0,10.0,,0.0,MSI,Municipal,Primario
 113322,2023.0,11.0,,0.0,MSI,Municipal,Primario
-113322,2023.0,12.0,1.0,1.0,MSI,Municipal,Primario
+113322,2023.0,12.0,,1.0,MSI,Municipal,Primario
 113322,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
 113322,2024.0,2.0,0.0,1.0,MSI,Municipal,Primario
 113322,2024.0,3.0,,7.0,MSI,Municipal,Primario
@@ -1613,9 +1907,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113322,2024.0,7.0,3.0,6.0,MSI,Municipal,Primario
 113322,2024.0,8.0,4.0,2.0,MSI,Municipal,Primario
 113322,2024.0,9.0,4.0,3.0,MSI,Municipal,Primario
+113322,2024.0,11.0,5.0,,MSI,Municipal,Primario
+113322,2024.0,12.0,9.0,,MSI,Municipal,Primario
 113323,2023.0,10.0,,0.0,MSI,Municipal,Primario
-113323,2023.0,11.0,1.0,5.0,MSI,Municipal,Primario
-113323,2023.0,12.0,1.0,1.0,MSI,Municipal,Primario
+113323,2023.0,11.0,,5.0,MSI,Municipal,Primario
+113323,2023.0,12.0,,1.0,MSI,Municipal,Primario
 113323,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
 113323,2024.0,2.0,,0.0,MSI,Municipal,Primario
 113323,2024.0,3.0,4.0,1.0,MSI,Municipal,Primario
@@ -1625,9 +1921,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113323,2024.0,7.0,0.0,1.0,MSI,Municipal,Primario
 113323,2024.0,8.0,0.0,2.0,MSI,Municipal,Primario
 113323,2024.0,9.0,2.0,1.0,MSI,Municipal,Primario
-113324,2023.0,10.0,2.0,0.0,MSI,Municipal,Primario
-113324,2023.0,11.0,2.0,3.0,MSI,Municipal,Primario
-113324,2023.0,12.0,1.0,1.0,MSI,Municipal,Primario
+113323,2024.0,10.0,0.0,,MSI,Municipal,Primario
+113323,2024.0,11.0,0.0,,MSI,Municipal,Primario
+113323,2024.0,12.0,2.0,,MSI,Municipal,Primario
+113324,2023.0,10.0,,0.0,MSI,Municipal,Primario
+113324,2023.0,11.0,,3.0,MSI,Municipal,Primario
+113324,2023.0,12.0,,1.0,MSI,Municipal,Primario
 113324,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
 113324,2024.0,2.0,,5.0,MSI,Municipal,Primario
 113324,2024.0,3.0,2.0,1.0,MSI,Municipal,Primario
@@ -1637,9 +1936,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113324,2024.0,7.0,1.0,2.0,MSI,Municipal,Primario
 113324,2024.0,8.0,2.0,1.0,MSI,Municipal,Primario
 113324,2024.0,9.0,4.0,0.0,MSI,Municipal,Primario
+113324,2024.0,10.0,3.0,,MSI,Municipal,Primario
+113324,2024.0,11.0,4.0,,MSI,Municipal,Primario
+113324,2024.0,12.0,1.0,,MSI,Municipal,Primario
 113326,2023.0,10.0,,6.0,MSI,Municipal,Primario
-113326,2023.0,11.0,2.0,6.0,MSI,Municipal,Primario
-113326,2023.0,12.0,1.0,0.0,MSI,Municipal,Primario
+113326,2023.0,11.0,,6.0,MSI,Municipal,Primario
+113326,2023.0,12.0,,0.0,MSI,Municipal,Primario
 113326,2024.0,1.0,3.0,2.0,MSI,Municipal,Primario
 113326,2024.0,2.0,5.0,1.0,MSI,Municipal,Primario
 113326,2024.0,3.0,1.0,0.0,MSI,Municipal,Primario
@@ -1649,9 +1951,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113326,2024.0,7.0,3.0,7.0,MSI,Municipal,Primario
 113326,2024.0,8.0,2.0,3.0,MSI,Municipal,Primario
 113326,2024.0,9.0,3.0,4.0,MSI,Municipal,Primario
-113328,2023.0,10.0,1.0,0.0,MSI,Municipal,Primario
-113328,2023.0,11.0,2.0,4.0,MSI,Municipal,Primario
-113328,2023.0,12.0,0.0,2.0,MSI,Municipal,Primario
+113326,2024.0,10.0,5.0,,MSI,Municipal,Primario
+113326,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113326,2024.0,12.0,5.0,,MSI,Municipal,Primario
+113328,2023.0,10.0,,0.0,MSI,Municipal,Primario
+113328,2023.0,11.0,,4.0,MSI,Municipal,Primario
+113328,2023.0,12.0,,2.0,MSI,Municipal,Primario
 113328,2024.0,1.0,1.0,6.0,MSI,Municipal,Primario
 113328,2024.0,2.0,1.0,3.0,MSI,Municipal,Primario
 113328,2024.0,3.0,2.0,1.0,MSI,Municipal,Primario
@@ -1661,9 +1966,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113328,2024.0,7.0,3.0,0.0,MSI,Municipal,Primario
 113328,2024.0,8.0,2.0,0.0,MSI,Municipal,Primario
 113328,2024.0,9.0,3.0,0.0,MSI,Municipal,Primario
-113329,2023.0,10.0,1.0,2.0,MSI,Municipal,Primario
-113329,2023.0,11.0,2.0,2.0,MSI,Municipal,Primario
-113329,2023.0,12.0,1.0,0.0,MSI,Municipal,Primario
+113328,2024.0,10.0,0.0,,MSI,Municipal,Primario
+113328,2024.0,11.0,0.0,,MSI,Municipal,Primario
+113329,2023.0,10.0,,2.0,MSI,Municipal,Primario
+113329,2023.0,11.0,,2.0,MSI,Municipal,Primario
+113329,2023.0,12.0,,0.0,MSI,Municipal,Primario
 113329,2024.0,1.0,1.0,1.0,MSI,Municipal,Primario
 113329,2024.0,2.0,,2.0,MSI,Municipal,Primario
 113329,2024.0,3.0,1.0,2.0,MSI,Municipal,Primario
@@ -1673,9 +1980,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113329,2024.0,7.0,4.0,3.0,MSI,Municipal,Primario
 113329,2024.0,8.0,4.0,1.0,MSI,Municipal,Primario
 113329,2024.0,9.0,4.0,,MSI,Municipal,Primario
-113330,2023.0,10.0,2.0,5.0,MSI,Municipal,Primario
-113330,2023.0,11.0,2.0,3.0,MSI,Municipal,Primario
-113330,2023.0,12.0,4.0,1.0,MSI,Municipal,Primario
+113329,2024.0,10.0,7.0,,MSI,Municipal,Primario
+113329,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113329,2024.0,12.0,1.0,,MSI,Municipal,Primario
+113330,2023.0,10.0,,5.0,MSI,Municipal,Primario
+113330,2023.0,11.0,,3.0,MSI,Municipal,Primario
+113330,2023.0,12.0,,1.0,MSI,Municipal,Primario
 113330,2024.0,1.0,,6.0,MSI,Municipal,Primario
 113330,2024.0,2.0,1.0,4.0,MSI,Municipal,Primario
 113330,2024.0,3.0,4.0,4.0,MSI,Municipal,Primario
@@ -1685,9 +1995,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113330,2024.0,7.0,3.0,3.0,MSI,Municipal,Primario
 113330,2024.0,8.0,4.0,1.0,MSI,Municipal,Primario
 113330,2024.0,9.0,,0.0,MSI,Municipal,Primario
-113331,2023.0,10.0,1.0,3.0,MSI,Municipal,Primario
-113331,2023.0,11.0,1.0,1.0,MSI,Municipal,Primario
-113331,2023.0,12.0,1.0,0.0,MSI,Municipal,Primario
+113330,2024.0,11.0,5.0,,MSI,Municipal,Primario
+113330,2024.0,12.0,5.0,,MSI,Municipal,Primario
+113331,2023.0,10.0,,3.0,MSI,Municipal,Primario
+113331,2023.0,11.0,,1.0,MSI,Municipal,Primario
+113331,2023.0,12.0,,0.0,MSI,Municipal,Primario
 113331,2024.0,1.0,2.0,1.0,MSI,Municipal,Primario
 113331,2024.0,2.0,,0.0,MSI,Municipal,Primario
 113331,2024.0,3.0,2.0,3.0,MSI,Municipal,Primario
@@ -1697,9 +2009,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113331,2024.0,7.0,2.0,1.0,MSI,Municipal,Primario
 113331,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 113331,2024.0,9.0,1.0,0.0,MSI,Municipal,Primario
-113332,2023.0,10.0,1.0,2.0,MSI,Municipal,Primario
-113332,2023.0,11.0,1.0,4.0,MSI,Municipal,Primario
-113332,2023.0,12.0,1.0,5.0,MSI,Municipal,Primario
+113331,2024.0,10.0,0.0,,MSI,Municipal,Primario
+113331,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113331,2024.0,12.0,0.0,,MSI,Municipal,Primario
+113332,2023.0,10.0,,2.0,MSI,Municipal,Primario
+113332,2023.0,11.0,,4.0,MSI,Municipal,Primario
+113332,2023.0,12.0,,5.0,MSI,Municipal,Primario
 113332,2024.0,1.0,0.0,0.0,MSI,Municipal,Primario
 113332,2024.0,2.0,,1.0,MSI,Municipal,Primario
 113332,2024.0,3.0,1.0,8.0,MSI,Municipal,Primario
@@ -1709,9 +2024,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113332,2024.0,7.0,4.0,0.0,MSI,Municipal,Primario
 113332,2024.0,8.0,4.0,1.0,MSI,Municipal,Primario
 113332,2024.0,9.0,1.0,0.0,MSI,Municipal,Primario
-113333,2023.0,10.0,0.0,2.0,MSI,Municipal,Primario
+113332,2024.0,10.0,4.0,,MSI,Municipal,Primario
+113332,2024.0,11.0,5.0,,MSI,Municipal,Primario
+113332,2024.0,12.0,0.0,,MSI,Municipal,Primario
+113333,2023.0,10.0,,2.0,MSI,Municipal,Primario
 113333,2023.0,11.0,,1.0,MSI,Municipal,Primario
-113333,2023.0,12.0,1.0,,MSI,Municipal,Primario
 113333,2024.0,1.0,1.0,2.0,MSI,Municipal,Primario
 113333,2024.0,2.0,0.0,1.0,MSI,Municipal,Primario
 113333,2024.0,3.0,1.0,1.0,MSI,Municipal,Primario
@@ -1721,9 +2038,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113333,2024.0,7.0,2.0,2.0,MSI,Municipal,Primario
 113333,2024.0,8.0,5.0,1.0,MSI,Municipal,Primario
 113333,2024.0,9.0,2.0,1.0,MSI,Municipal,Primario
-113334,2023.0,10.0,2.0,,MSI,Municipal,Primario
-113334,2023.0,11.0,1.0,2.0,MSI,Municipal,Primario
-113334,2023.0,12.0,1.0,0.0,MSI,Municipal,Primario
+113333,2024.0,10.0,1.0,,MSI,Municipal,Primario
+113333,2024.0,11.0,0.0,,MSI,Municipal,Primario
+113333,2024.0,12.0,0.0,,MSI,Municipal,Primario
+113334,2023.0,11.0,,2.0,MSI,Municipal,Primario
+113334,2023.0,12.0,,0.0,MSI,Municipal,Primario
 113334,2024.0,1.0,1.0,,MSI,Municipal,Primario
 113334,2024.0,2.0,1.0,0.0,MSI,Municipal,Primario
 113334,2024.0,3.0,,1.0,MSI,Municipal,Primario
@@ -1733,9 +2052,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113334,2024.0,7.0,3.0,0.0,MSI,Municipal,Primario
 113334,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 113334,2024.0,9.0,1.0,,MSI,Municipal,Primario
-113390,2023.0,10.0,2.0,10.0,MSI,Municipal,Primario
-113390,2023.0,11.0,3.0,4.0,MSI,Municipal,Primario
-113390,2023.0,12.0,2.0,5.0,MSI,Municipal,Primario
+113334,2024.0,10.0,0.0,,MSI,Municipal,Primario
+113334,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113390,2023.0,10.0,,10.0,MSI,Municipal,Primario
+113390,2023.0,11.0,,4.0,MSI,Municipal,Primario
+113390,2023.0,12.0,,5.0,MSI,Municipal,Primario
 113390,2024.0,1.0,4.0,3.0,MSI,Municipal,Primario
 113390,2024.0,2.0,,3.0,MSI,Municipal,Primario
 113390,2024.0,3.0,4.0,3.0,MSI,Municipal,Primario
@@ -1745,9 +2066,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113390,2024.0,7.0,2.0,3.0,MSI,Municipal,Primario
 113390,2024.0,8.0,2.0,4.0,MSI,Municipal,Primario
 113390,2024.0,9.0,2.0,4.0,MSI,Municipal,Primario
-113394,2023.0,10.0,0.0,,MSI,Municipal,Primario
-113394,2023.0,11.0,4.0,10.0,MSI,Municipal,Primario
-113394,2023.0,12.0,2.0,4.0,MSI,Municipal,Primario
+113390,2024.0,10.0,8.0,,MSI,Municipal,Primario
+113390,2024.0,11.0,5.0,,MSI,Municipal,Primario
+113390,2024.0,12.0,3.0,,MSI,Municipal,Primario
+113394,2023.0,11.0,,10.0,MSI,Municipal,Primario
+113394,2023.0,12.0,,4.0,MSI,Municipal,Primario
 113394,2024.0,1.0,,4.0,MSI,Municipal,Primario
 113394,2024.0,2.0,1.0,2.0,MSI,Municipal,Primario
 113394,2024.0,3.0,1.0,2.0,MSI,Municipal,Primario
@@ -1757,8 +2080,8 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113394,2024.0,7.0,,0.0,MSI,Municipal,Primario
 113394,2024.0,8.0,1.0,3.0,MSI,Municipal,Primario
 113394,2024.0,9.0,1.0,2.0,MSI,Municipal,Primario
-113396,2023.0,10.0,2.0,,MSI,Municipal,Primario
-113396,2023.0,11.0,0.0,,MSI,Municipal,Primario
+113394,2024.0,10.0,8.0,,MSI,Municipal,Primario
+113394,2024.0,12.0,6.0,,MSI,Municipal,Primario
 113396,2024.0,1.0,,0.0,MSI,Municipal,Primario
 113396,2024.0,2.0,,0.0,MSI,Municipal,Primario
 113396,2024.0,3.0,,1.0,MSI,Municipal,Primario
@@ -1768,21 +2091,26 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113396,2024.0,7.0,1.0,,MSI,Municipal,Primario
 113396,2024.0,8.0,0.0,1.0,MSI,Municipal,Primario
 113396,2024.0,9.0,,0.0,MSI,Municipal,Primario
+113396,2024.0,10.0,1.0,,MSI,Municipal,Primario
+113396,2024.0,11.0,0.0,,MSI,Municipal,Primario
+113396,2024.0,12.0,2.0,,MSI,Municipal,Primario
 113402,2023.0,11.0,,1.0,MSI,Municipal,Primario
-113402,2023.0,12.0,0.0,0.0,MSI,Municipal,Primario
+113402,2023.0,12.0,,0.0,MSI,Municipal,Primario
 113402,2024.0,1.0,,0.0,MSI,Municipal,Primario
 113402,2024.0,2.0,1.0,0.0,MSI,Municipal,Primario
 113402,2024.0,5.0,1.0,1.0,MSI,Municipal,Primario
 113402,2024.0,6.0,0.0,2.0,MSI,Municipal,Primario
 113402,2024.0,8.0,0.0,2.0,MSI,Municipal,Primario
 113402,2024.0,9.0,,1.0,MSI,Municipal,Primario
-113404,2023.0,12.0,1.0,,MSI,Municipal,Primario
+113402,2024.0,10.0,2.0,,MSI,Municipal,Primario
+113402,2024.0,11.0,3.0,,MSI,Municipal,Primario
 113404,2024.0,2.0,0.0,,MSI,Municipal,Primario
 113404,2024.0,3.0,0.0,,MSI,Municipal,Primario
 113404,2024.0,5.0,0.0,1.0,MSI,Municipal,Primario
 113404,2024.0,6.0,,0.0,MSI,Municipal,Primario
 113404,2024.0,7.0,,0.0,MSI,Municipal,Primario
 113404,2024.0,8.0,0.0,,MSI,Municipal,Primario
+113404,2024.0,10.0,1.0,,MSI,Municipal,Primario
 113405,2024.0,1.0,,1.0,MSI,Municipal,Primario
 113405,2024.0,2.0,0.0,1.0,MSI,Municipal,Primario
 113405,2024.0,3.0,,2.0,MSI,Municipal,Primario
@@ -1791,11 +2119,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113405,2024.0,7.0,1.0,1.0,MSI,Municipal,Primario
 113405,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 113405,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
+113405,2024.0,12.0,3.0,,MSI,Municipal,Primario
 113406,2024.0,3.0,,0.0,MSI,Municipal,Primario
 113406,2024.0,5.0,,1.0,MSI,Municipal,Primario
 113406,2024.0,9.0,2.0,,MSI,Municipal,Primario
-113407,2023.0,10.0,0.0,,MSI,Municipal,Primario
-113407,2023.0,12.0,0.0,,MSI,Municipal,Primario
+113406,2024.0,11.0,0.0,,MSI,Municipal,Primario
 113407,2024.0,5.0,,0.0,MSI,Municipal,Primario
 113407,2024.0,7.0,0.0,,MSI,Municipal,Primario
 113408,2023.0,12.0,,1.0,MSI,Municipal,Primario
@@ -1804,9 +2132,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113408,2024.0,4.0,0.0,,MSI,Municipal,Primario
 113408,2024.0,5.0,2.0,1.0,MSI,Municipal,Primario
 113408,2024.0,7.0,,0.0,MSI,Municipal,Primario
-113409,2023.0,10.0,0.0,0.0,MSI,Municipal,Primario
-113409,2023.0,11.0,0.0,1.0,MSI,Municipal,Primario
-113409,2023.0,12.0,0.0,2.0,MSI,Municipal,Primario
+113408,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113408,2024.0,12.0,1.0,,MSI,Municipal,Primario
+113409,2023.0,10.0,,0.0,MSI,Municipal,Primario
+113409,2023.0,11.0,,1.0,MSI,Municipal,Primario
+113409,2023.0,12.0,,2.0,MSI,Municipal,Primario
 113409,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
 113409,2024.0,2.0,0.0,1.0,MSI,Municipal,Primario
 113409,2024.0,3.0,,1.0,MSI,Municipal,Primario
@@ -1816,6 +2146,8 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113409,2024.0,7.0,0.0,0.0,MSI,Municipal,Primario
 113409,2024.0,8.0,1.0,2.0,MSI,Municipal,Primario
 113409,2024.0,9.0,,0.0,MSI,Municipal,Primario
+113409,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113409,2024.0,12.0,1.0,,MSI,Municipal,Primario
 113410,2024.0,3.0,1.0,,MSI,Municipal,Primario
 113410,2024.0,4.0,,1.0,MSI,Municipal,Primario
 113410,2024.0,5.0,,1.0,MSI,Municipal,Primario
@@ -1828,12 +2160,13 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113411,2024.0,7.0,1.0,,MSI,Municipal,Primario
 113411,2024.0,8.0,,1.0,MSI,Municipal,Primario
 113411,2024.0,9.0,1.0,,MSI,Municipal,Primario
-113412,2023.0,10.0,0.0,,MSI,Municipal,Primario
+113411,2024.0,11.0,0.0,,MSI,Municipal,Primario
 113412,2023.0,11.0,,1.0,MSI,Municipal,Primario
 113412,2024.0,1.0,,0.0,MSI,Municipal,Primario
 113412,2024.0,3.0,0.0,1.0,MSI,Municipal,Primario
 113412,2024.0,4.0,1.0,,MSI,Municipal,Primario
 113412,2024.0,7.0,1.0,1.0,MSI,Municipal,Primario
+113412,2024.0,12.0,1.0,,MSI,Municipal,Primario
 113413,2024.0,2.0,,1.0,MSI,Municipal,Primario
 113413,2024.0,4.0,,1.0,MSI,Municipal,Primario
 113701,2023.0,10.0,,0.0,MSI,Municipal,Primario
@@ -1843,12 +2176,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113701,2024.0,6.0,,1.0,MSI,Municipal,Primario
 113701,2024.0,7.0,,0.0,MSI,Municipal,Primario
 113701,2024.0,9.0,2.0,,MSI,Municipal,Primario
-113702,2023.0,10.0,1.0,0.0,MSI,Municipal,Primario
-113702,2023.0,11.0,0.0,,MSI,Municipal,Primario
-113702,2023.0,12.0,0.0,1.0,MSI,Municipal,Primario
+113701,2024.0,10.0,1.0,,MSI,Municipal,Primario
+113702,2023.0,10.0,,0.0,MSI,Municipal,Primario
+113702,2023.0,12.0,,1.0,MSI,Municipal,Primario
 113702,2024.0,8.0,,1.0,MSI,Municipal,Primario
-113703,2023.0,10.0,1.0,1.0,MSI,Municipal,Primario
-113703,2023.0,12.0,0.0,,MSI,Municipal,Primario
+113702,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113703,2023.0,10.0,,1.0,MSI,Municipal,Primario
 113703,2024.0,1.0,,1.0,MSI,Municipal,Primario
 113703,2024.0,3.0,2.0,,MSI,Municipal,Primario
 113703,2024.0,5.0,,0.0,MSI,Municipal,Primario
@@ -1856,7 +2189,8 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113703,2024.0,7.0,,1.0,MSI,Municipal,Primario
 113703,2024.0,8.0,,1.0,MSI,Municipal,Primario
 113703,2024.0,9.0,1.0,0.0,MSI,Municipal,Primario
-113713,2023.0,10.0,1.0,,MSI,Municipal,Primario
+113703,2024.0,10.0,3.0,,MSI,Municipal,Primario
+113703,2024.0,12.0,0.0,,MSI,Municipal,Primario
 113713,2023.0,11.0,,1.0,MSI,Municipal,Primario
 113713,2024.0,2.0,,0.0,MSI,Municipal,Primario
 113713,2024.0,3.0,1.0,,MSI,Municipal,Primario
@@ -1869,6 +2203,8 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113716,2024.0,6.0,,1.0,MSI,Municipal,Primario
 113716,2024.0,8.0,1.0,,MSI,Municipal,Primario
 113716,2024.0,9.0,2.0,,MSI,Municipal,Primario
+113716,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113716,2024.0,12.0,1.0,,MSI,Municipal,Primario
 113717,2023.0,10.0,,0.0,MSI,Municipal,Primario
 113717,2023.0,11.0,,1.0,MSI,Municipal,Primario
 113717,2023.0,12.0,,0.0,MSI,Municipal,Primario
@@ -1892,11 +2228,14 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113728,2024.0,3.0,,1.0,MSI,Municipal,Primario
 113728,2024.0,6.0,1.0,0.0,MSI,Municipal,Primario
 113728,2024.0,7.0,,1.0,MSI,Municipal,Primario
+113728,2024.0,10.0,1.0,,MSI,Municipal,Primario
+113728,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113728,2024.0,12.0,1.0,,MSI,Municipal,Primario
 113753,2024.0,7.0,,0.0,MSI,Municipal,Primario
 113753,2024.0,8.0,,0.0,MSI,Municipal,Primario
 113753,2024.0,9.0,,0.0,MSI,Municipal,Primario
-113790,2023.0,10.0,0.0,0.0,MSI,Municipal,Primario
-113790,2023.0,11.0,1.0,5.0,MSI,Municipal,Primario
+113790,2023.0,10.0,,0.0,MSI,Municipal,Primario
+113790,2023.0,11.0,,5.0,MSI,Municipal,Primario
 113790,2023.0,12.0,,3.0,MSI,Municipal,Primario
 113790,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
 113790,2024.0,2.0,,1.0,MSI,Municipal,Primario
@@ -1907,9 +2246,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113790,2024.0,7.0,,0.0,MSI,Municipal,Primario
 113790,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 113790,2024.0,9.0,,2.0,MSI,Municipal,Primario
-114102,2023.0,10.0,1.0,2.0,MSI,Servicio de Salud,Terciario
-114102,2023.0,11.0,1.0,2.0,MSI,Servicio de Salud,Terciario
-114102,2023.0,12.0,1.0,4.0,MSI,Servicio de Salud,Terciario
+113790,2024.0,10.0,1.0,,MSI,Municipal,Primario
+113790,2024.0,11.0,1.0,,MSI,Municipal,Primario
+113790,2024.0,12.0,2.0,,MSI,Municipal,Primario
+114102,2023.0,10.0,,2.0,MSI,Servicio de Salud,Terciario
+114102,2023.0,11.0,,2.0,MSI,Servicio de Salud,Terciario
+114102,2023.0,12.0,,4.0,MSI,Servicio de Salud,Terciario
 114102,2024.0,1.0,,5.0,MSI,Servicio de Salud,Terciario
 114102,2024.0,2.0,1.0,4.0,MSI,Servicio de Salud,Terciario
 114102,2024.0,3.0,1.0,2.0,MSI,Servicio de Salud,Terciario
@@ -1919,9 +2261,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114102,2024.0,7.0,2.0,0.0,MSI,Servicio de Salud,Terciario
 114102,2024.0,8.0,3.0,1.0,MSI,Servicio de Salud,Terciario
 114102,2024.0,9.0,0.0,0.0,MSI,Servicio de Salud,Terciario
-114301,2023.0,10.0,3.0,3.0,MSI,Municipal,Primario
-114301,2023.0,11.0,4.0,8.0,MSI,Municipal,Primario
-114301,2023.0,12.0,10.0,9.0,MSI,Municipal,Primario
+114102,2024.0,10.0,0.0,,MSI,Servicio de Salud,Terciario
+114102,2024.0,11.0,1.0,,MSI,Servicio de Salud,Terciario
+114102,2024.0,12.0,0.0,,MSI,Servicio de Salud,Terciario
+114301,2023.0,10.0,,3.0,MSI,Municipal,Primario
+114301,2023.0,11.0,,8.0,MSI,Municipal,Primario
+114301,2023.0,12.0,,9.0,MSI,Municipal,Primario
 114301,2024.0,1.0,1.0,2.0,MSI,Municipal,Primario
 114301,2024.0,2.0,7.0,7.0,MSI,Municipal,Primario
 114301,2024.0,3.0,4.0,4.0,MSI,Municipal,Primario
@@ -1931,9 +2276,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114301,2024.0,7.0,7.0,4.0,MSI,Municipal,Primario
 114301,2024.0,8.0,3.0,1.0,MSI,Municipal,Primario
 114301,2024.0,9.0,4.0,4.0,MSI,Municipal,Primario
-114302,2023.0,10.0,7.0,2.0,MSI,Municipal,Primario
-114302,2023.0,11.0,6.0,,MSI,Municipal,Primario
-114302,2023.0,12.0,2.0,1.0,MSI,Municipal,Primario
+114301,2024.0,10.0,3.0,,MSI,Municipal,Primario
+114301,2024.0,11.0,2.0,,MSI,Municipal,Primario
+114301,2024.0,12.0,4.0,,MSI,Municipal,Primario
+114302,2023.0,10.0,,2.0,MSI,Municipal,Primario
+114302,2023.0,12.0,,1.0,MSI,Municipal,Primario
 114302,2024.0,1.0,,2.0,MSI,Municipal,Primario
 114302,2024.0,2.0,0.0,,MSI,Municipal,Primario
 114302,2024.0,3.0,,0.0,MSI,Municipal,Primario
@@ -1942,9 +2289,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114302,2024.0,7.0,0.0,4.0,MSI,Municipal,Primario
 114302,2024.0,8.0,6.0,,MSI,Municipal,Primario
 114302,2024.0,9.0,2.0,1.0,MSI,Municipal,Primario
-114303,2023.0,10.0,0.0,3.0,MSI,Municipal,Primario
-114303,2023.0,11.0,3.0,1.0,MSI,Municipal,Primario
-114303,2023.0,12.0,1.0,0.0,MSI,Municipal,Primario
+114302,2024.0,10.0,5.0,,MSI,Municipal,Primario
+114302,2024.0,11.0,4.0,,MSI,Municipal,Primario
+114302,2024.0,12.0,2.0,,MSI,Municipal,Primario
+114303,2023.0,10.0,,3.0,MSI,Municipal,Primario
+114303,2023.0,11.0,,1.0,MSI,Municipal,Primario
+114303,2023.0,12.0,,0.0,MSI,Municipal,Primario
 114303,2024.0,1.0,3.0,3.0,MSI,Municipal,Primario
 114303,2024.0,2.0,1.0,2.0,MSI,Municipal,Primario
 114303,2024.0,3.0,2.0,2.0,MSI,Municipal,Primario
@@ -1954,7 +2304,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114303,2024.0,7.0,2.0,7.0,MSI,Municipal,Primario
 114303,2024.0,8.0,4.0,2.0,MSI,Municipal,Primario
 114303,2024.0,9.0,2.0,2.0,MSI,Municipal,Primario
-114304,2023.0,10.0,0.0,,MSI,Municipal,Primario
+114303,2024.0,10.0,3.0,,MSI,Municipal,Primario
+114303,2024.0,11.0,9.0,,MSI,Municipal,Primario
+114303,2024.0,12.0,2.0,,MSI,Municipal,Primario
 114304,2023.0,11.0,,0.0,MSI,Municipal,Primario
 114304,2023.0,12.0,,0.0,MSI,Municipal,Primario
 114304,2024.0,1.0,,0.0,MSI,Municipal,Primario
@@ -1966,9 +2318,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114304,2024.0,7.0,4.0,2.0,MSI,Municipal,Primario
 114304,2024.0,8.0,2.0,4.0,MSI,Municipal,Primario
 114304,2024.0,9.0,,2.0,MSI,Municipal,Primario
-114305,2023.0,10.0,3.0,0.0,MSI,Municipal,Primario
-114305,2023.0,11.0,1.0,4.0,MSI,Municipal,Primario
-114305,2023.0,12.0,3.0,0.0,MSI,Municipal,Primario
+114304,2024.0,10.0,4.0,,MSI,Municipal,Primario
+114304,2024.0,11.0,3.0,,MSI,Municipal,Primario
+114304,2024.0,12.0,1.0,,MSI,Municipal,Primario
+114305,2023.0,10.0,,0.0,MSI,Municipal,Primario
+114305,2023.0,11.0,,4.0,MSI,Municipal,Primario
+114305,2023.0,12.0,,0.0,MSI,Municipal,Primario
 114305,2024.0,1.0,0.0,5.0,MSI,Municipal,Primario
 114305,2024.0,2.0,3.0,5.0,MSI,Municipal,Primario
 114305,2024.0,3.0,0.0,5.0,MSI,Municipal,Primario
@@ -1978,9 +2333,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114305,2024.0,7.0,2.0,3.0,MSI,Municipal,Primario
 114305,2024.0,8.0,5.0,2.0,MSI,Municipal,Primario
 114305,2024.0,9.0,1.0,3.0,MSI,Municipal,Primario
+114305,2024.0,10.0,3.0,,MSI,Municipal,Primario
+114305,2024.0,11.0,1.0,,MSI,Municipal,Primario
+114305,2024.0,12.0,4.0,,MSI,Municipal,Primario
 114306,2023.0,10.0,,3.0,MSI,Municipal,Primario
-114306,2023.0,11.0,4.0,2.0,MSI,Municipal,Primario
-114306,2023.0,12.0,4.0,2.0,MSI,Municipal,Primario
+114306,2023.0,11.0,,2.0,MSI,Municipal,Primario
+114306,2023.0,12.0,,2.0,MSI,Municipal,Primario
 114306,2024.0,1.0,1.0,3.0,MSI,Municipal,Primario
 114306,2024.0,2.0,2.0,3.0,MSI,Municipal,Primario
 114306,2024.0,3.0,3.0,2.0,MSI,Municipal,Primario
@@ -1990,6 +2348,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114306,2024.0,7.0,3.0,3.0,MSI,Municipal,Primario
 114306,2024.0,8.0,2.0,1.0,MSI,Municipal,Primario
 114306,2024.0,9.0,2.0,2.0,MSI,Municipal,Primario
+114306,2024.0,10.0,5.0,,MSI,Municipal,Primario
+114306,2024.0,11.0,1.0,,MSI,Municipal,Primario
+114306,2024.0,12.0,2.0,,MSI,Municipal,Primario
 114307,2024.0,1.0,,2.0,MSI,Municipal,Primario
 114307,2024.0,2.0,,1.0,MSI,Municipal,Primario
 114307,2024.0,3.0,0.0,4.0,MSI,Municipal,Primario
@@ -1999,8 +2360,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114307,2024.0,7.0,,3.0,MSI,Municipal,Primario
 114307,2024.0,8.0,5.0,2.0,MSI,Municipal,Primario
 114307,2024.0,9.0,3.0,,MSI,Municipal,Primario
-114308,2023.0,10.0,6.0,2.0,MSI,Municipal,Primario
-114308,2023.0,11.0,2.0,4.0,MSI,Municipal,Primario
+114307,2024.0,10.0,2.0,,MSI,Municipal,Primario
+114307,2024.0,11.0,1.0,,MSI,Municipal,Primario
+114308,2023.0,10.0,,2.0,MSI,Municipal,Primario
+114308,2023.0,11.0,,4.0,MSI,Municipal,Primario
 114308,2023.0,12.0,,3.0,MSI,Municipal,Primario
 114308,2024.0,1.0,6.0,9.0,MSI,Municipal,Primario
 114308,2024.0,2.0,1.0,5.0,MSI,Municipal,Primario
@@ -2011,9 +2374,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114308,2024.0,7.0,2.0,4.0,MSI,Municipal,Primario
 114308,2024.0,8.0,1.0,2.0,MSI,Municipal,Primario
 114308,2024.0,9.0,2.0,1.0,MSI,Municipal,Primario
-114309,2023.0,10.0,0.0,2.0,MSI,Municipal,Primario
+114308,2024.0,10.0,2.0,,MSI,Municipal,Primario
+114308,2024.0,11.0,2.0,,MSI,Municipal,Primario
+114308,2024.0,12.0,0.0,,MSI,Municipal,Primario
+114309,2023.0,10.0,,2.0,MSI,Municipal,Primario
 114309,2023.0,11.0,,5.0,MSI,Municipal,Primario
-114309,2023.0,12.0,2.0,5.0,MSI,Municipal,Primario
+114309,2023.0,12.0,,5.0,MSI,Municipal,Primario
 114309,2024.0,1.0,1.0,2.0,MSI,Municipal,Primario
 114309,2024.0,2.0,2.0,3.0,MSI,Municipal,Primario
 114309,2024.0,3.0,4.0,6.0,MSI,Municipal,Primario
@@ -2023,8 +2389,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114309,2024.0,7.0,3.0,3.0,MSI,Municipal,Primario
 114309,2024.0,8.0,3.0,0.0,MSI,Municipal,Primario
 114309,2024.0,9.0,1.0,3.0,MSI,Municipal,Primario
-114310,2023.0,10.0,2.0,1.0,MSI,Municipal,Primario
-114310,2023.0,11.0,0.0,,MSI,Municipal,Primario
+114309,2024.0,10.0,1.0,,MSI,Municipal,Primario
+114309,2024.0,11.0,1.0,,MSI,Municipal,Primario
+114309,2024.0,12.0,1.0,,MSI,Municipal,Primario
+114310,2023.0,10.0,,1.0,MSI,Municipal,Primario
 114310,2023.0,12.0,,1.0,MSI,Municipal,Primario
 114310,2024.0,1.0,,1.0,MSI,Municipal,Primario
 114310,2024.0,2.0,2.0,1.0,MSI,Municipal,Primario
@@ -2034,9 +2402,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114310,2024.0,7.0,,1.0,MSI,Municipal,Primario
 114310,2024.0,8.0,1.0,2.0,MSI,Municipal,Primario
 114310,2024.0,9.0,0.0,3.0,MSI,Municipal,Primario
-114311,2023.0,10.0,2.0,4.0,MSI,Municipal,Primario
-114311,2023.0,11.0,1.0,3.0,MSI,Municipal,Primario
-114311,2023.0,12.0,3.0,1.0,MSI,Municipal,Primario
+114310,2024.0,11.0,1.0,,MSI,Municipal,Primario
+114310,2024.0,12.0,1.0,,MSI,Municipal,Primario
+114311,2023.0,10.0,,4.0,MSI,Municipal,Primario
+114311,2023.0,11.0,,3.0,MSI,Municipal,Primario
+114311,2023.0,12.0,,1.0,MSI,Municipal,Primario
 114311,2024.0,1.0,2.0,0.0,MSI,Municipal,Primario
 114311,2024.0,2.0,,5.0,MSI,Municipal,Primario
 114311,2024.0,3.0,,5.0,MSI,Municipal,Primario
@@ -2046,9 +2416,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114311,2024.0,7.0,0.0,4.0,MSI,Municipal,Primario
 114311,2024.0,8.0,1.0,3.0,MSI,Municipal,Primario
 114311,2024.0,9.0,1.0,0.0,MSI,Municipal,Primario
-114312,2023.0,10.0,1.0,1.0,MSI,Municipal,Primario
-114312,2023.0,11.0,4.0,5.0,MSI,Municipal,Primario
-114312,2023.0,12.0,5.0,1.0,MSI,Municipal,Primario
+114311,2024.0,10.0,4.0,,MSI,Municipal,Primario
+114311,2024.0,11.0,2.0,,MSI,Municipal,Primario
+114311,2024.0,12.0,1.0,,MSI,Municipal,Primario
+114312,2023.0,10.0,,1.0,MSI,Municipal,Primario
+114312,2023.0,11.0,,5.0,MSI,Municipal,Primario
+114312,2023.0,12.0,,1.0,MSI,Municipal,Primario
 114312,2024.0,1.0,1.0,1.0,MSI,Municipal,Primario
 114312,2024.0,2.0,1.0,4.0,MSI,Municipal,Primario
 114312,2024.0,3.0,,2.0,MSI,Municipal,Primario
@@ -2058,9 +2431,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114312,2024.0,7.0,3.0,3.0,MSI,Municipal,Primario
 114312,2024.0,8.0,,0.0,MSI,Municipal,Primario
 114312,2024.0,9.0,1.0,0.0,MSI,Municipal,Primario
+114312,2024.0,10.0,2.0,,MSI,Municipal,Primario
+114312,2024.0,11.0,0.0,,MSI,Municipal,Primario
+114312,2024.0,12.0,1.0,,MSI,Municipal,Primario
 114313,2023.0,10.0,,5.0,MSI,Municipal,Primario
-114313,2023.0,11.0,3.0,3.0,MSI,Municipal,Primario
-114313,2023.0,12.0,3.0,3.0,MSI,Municipal,Primario
+114313,2023.0,11.0,,3.0,MSI,Municipal,Primario
+114313,2023.0,12.0,,3.0,MSI,Municipal,Primario
 114313,2024.0,1.0,4.0,9.0,MSI,Municipal,Primario
 114313,2024.0,2.0,1.0,8.0,MSI,Municipal,Primario
 114313,2024.0,3.0,1.0,7.0,MSI,Municipal,Primario
@@ -2070,7 +2446,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114313,2024.0,7.0,5.0,5.0,MSI,Municipal,Primario
 114313,2024.0,8.0,,3.0,MSI,Municipal,Primario
 114313,2024.0,9.0,10.0,0.0,MSI,Municipal,Primario
-114314,2023.0,10.0,1.0,,MSI,Municipal,Primario
+114313,2024.0,10.0,9.0,,MSI,Municipal,Primario
+114313,2024.0,11.0,2.0,,MSI,Municipal,Primario
+114313,2024.0,12.0,0.0,,MSI,Municipal,Primario
 114314,2024.0,1.0,,2.0,MSI,Municipal,Primario
 114314,2024.0,2.0,,1.0,MSI,Municipal,Primario
 114314,2024.0,3.0,0.0,2.0,MSI,Municipal,Primario
@@ -2080,9 +2458,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114314,2024.0,7.0,1.0,1.0,MSI,Municipal,Primario
 114314,2024.0,8.0,0.0,2.0,MSI,Municipal,Primario
 114314,2024.0,9.0,3.0,2.0,MSI,Municipal,Primario
-114315,2023.0,10.0,2.0,0.0,MSI,Municipal,Primario
-114315,2023.0,11.0,3.0,3.0,MSI,Municipal,Primario
-114315,2023.0,12.0,1.0,,MSI,Municipal,Primario
+114314,2024.0,10.0,1.0,,MSI,Municipal,Primario
+114314,2024.0,11.0,2.0,,MSI,Municipal,Primario
+114314,2024.0,12.0,2.0,,MSI,Municipal,Primario
+114315,2023.0,10.0,,0.0,MSI,Municipal,Primario
+114315,2023.0,11.0,,3.0,MSI,Municipal,Primario
 114315,2024.0,2.0,2.0,2.0,MSI,Municipal,Primario
 114315,2024.0,4.0,0.0,4.0,MSI,Municipal,Primario
 114315,2024.0,5.0,1.0,0.0,MSI,Municipal,Primario
@@ -2090,7 +2470,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114315,2024.0,7.0,2.0,1.0,MSI,Municipal,Primario
 114315,2024.0,8.0,1.0,0.0,MSI,Municipal,Primario
 114315,2024.0,9.0,1.0,0.0,MSI,Municipal,Primario
-114316,2023.0,10.0,1.0,1.0,MSI,Municipal,Primario
+114315,2024.0,10.0,0.0,,MSI,Municipal,Primario
+114315,2024.0,11.0,0.0,,MSI,Municipal,Primario
+114315,2024.0,12.0,1.0,,MSI,Municipal,Primario
+114316,2023.0,10.0,,1.0,MSI,Municipal,Primario
 114316,2023.0,11.0,,7.0,MSI,Municipal,Primario
 114316,2023.0,12.0,,0.0,MSI,Municipal,Primario
 114316,2024.0,1.0,1.0,7.0,MSI,Municipal,Primario
@@ -2102,9 +2485,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114316,2024.0,7.0,0.0,9.0,MSI,Municipal,Primario
 114316,2024.0,8.0,0.0,3.0,MSI,Municipal,Primario
 114316,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
+114316,2024.0,10.0,7.0,,MSI,Municipal,Primario
+114316,2024.0,11.0,4.0,,MSI,Municipal,Primario
+114316,2024.0,12.0,1.0,,MSI,Municipal,Primario
 114317,2023.0,10.0,,3.0,MSI,Municipal,Primario
-114317,2023.0,11.0,1.0,0.0,MSI,Municipal,Primario
-114317,2023.0,12.0,2.0,1.0,MSI,Municipal,Primario
+114317,2023.0,11.0,,0.0,MSI,Municipal,Primario
+114317,2023.0,12.0,,1.0,MSI,Municipal,Primario
 114317,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
 114317,2024.0,2.0,1.0,2.0,MSI,Municipal,Primario
 114317,2024.0,3.0,,2.0,MSI,Municipal,Primario
@@ -2114,9 +2500,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114317,2024.0,7.0,3.0,2.0,MSI,Municipal,Primario
 114317,2024.0,8.0,2.0,3.0,MSI,Municipal,Primario
 114317,2024.0,9.0,3.0,,MSI,Municipal,Primario
-114318,2023.0,10.0,1.0,3.0,MSI,Municipal,Primario
+114317,2024.0,10.0,1.0,,MSI,Municipal,Primario
+114317,2024.0,11.0,1.0,,MSI,Municipal,Primario
+114318,2023.0,10.0,,3.0,MSI,Municipal,Primario
 114318,2023.0,11.0,,1.0,MSI,Municipal,Primario
-114318,2023.0,12.0,0.0,2.0,MSI,Municipal,Primario
+114318,2023.0,12.0,,2.0,MSI,Municipal,Primario
 114318,2024.0,1.0,2.0,4.0,MSI,Municipal,Primario
 114318,2024.0,2.0,0.0,3.0,MSI,Municipal,Primario
 114318,2024.0,3.0,2.0,1.0,MSI,Municipal,Primario
@@ -2126,9 +2514,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114318,2024.0,7.0,0.0,3.0,MSI,Municipal,Primario
 114318,2024.0,8.0,3.0,1.0,MSI,Municipal,Primario
 114318,2024.0,9.0,2.0,1.0,MSI,Municipal,Primario
-114319,2023.0,10.0,5.0,6.0,MSI,Municipal,Primario
-114319,2023.0,11.0,1.0,4.0,MSI,Municipal,Primario
-114319,2023.0,12.0,3.0,1.0,MSI,Municipal,Primario
+114318,2024.0,10.0,2.0,,MSI,Municipal,Primario
+114318,2024.0,11.0,1.0,,MSI,Municipal,Primario
+114318,2024.0,12.0,1.0,,MSI,Municipal,Primario
+114319,2023.0,10.0,,6.0,MSI,Municipal,Primario
+114319,2023.0,11.0,,4.0,MSI,Municipal,Primario
+114319,2023.0,12.0,,1.0,MSI,Municipal,Primario
 114319,2024.0,1.0,5.0,5.0,MSI,Municipal,Primario
 114319,2024.0,2.0,3.0,4.0,MSI,Municipal,Primario
 114319,2024.0,3.0,0.0,3.0,MSI,Municipal,Primario
@@ -2138,9 +2529,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114319,2024.0,7.0,3.0,7.0,MSI,Municipal,Primario
 114319,2024.0,8.0,4.0,3.0,MSI,Municipal,Primario
 114319,2024.0,9.0,2.0,2.0,MSI,Municipal,Primario
-114320,2023.0,10.0,6.0,5.0,MSI,Municipal,Primario
-114320,2023.0,11.0,1.0,4.0,MSI,Municipal,Primario
-114320,2023.0,12.0,2.0,4.0,MSI,Municipal,Primario
+114319,2024.0,10.0,2.0,,MSI,Municipal,Primario
+114319,2024.0,11.0,6.0,,MSI,Municipal,Primario
+114319,2024.0,12.0,7.0,,MSI,Municipal,Primario
+114320,2023.0,10.0,,5.0,MSI,Municipal,Primario
+114320,2023.0,11.0,,4.0,MSI,Municipal,Primario
+114320,2023.0,12.0,,4.0,MSI,Municipal,Primario
 114320,2024.0,1.0,1.0,2.0,MSI,Municipal,Primario
 114320,2024.0,2.0,0.0,7.0,MSI,Municipal,Primario
 114320,2024.0,3.0,5.0,4.0,MSI,Municipal,Primario
@@ -2150,9 +2544,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114320,2024.0,7.0,1.0,11.0,MSI,Municipal,Primario
 114320,2024.0,8.0,9.0,6.0,MSI,Municipal,Primario
 114320,2024.0,9.0,2.0,4.0,MSI,Municipal,Primario
-114321,2023.0,10.0,3.0,2.0,MSI,Municipal,Primario
-114321,2023.0,11.0,1.0,2.0,MSI,Municipal,Primario
-114321,2023.0,12.0,1.0,1.0,MSI,Municipal,Primario
+114320,2024.0,10.0,10.0,,MSI,Municipal,Primario
+114320,2024.0,11.0,3.0,,MSI,Municipal,Primario
+114320,2024.0,12.0,3.0,,MSI,Municipal,Primario
+114321,2023.0,10.0,,2.0,MSI,Municipal,Primario
+114321,2023.0,11.0,,2.0,MSI,Municipal,Primario
+114321,2023.0,12.0,,1.0,MSI,Municipal,Primario
 114321,2024.0,2.0,,2.0,MSI,Municipal,Primario
 114321,2024.0,3.0,2.0,2.0,MSI,Municipal,Primario
 114321,2024.0,4.0,1.0,0.0,MSI,Municipal,Primario
@@ -2161,9 +2558,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114321,2024.0,7.0,1.0,5.0,MSI,Municipal,Primario
 114321,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 114321,2024.0,9.0,3.0,6.0,MSI,Municipal,Primario
-114322,2023.0,10.0,1.0,3.0,MSI,Municipal,Primario
+114321,2024.0,11.0,5.0,,MSI,Municipal,Primario
+114321,2024.0,12.0,4.0,,MSI,Municipal,Primario
+114322,2023.0,10.0,,3.0,MSI,Municipal,Primario
 114322,2023.0,11.0,,3.0,MSI,Municipal,Primario
-114322,2023.0,12.0,2.0,0.0,MSI,Municipal,Primario
+114322,2023.0,12.0,,0.0,MSI,Municipal,Primario
 114322,2024.0,1.0,1.0,3.0,MSI,Municipal,Primario
 114322,2024.0,2.0,2.0,5.0,MSI,Municipal,Primario
 114322,2024.0,3.0,0.0,5.0,MSI,Municipal,Primario
@@ -2173,8 +2572,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114322,2024.0,7.0,3.0,3.0,MSI,Municipal,Primario
 114322,2024.0,8.0,4.0,4.0,MSI,Municipal,Primario
 114322,2024.0,9.0,2.0,0.0,MSI,Municipal,Primario
-114323,2023.0,10.0,5.0,0.0,MSI,Delegados ,Primario
-114323,2023.0,11.0,1.0,1.0,MSI,Delegados ,Primario
+114322,2024.0,10.0,3.0,,MSI,Municipal,Primario
+114322,2024.0,11.0,3.0,,MSI,Municipal,Primario
+114322,2024.0,12.0,0.0,,MSI,Municipal,Primario
+114323,2023.0,10.0,,0.0,MSI,Delegados ,Primario
+114323,2023.0,11.0,,1.0,MSI,Delegados ,Primario
 114323,2023.0,12.0,,3.0,MSI,Delegados ,Primario
 114323,2024.0,1.0,2.0,4.0,MSI,Delegados ,Primario
 114323,2024.0,2.0,1.0,5.0,MSI,Delegados ,Primario
@@ -2185,9 +2587,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114323,2024.0,7.0,,1.0,MSI,Delegados ,Primario
 114323,2024.0,8.0,2.0,1.0,MSI,Delegados ,Primario
 114323,2024.0,9.0,,1.0,MSI,Delegados ,Primario
-114324,2023.0,10.0,4.0,1.0,MSI,Municipal,Primario
+114323,2024.0,10.0,1.0,,MSI,Delegados ,Primario
+114323,2024.0,12.0,1.0,,MSI,Delegados ,Primario
+114324,2023.0,10.0,,1.0,MSI,Municipal,Primario
 114324,2023.0,11.0,,0.0,MSI,Municipal,Primario
-114324,2023.0,12.0,0.0,0.0,MSI,Municipal,Primario
+114324,2023.0,12.0,,0.0,MSI,Municipal,Primario
 114324,2024.0,1.0,1.0,3.0,MSI,Municipal,Primario
 114324,2024.0,2.0,,0.0,MSI,Municipal,Primario
 114324,2024.0,3.0,1.0,1.0,MSI,Municipal,Primario
@@ -2197,9 +2601,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114324,2024.0,7.0,2.0,2.0,MSI,Municipal,Primario
 114324,2024.0,8.0,3.0,1.0,MSI,Municipal,Primario
 114324,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
-114325,2023.0,10.0,1.0,5.0,MSI,Municipal,Primario
-114325,2023.0,11.0,3.0,4.0,MSI,Municipal,Primario
-114325,2023.0,12.0,2.0,3.0,MSI,Municipal,Primario
+114324,2024.0,10.0,3.0,,MSI,Municipal,Primario
+114324,2024.0,11.0,2.0,,MSI,Municipal,Primario
+114325,2023.0,10.0,,5.0,MSI,Municipal,Primario
+114325,2023.0,11.0,,4.0,MSI,Municipal,Primario
+114325,2023.0,12.0,,3.0,MSI,Municipal,Primario
 114325,2024.0,1.0,2.0,5.0,MSI,Municipal,Primario
 114325,2024.0,2.0,2.0,6.0,MSI,Municipal,Primario
 114325,2024.0,3.0,3.0,4.0,MSI,Municipal,Primario
@@ -2209,9 +2615,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114325,2024.0,7.0,3.0,4.0,MSI,Municipal,Primario
 114325,2024.0,8.0,2.0,5.0,MSI,Municipal,Primario
 114325,2024.0,9.0,4.0,2.0,MSI,Municipal,Primario
-114326,2023.0,10.0,3.0,4.0,MSI,Municipal,Primario
-114326,2023.0,11.0,1.0,6.0,MSI,Municipal,Primario
-114326,2023.0,12.0,1.0,1.0,MSI,Municipal,Primario
+114325,2024.0,10.0,1.0,,MSI,Municipal,Primario
+114325,2024.0,11.0,1.0,,MSI,Municipal,Primario
+114325,2024.0,12.0,2.0,,MSI,Municipal,Primario
+114326,2023.0,10.0,,4.0,MSI,Municipal,Primario
+114326,2023.0,11.0,,6.0,MSI,Municipal,Primario
+114326,2023.0,12.0,,1.0,MSI,Municipal,Primario
 114326,2024.0,1.0,4.0,4.0,MSI,Municipal,Primario
 114326,2024.0,2.0,5.0,5.0,MSI,Municipal,Primario
 114326,2024.0,3.0,4.0,1.0,MSI,Municipal,Primario
@@ -2221,9 +2630,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114326,2024.0,7.0,0.0,4.0,MSI,Municipal,Primario
 114326,2024.0,8.0,3.0,0.0,MSI,Municipal,Primario
 114326,2024.0,9.0,1.0,2.0,MSI,Municipal,Primario
-114327,2023.0,10.0,2.0,2.0,MSI,Delegados ,Primario
-114327,2023.0,11.0,3.0,2.0,MSI,Delegados ,Primario
-114327,2023.0,12.0,3.0,1.0,MSI,Delegados ,Primario
+114326,2024.0,10.0,2.0,,MSI,Municipal,Primario
+114326,2024.0,11.0,0.0,,MSI,Municipal,Primario
+114326,2024.0,12.0,2.0,,MSI,Municipal,Primario
+114327,2023.0,10.0,,2.0,MSI,Delegados ,Primario
+114327,2023.0,11.0,,2.0,MSI,Delegados ,Primario
+114327,2023.0,12.0,,1.0,MSI,Delegados ,Primario
 114327,2024.0,1.0,2.0,0.0,MSI,Delegados ,Primario
 114327,2024.0,2.0,0.0,4.0,MSI,Delegados ,Primario
 114327,2024.0,3.0,2.0,1.0,MSI,Delegados ,Primario
@@ -2233,8 +2645,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114327,2024.0,7.0,0.0,2.0,MSI,Delegados ,Primario
 114327,2024.0,8.0,2.0,0.0,MSI,Delegados ,Primario
 114327,2024.0,9.0,1.0,1.0,MSI,Delegados ,Primario
-114328,2023.0,11.0,1.0,,MSI,Municipal,Primario
-114328,2023.0,12.0,1.0,0.0,MSI,Municipal,Primario
+114327,2024.0,10.0,0.0,,MSI,Delegados ,Primario
+114327,2024.0,11.0,1.0,,MSI,Delegados ,Primario
+114327,2024.0,12.0,0.0,,MSI,Delegados ,Primario
+114328,2023.0,12.0,,0.0,MSI,Municipal,Primario
 114328,2024.0,1.0,,4.0,MSI,Municipal,Primario
 114328,2024.0,3.0,,1.0,MSI,Municipal,Primario
 114328,2024.0,4.0,2.0,1.0,MSI,Municipal,Primario
@@ -2243,9 +2657,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114328,2024.0,7.0,,7.0,MSI,Municipal,Primario
 114328,2024.0,8.0,2.0,4.0,MSI,Municipal,Primario
 114328,2024.0,9.0,,3.0,MSI,Municipal,Primario
-114329,2023.0,10.0,2.0,2.0,MSI,Delegados ,Primario
-114329,2023.0,11.0,3.0,2.0,MSI,Delegados ,Primario
-114329,2023.0,12.0,1.0,0.0,MSI,Delegados ,Primario
+114328,2024.0,10.0,7.0,,MSI,Municipal,Primario
+114328,2024.0,11.0,4.0,,MSI,Municipal,Primario
+114328,2024.0,12.0,3.0,,MSI,Municipal,Primario
+114329,2023.0,10.0,,2.0,MSI,Delegados ,Primario
+114329,2023.0,11.0,,2.0,MSI,Delegados ,Primario
+114329,2023.0,12.0,,0.0,MSI,Delegados ,Primario
 114329,2024.0,1.0,1.0,3.0,MSI,Delegados ,Primario
 114329,2024.0,2.0,1.0,1.0,MSI,Delegados ,Primario
 114329,2024.0,3.0,0.0,3.0,MSI,Delegados ,Primario
@@ -2255,9 +2672,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114329,2024.0,7.0,,1.0,MSI,Delegados ,Primario
 114329,2024.0,8.0,1.0,1.0,MSI,Delegados ,Primario
 114329,2024.0,9.0,1.0,0.0,MSI,Delegados ,Primario
-114330,2023.0,10.0,0.0,3.0,MSI,Municipal,Primario
-114330,2023.0,11.0,0.0,1.0,MSI,Municipal,Primario
-114330,2023.0,12.0,2.0,3.0,MSI,Municipal,Primario
+114329,2024.0,10.0,0.0,,MSI,Delegados ,Primario
+114329,2024.0,11.0,0.0,,MSI,Delegados ,Primario
+114329,2024.0,12.0,2.0,,MSI,Delegados ,Primario
+114330,2023.0,10.0,,3.0,MSI,Municipal,Primario
+114330,2023.0,11.0,,1.0,MSI,Municipal,Primario
+114330,2023.0,12.0,,3.0,MSI,Municipal,Primario
 114330,2024.0,1.0,1.0,4.0,MSI,Municipal,Primario
 114330,2024.0,2.0,0.0,0.0,MSI,Municipal,Primario
 114330,2024.0,3.0,0.0,5.0,MSI,Municipal,Primario
@@ -2267,9 +2687,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114330,2024.0,7.0,1.0,3.0,MSI,Municipal,Primario
 114330,2024.0,8.0,2.0,2.0,MSI,Municipal,Primario
 114330,2024.0,9.0,2.0,0.0,MSI,Municipal,Primario
-114331,2023.0,10.0,1.0,3.0,MSI,Municipal,Primario
-114331,2023.0,11.0,2.0,3.0,MSI,Municipal,Primario
-114331,2023.0,12.0,0.0,0.0,MSI,Municipal,Primario
+114330,2024.0,10.0,3.0,,MSI,Municipal,Primario
+114330,2024.0,11.0,2.0,,MSI,Municipal,Primario
+114330,2024.0,12.0,5.0,,MSI,Municipal,Primario
+114331,2023.0,10.0,,3.0,MSI,Municipal,Primario
+114331,2023.0,11.0,,3.0,MSI,Municipal,Primario
+114331,2023.0,12.0,,0.0,MSI,Municipal,Primario
 114331,2024.0,1.0,2.0,4.0,MSI,Municipal,Primario
 114331,2024.0,2.0,1.0,0.0,MSI,Municipal,Primario
 114331,2024.0,3.0,0.0,2.0,MSI,Municipal,Primario
@@ -2279,9 +2702,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114331,2024.0,7.0,3.0,4.0,MSI,Municipal,Primario
 114331,2024.0,8.0,0.0,3.0,MSI,Municipal,Primario
 114331,2024.0,9.0,2.0,1.0,MSI,Municipal,Primario
+114331,2024.0,10.0,2.0,,MSI,Municipal,Primario
+114331,2024.0,11.0,2.0,,MSI,Municipal,Primario
+114331,2024.0,12.0,3.0,,MSI,Municipal,Primario
 114332,2023.0,10.0,,3.0,MSI,Municipal,Primario
-114332,2023.0,11.0,0.0,3.0,MSI,Municipal,Primario
-114332,2023.0,12.0,3.0,2.0,MSI,Municipal,Primario
+114332,2023.0,11.0,,3.0,MSI,Municipal,Primario
+114332,2023.0,12.0,,2.0,MSI,Municipal,Primario
 114332,2024.0,1.0,2.0,3.0,MSI,Municipal,Primario
 114332,2024.0,2.0,2.0,,MSI,Municipal,Primario
 114332,2024.0,3.0,0.0,,MSI,Municipal,Primario
@@ -2291,9 +2717,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114332,2024.0,7.0,2.0,2.0,MSI,Municipal,Primario
 114332,2024.0,8.0,1.0,,MSI,Municipal,Primario
 114332,2024.0,9.0,0.0,1.0,MSI,Municipal,Primario
+114332,2024.0,10.0,3.0,,MSI,Municipal,Primario
+114332,2024.0,11.0,0.0,,MSI,Municipal,Primario
 114333,2023.0,10.0,,2.0,MSI,Municipal,Primario
-114333,2023.0,11.0,0.0,2.0,MSI,Municipal,Primario
-114333,2023.0,12.0,0.0,1.0,MSI,Municipal,Primario
+114333,2023.0,11.0,,2.0,MSI,Municipal,Primario
+114333,2023.0,12.0,,1.0,MSI,Municipal,Primario
 114333,2024.0,1.0,0.0,1.0,MSI,Municipal,Primario
 114333,2024.0,2.0,1.0,2.0,MSI,Municipal,Primario
 114333,2024.0,3.0,,4.0,MSI,Municipal,Primario
@@ -2303,9 +2731,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114333,2024.0,7.0,1.0,3.0,MSI,Municipal,Primario
 114333,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 114333,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
-114334,2023.0,10.0,2.0,2.0,MSI,Municipal,Primario
-114334,2023.0,11.0,1.0,1.0,MSI,Municipal,Primario
-114334,2023.0,12.0,1.0,0.0,MSI,Municipal,Primario
+114333,2024.0,10.0,0.0,,MSI,Municipal,Primario
+114333,2024.0,11.0,0.0,,MSI,Municipal,Primario
+114333,2024.0,12.0,4.0,,MSI,Municipal,Primario
+114334,2023.0,10.0,,2.0,MSI,Municipal,Primario
+114334,2023.0,11.0,,1.0,MSI,Municipal,Primario
+114334,2023.0,12.0,,0.0,MSI,Municipal,Primario
 114334,2024.0,1.0,1.0,3.0,MSI,Municipal,Primario
 114334,2024.0,2.0,1.0,4.0,MSI,Municipal,Primario
 114334,2024.0,3.0,0.0,2.0,MSI,Municipal,Primario
@@ -2314,14 +2745,16 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114334,2024.0,6.0,0.0,0.0,MSI,Municipal,Primario
 114334,2024.0,7.0,,2.0,MSI,Municipal,Primario
 114334,2024.0,9.0,,1.0,MSI,Municipal,Primario
+114334,2024.0,10.0,2.0,,MSI,Municipal,Primario
+114334,2024.0,11.0,1.0,,MSI,Municipal,Primario
+114334,2024.0,12.0,0.0,,MSI,Municipal,Primario
 114401,2024.0,8.0,,0.0,MSI,Municipal,Primario
-114407,2023.0,10.0,0.0,,MSI,Municipal,Primario
 114407,2024.0,1.0,,3.0,MSI,Municipal,Primario
 114407,2024.0,5.0,,0.0,MSI,Municipal,Primario
 114407,2024.0,7.0,1.0,0.0,MSI,Municipal,Primario
 114407,2024.0,8.0,,0.0,MSI,Municipal,Primario
-114410,2023.0,12.0,1.0,,MSI,Municipal,Primario
-114706,2023.0,10.0,0.0,1.0,MSI,Municipal,Primario
+114407,2024.0,10.0,0.0,,MSI,Municipal,Primario
+114706,2023.0,10.0,,1.0,MSI,Municipal,Primario
 114706,2023.0,11.0,,2.0,MSI,Municipal,Primario
 114706,2023.0,12.0,,2.0,MSI,Municipal,Primario
 114706,2024.0,1.0,1.0,,MSI,Municipal,Primario
@@ -2329,9 +2762,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114706,2024.0,5.0,,1.0,MSI,Municipal,Primario
 114706,2024.0,7.0,,1.0,MSI,Municipal,Primario
 114706,2024.0,8.0,1.0,,MSI,Municipal,Primario
-114714,2023.0,12.0,0.0,,MSI,Municipal,Primario
+114706,2024.0,10.0,0.0,,MSI,Municipal,Primario
+114706,2024.0,11.0,0.0,,MSI,Municipal,Primario
 114714,2024.0,8.0,,0.0,MSI,Municipal,Primario
-114796,2023.0,11.0,0.0,,MSI,Municipal,Primario
+114714,2024.0,11.0,0.0,,MSI,Municipal,Primario
 114796,2023.0,12.0,,0.0,MSI,Municipal,Primario
 114796,2024.0,4.0,,0.0,MSI,Municipal,Primario
 114796,2024.0,9.0,0.0,,MSI,Municipal,Primario
@@ -2345,10 +2779,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 200037,2024.0,6.0,0.0,0.0,MSI,Municipal,Primario
 200037,2024.0,8.0,1.0,,MSI,Municipal,Primario
 200037,2024.0,9.0,,0.0,MSI,Municipal,Primario
+200037,2024.0,10.0,0.0,,MSI,Municipal,Primario
 200129,2024.0,5.0,1.0,1.0,MSI,Municipal,Primario
-200210,2023.0,10.0,0.0,0.0,MSI,Municipal,Primario
-200210,2023.0,11.0,0.0,0.0,MSI,Municipal,Primario
-200210,2023.0,12.0,0.0,1.0,MSI,Municipal,Primario
+200210,2023.0,10.0,,0.0,MSI,Municipal,Primario
+200210,2023.0,11.0,,0.0,MSI,Municipal,Primario
+200210,2023.0,12.0,,1.0,MSI,Municipal,Primario
 200210,2024.0,1.0,,0.0,MSI,Municipal,Primario
 200210,2024.0,3.0,0.0,0.0,MSI,Municipal,Primario
 200210,2024.0,4.0,1.0,2.0,MSI,Municipal,Primario
@@ -2357,25 +2792,31 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 200210,2024.0,7.0,2.0,1.0,MSI,Municipal,Primario
 200210,2024.0,8.0,,1.0,MSI,Municipal,Primario
 200210,2024.0,9.0,,2.0,MSI,Municipal,Primario
+200210,2024.0,10.0,1.0,,MSI,Municipal,Primario
+200210,2024.0,11.0,0.0,,MSI,Municipal,Primario
 200236,2023.0,10.0,,1.0,MSI,Municipal,Primario
 200236,2024.0,1.0,,1.0,MSI,Municipal,Primario
 200236,2024.0,2.0,1.0,1.0,MSI,Municipal,Primario
 200236,2024.0,3.0,1.0,,MSI,Municipal,Primario
 200236,2024.0,7.0,1.0,1.0,MSI,Municipal,Primario
 200236,2024.0,9.0,,1.0,MSI,Municipal,Primario
+200236,2024.0,10.0,2.0,,MSI,Municipal,Primario
+200236,2024.0,11.0,1.0,,MSI,Municipal,Primario
 200265,2023.0,10.0,,1.0,MSI,Municipal,Primario
 200265,2024.0,4.0,1.0,,MSI,Municipal,Primario
 200304,2024.0,8.0,,1.0,MSI,Municipal,Primario
-200337,2023.0,10.0,2.0,1.0,MSI,Municipal,Primario
-200337,2023.0,11.0,0.0,,MSI,Municipal,Primario
+200304,2024.0,12.0,1.0,,MSI,Municipal,Primario
+200337,2023.0,10.0,,1.0,MSI,Municipal,Primario
 200337,2024.0,1.0,0.0,,MSI,Municipal,Primario
 200337,2024.0,2.0,,1.0,MSI,Municipal,Primario
 200337,2024.0,4.0,,0.0,MSI,Municipal,Primario
 200337,2024.0,5.0,0.0,,MSI,Municipal,Primario
 200337,2024.0,8.0,,1.0,MSI,Municipal,Primario
 200337,2024.0,9.0,,1.0,MSI,Municipal,Primario
-200342,2023.0,10.0,1.0,,MSI,Municipal,Primario
-200342,2023.0,11.0,1.0,1.0,MSI,Municipal,Primario
+200337,2024.0,10.0,1.0,,MSI,Municipal,Primario
+200337,2024.0,11.0,1.0,,MSI,Municipal,Primario
+200337,2024.0,12.0,0.0,,MSI,Municipal,Primario
+200342,2023.0,11.0,,1.0,MSI,Municipal,Primario
 200342,2023.0,12.0,,1.0,MSI,Municipal,Primario
 200342,2024.0,4.0,,1.0,MSI,Municipal,Primario
 200342,2024.0,5.0,,0.0,MSI,Municipal,Primario
@@ -2396,6 +2837,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 200347,2024.0,3.0,,1.0,MSI,Municipal,Primario
 200347,2024.0,5.0,1.0,,MSI,Municipal,Primario
 200347,2024.0,8.0,1.0,,MSI,Municipal,Primario
+200347,2024.0,10.0,1.0,,MSI,Municipal,Primario
+200347,2024.0,11.0,1.0,,MSI,Municipal,Primario
+200347,2024.0,12.0,1.0,,MSI,Municipal,Primario
 200360,2023.0,11.0,,0.0,MSI,Municipal,Primario
 200360,2024.0,1.0,,0.0,MSI,Municipal,Primario
 200360,2024.0,4.0,,1.0,MSI,Municipal,Primario
@@ -2403,16 +2847,20 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 200360,2024.0,6.0,,0.0,MSI,Municipal,Primario
 200360,2024.0,7.0,,3.0,MSI,Municipal,Primario
 200360,2024.0,8.0,1.0,,MSI,Municipal,Primario
+200360,2024.0,10.0,2.0,,MSI,Municipal,Primario
+200360,2024.0,12.0,1.0,,MSI,Municipal,Primario
 200361,2023.0,11.0,,1.0,MSI,Municipal,Primario
 200361,2024.0,2.0,1.0,,MSI,Municipal,Primario
 200361,2024.0,3.0,0.0,,MSI,Municipal,Primario
 200361,2024.0,7.0,,0.0,MSI,Municipal,Primario
+200361,2024.0,12.0,1.0,,MSI,Municipal,Primario
 200377,2023.0,10.0,,1.0,MSI,Municipal,Primario
 200377,2023.0,11.0,,0.0,MSI,Municipal,Primario
 200377,2024.0,3.0,,0.0,MSI,Municipal,Primario
 200377,2024.0,6.0,1.0,,MSI,Municipal,Primario
 200377,2024.0,7.0,,0.0,MSI,Municipal,Primario
 200377,2024.0,8.0,1.0,,MSI,Municipal,Primario
+200377,2024.0,12.0,1.0,,MSI,Municipal,Primario
 200385,2023.0,12.0,,1.0,MSI,Municipal,Primario
 200385,2024.0,1.0,0.0,,MSI,Municipal,Primario
 200385,2024.0,2.0,0.0,,MSI,Municipal,Primario
@@ -2420,23 +2868,25 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 200385,2024.0,4.0,0.0,,MSI,Municipal,Primario
 200454,2023.0,10.0,,0.0,MSI,Municipal,Primario
 200454,2023.0,11.0,,1.0,MSI,Municipal,Primario
-200454,2023.0,12.0,4.0,0.0,MSI,Municipal,Primario
+200454,2023.0,12.0,,0.0,MSI,Municipal,Primario
 200454,2024.0,1.0,,1.0,MSI,Municipal,Primario
 200454,2024.0,3.0,,1.0,MSI,Municipal,Primario
 200454,2024.0,6.0,,0.0,MSI,Municipal,Primario
 200454,2024.0,7.0,,2.0,MSI,Municipal,Primario
 200454,2024.0,8.0,,1.0,MSI,Municipal,Primario
 200454,2024.0,9.0,,0.0,MSI,Municipal,Primario
-200554,2023.0,12.0,1.0,,MSI,Municipal,Primario
 200554,2024.0,3.0,0.0,,MSI,Municipal,Primario
 200554,2024.0,5.0,,1.0,MSI,Municipal,Primario
 200554,2024.0,6.0,,1.0,MSI,Municipal,Primario
 200554,2024.0,7.0,,1.0,MSI,Municipal,Primario
+200554,2024.0,11.0,3.0,,MSI,Municipal,Primario
 200609,2024.0,1.0,1.0,1.0,MSI,Municipal,Primario
 200609,2024.0,3.0,,1.0,MSI,Municipal,Primario
 200609,2024.0,4.0,,2.0,MSI,Municipal,Primario
 200609,2024.0,6.0,,1.0,MSI,Municipal,Primario
 200609,2024.0,7.0,,0.0,MSI,Municipal,Primario
+200609,2024.0,10.0,1.0,,MSI,Municipal,Primario
+200609,2024.0,12.0,1.0,,MSI,Municipal,Primario
 200643,2024.0,4.0,,1.0,MSI,Municipal,Primario
 200643,2024.0,8.0,1.0,0.0,MSI,Municipal,Primario
 200961,2023.0,12.0,,0.0,MSI,Municipal,Primario
@@ -2445,14 +2895,16 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 200961,2024.0,7.0,3.0,,MSI,Municipal,Primario
 200961,2024.0,8.0,1.0,1.0,MSI,Municipal,Primario
 200961,2024.0,9.0,,3.0,MSI,Municipal,Primario
+200961,2024.0,10.0,0.0,,MSI,Municipal,Primario
+200961,2024.0,12.0,4.0,,MSI,Municipal,Primario
 200962,2023.0,10.0,,1.0,MSI,Municipal,Primario
 200962,2024.0,1.0,,1.0,MSI,Municipal,Primario
 200962,2024.0,3.0,,1.0,MSI,Municipal,Primario
 200962,2024.0,4.0,,0.0,MSI,Municipal,Primario
 200962,2024.0,5.0,,0.0,MSI,Municipal,Primario
 200962,2024.0,6.0,,2.0,MSI,Municipal,Primario
-200965,2023.0,10.0,4.0,1.0,MSI,Municipal,Primario
-200965,2023.0,11.0,4.0,3.0,MSI,Municipal,Primario
+200965,2023.0,10.0,,1.0,MSI,Municipal,Primario
+200965,2023.0,11.0,,3.0,MSI,Municipal,Primario
 200965,2023.0,12.0,,0.0,MSI,Municipal,Primario
 200965,2024.0,1.0,1.0,0.0,MSI,Municipal,Primario
 200965,2024.0,2.0,0.0,6.0,MSI,Municipal,Primario
@@ -2463,9 +2915,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 200965,2024.0,7.0,3.0,1.0,MSI,Municipal,Primario
 200965,2024.0,8.0,0.0,0.0,MSI,Municipal,Primario
 200965,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
-201091,2023.0,10.0,1.0,2.0,MSI,Municipal,Primario
-201091,2023.0,11.0,4.0,2.0,MSI,Municipal,Primario
-201091,2023.0,12.0,3.0,2.0,MSI,Municipal,Primario
+200965,2024.0,10.0,1.0,,MSI,Municipal,Primario
+200965,2024.0,11.0,0.0,,MSI,Municipal,Primario
+200965,2024.0,12.0,0.0,,MSI,Municipal,Primario
+201091,2023.0,10.0,,2.0,MSI,Municipal,Primario
+201091,2023.0,11.0,,2.0,MSI,Municipal,Primario
+201091,2023.0,12.0,,2.0,MSI,Municipal,Primario
 201091,2024.0,1.0,1.0,1.0,MSI,Municipal,Primario
 201091,2024.0,2.0,1.0,1.0,MSI,Municipal,Primario
 201091,2024.0,3.0,1.0,0.0,MSI,Municipal,Primario
@@ -2475,9 +2930,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 201091,2024.0,7.0,0.0,1.0,MSI,Municipal,Primario
 201091,2024.0,8.0,0.0,3.0,MSI,Municipal,Primario
 201091,2024.0,9.0,,4.0,MSI,Municipal,Primario
-201112,2023.0,10.0,2.0,4.0,MSI,Municipal,Primario
-201112,2023.0,11.0,4.0,6.0,MSI,Municipal,Primario
-201112,2023.0,12.0,0.0,4.0,MSI,Municipal,Primario
+201091,2024.0,11.0,4.0,,MSI,Municipal,Primario
+201091,2024.0,12.0,3.0,,MSI,Municipal,Primario
+201112,2023.0,10.0,,4.0,MSI,Municipal,Primario
+201112,2023.0,11.0,,6.0,MSI,Municipal,Primario
+201112,2023.0,12.0,,4.0,MSI,Municipal,Primario
 201112,2024.0,1.0,2.0,4.0,MSI,Municipal,Primario
 201112,2024.0,2.0,2.0,2.0,MSI,Municipal,Primario
 201112,2024.0,3.0,5.0,2.0,MSI,Municipal,Primario
@@ -2487,7 +2944,8 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 201112,2024.0,7.0,3.0,1.0,MSI,Municipal,Primario
 201112,2024.0,8.0,1.0,2.0,MSI,Municipal,Primario
 201112,2024.0,9.0,2.0,0.0,MSI,Municipal,Primario
-201129,2023.0,10.0,0.0,,MSI,Municipal,Primario
+201112,2024.0,10.0,1.0,,MSI,Municipal,Primario
+201112,2024.0,11.0,3.0,,MSI,Municipal,Primario
 201129,2023.0,11.0,,0.0,MSI,Municipal,Primario
 201129,2024.0,1.0,,1.0,MSI,Municipal,Primario
 201129,2024.0,2.0,,1.0,MSI,Municipal,Primario
@@ -2497,6 +2955,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 201129,2024.0,6.0,,2.0,MSI,Municipal,Primario
 201129,2024.0,8.0,0.0,1.0,MSI,Municipal,Primario
 201129,2024.0,9.0,1.0,1.0,MSI,Municipal,Primario
+201129,2024.0,10.0,0.0,,MSI,Municipal,Primario
 201212,2023.0,10.0,,1.0,MSI,Municipal,Primario
 201212,2023.0,12.0,,1.0,MSI,Municipal,Primario
 201212,2024.0,1.0,1.0,0.0,MSI,Municipal,Primario
@@ -2507,6 +2966,8 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 201212,2024.0,6.0,,0.0,MSI,Municipal,Primario
 201212,2024.0,7.0,1.0,0.0,MSI,Municipal,Primario
 201212,2024.0,9.0,0.0,0.0,MSI,Municipal,Primario
+201212,2024.0,10.0,0.0,,MSI,Municipal,Primario
+201212,2024.0,11.0,0.0,,MSI,Municipal,Primario
 201353,2024.0,7.0,,0.0,MSI,Municipal,Primario
 201462,2024.0,2.0,0.0,4.0,MSI,Municipal,Primario
 201462,2024.0,3.0,2.0,2.0,MSI,Municipal,Primario
@@ -2516,6 +2977,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 201462,2024.0,7.0,2.0,3.0,MSI,Municipal,Primario
 201462,2024.0,8.0,1.0,0.0,MSI,Municipal,Primario
 201462,2024.0,9.0,1.0,3.0,MSI,Municipal,Primario
+201462,2024.0,10.0,4.0,,MSI,Municipal,Primario
+201462,2024.0,11.0,0.0,,MSI,Municipal,Primario
+201462,2024.0,12.0,2.0,,MSI,Municipal,Primario
 109104,2024.0,6.0,1082.0,,MSII,Servicio de Salud,Primario
 109104,2024.0,12.0,1043.0,,MSII,Servicio de Salud,Primario
 109300,2024.0,6.0,9130.0,22550.0,MSII,Municipal,Primario

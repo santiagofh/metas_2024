@@ -56,7 +56,7 @@ def leer_y_filtrar_archivos(directorio, all_codes, sep=";", chunksize=1000):
     else:
         return pd.DataFrame()
 
-leer=False
+leer=True
 if leer:
     df_rem_2024 = leer_y_filtrar_archivos(directory_2024, all_codes)
     df_rem_2023 = leer_y_filtrar_archivos(directory_2023, all_codes)
@@ -217,9 +217,11 @@ def calcular_MSI(df_rem_2023, df_rem_2024, region_id):
     # 3) Concatenamos ambos
     df_combined = pd.concat([df_2023_oct_to_dec, df_2024_jan_to_sep], ignore_index=True)
     
+    df_rem_2024
+
     # 4) Calculamos el Numerador (usando tu función auxiliar para sumar columnas)
     df_num = sumar_columnas_por_establecimiento(
-        df=df_combined,
+        df=df_rem_2024,
         codigos=["02010420", "03500366"],
         columnas_sumar=["Col08", "Col09", "Col10", "Col11"],
         region_id=region_id
