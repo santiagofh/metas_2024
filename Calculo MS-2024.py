@@ -169,22 +169,32 @@ print(all_codes)
 
 
 #%% Lectura y filtrado de datos
-directory = r"C:\Users\fariass\OneDrive - SUBSECRETARIA DE SALUD PUBLICA\Escritorio\DATA\REM\archivos_extraidos_2024"
+directory_2024 = r"C:\Users\fariass\OneDrive - SUBSECRETARIA DE SALUD PUBLICA\Escritorio\REM\REM 2024\archivos_extraidos"
+directory_2023 = r"C:\Users\fariass\OneDrive - SUBSECRETARIA DE SALUD PUBLICA\Escritorio\REM\REM 2023\archivos_extraidos"
 
-filtered_data = []
-
+filtered_data_2024 = []
+filtered_data_2023 = []
 # Recorrer carpetas y subcarpetas
-for root, dirs, files in os.walk(directory):
+for root, dirs, files in os.walk(directory_2024):
     for filename in files:
         if filename.endswith(".csv") or filename.endswith(".txt"):
             filepath = os.path.join(root, filename)
             for chunk in pd.read_csv(filepath, sep=";", chunksize=1000):
                 filtered_chunk = chunk[chunk['CodigoPrestacion'].isin(all_codes)]
-                filtered_data.append(filtered_chunk)
-
+                filtered_data_2024.append(filtered_chunk)
+# Recorrer carpetas y subcarpetas
+for root, dirs, files in os.walk(directory_2023):
+    for filename in files:
+        if filename.endswith(".csv") or filename.endswith(".txt"):
+            filepath = os.path.join(root, filename)
+            for chunk in pd.read_csv(filepath, sep=";", chunksize=1000):
+                filtered_chunk = chunk[chunk['CodigoPrestacion'].isin(all_codes)]
+                filtered_data_2023.append(filtered_chunk)
 # Concatenar todos los datos filtrados
-df_rem = pd.concat(filtered_data, ignore_index=True)
-print(df_rem)
+df_rem_2024 = pd.concat(filtered_data_2024, ignore_index=True)
+df_rem_2023 = pd.concat(filtered_data_2023, ignore_index=True) # META 1 = Octubre 2023 a Septiembre 2024
+
+print(df_rem_2024)
 #%%
 # Datos DEIS
 path_deis=r"C:\Users\fariass\OneDrive - SUBSECRETARIA DE SALUD PUBLICA\Escritorio\GIE\DEIS\Listado de establecimientos\Establecimientos DEIS MINSAL 07-01-2025 (2).xlsx"
@@ -212,11 +222,11 @@ df_months = pd.DataFrame({'Mes': range(1, 13)})
 df_deis_concat2 = df_deis_concat2.merge(df_months, how='cross')
 df_deis_concat2_rm = df_deis_concat2[df_deis_concat2['IdRegion'] == 13]
 #%%
-# df_rem=pd.concat([df_rem,df_deis_concat2_rm])
+# df_rem_2024=pd.concat([df_rem_2024,df_deis_concat2_rm])
 # Mes	IdServicio	Ano	IdEstablecimiento	CodigoPrestacion	IdRegion
 
 #%% Definición de funciones
-def calcular_numerador(metas_sanitarias, df_rem, key, region_id, cols_df, cols_grup):
+def calcular_numerador(metas_sanitarias, df_rem_2024, key, region_id, cols_df, cols_grup):
     """
     Calcula el numerador de la meta `key` (en metas_sanitarias),
     para la región `region_id`, agrupando por las columnas en `cols_grup`.
@@ -230,9 +240,9 @@ def calcular_numerador(metas_sanitarias, df_rem, key, region_id, cols_df, cols_g
         col1 = metas_sanitarias[key]["numerador"]["col"]
 
         # Filtro por códigos cod1 y región
-        df_cod1 = df_rem.loc[
-            (df_rem.CodigoPrestacion.isin(cod1)) &
-            (df_rem.IdRegion == region_id)
+        df_cod1 = df_rem_2024.loc[
+            (df_rem_2024.CodigoPrestacion.isin(cod1)) &
+            (df_rem_2024.IdRegion == region_id)
         ].copy()
 
         # Nos quedamos con las columnas de identificación + col1
@@ -255,9 +265,9 @@ def calcular_numerador(metas_sanitarias, df_rem, key, region_id, cols_df, cols_g
         col2 = metas_sanitarias[key]["numerador"]["col2"]
 
         # Filtro por códigos cod2 y región
-        df_cod2 = df_rem.loc[
-            (df_rem.CodigoPrestacion.isin(cod2)) &
-            (df_rem.IdRegion == region_id)
+        df_cod2 = df_rem_2024.loc[
+            (df_rem_2024.CodigoPrestacion.isin(cod2)) &
+            (df_rem_2024.IdRegion == region_id)
         ].copy()
 
         # Nos quedamos con las columnas de identificación + col2
@@ -289,8 +299,8 @@ def calcular_numerador(metas_sanitarias, df_rem, key, region_id, cols_df, cols_g
     return df_numerador_est
 
 
-def calcular_denominador(metas_sanitarias, df_rem, key, region_id, cols_df, cols_grup):
-    df_denominador = df_rem.loc[df_rem.CodigoPrestacion.isin(metas_sanitarias[key]["denominador"]["cod"])]
+def calcular_denominador(metas_sanitarias, df_rem_2024, key, region_id, cols_df, cols_grup):
+    df_denominador = df_rem_2024.loc[df_rem_2024.CodigoPrestacion.isin(metas_sanitarias[key]["denominador"]["cod"])]
     df_denominador_rm = df_denominador.loc[df_denominador.IdRegion == region_id]
     df_denominador_rm_cols = df_denominador_rm[cols_df + list(metas_sanitarias[key]["denominador"]["col"])].copy()
     df_denominador_rm_cols.fillna(0, inplace=True)
@@ -333,15 +343,15 @@ ms_denominador_fonasa= ['MSII', 'MSIIIb', 'MSIIIa', 'MSIVa', 'MSV', 'MSVII']
 #%% Procesar metas sanitarias con 'cod' y 'col'
 for key in ms_denominador_rem:
     print(key)
-    df_numerador_est1 = calcular_numerador(metas_sanitarias, df_rem, key, region_id, cols_df, cols_grup)
-    df_denominador_est1 = calcular_denominador(metas_sanitarias, df_rem, key, region_id, cols_df, cols_grup)
+    df_numerador_est1 = calcular_numerador(metas_sanitarias, df_rem_2024, key, region_id, cols_df, cols_grup)
+    df_denominador_est1 = calcular_denominador(metas_sanitarias, df_rem_2024, key, region_id, cols_df, cols_grup)
     df_resultado1=df_numerador_est1.merge(df_denominador_est1, on=cols_merge, how='outer')
     resultado[key]=df_resultado1
 #%% Calcular denominadores FONASA y actualizar resultados para metas sanitarias con 'sexo' y 'edad'
 denominadores_fonasa = {}
 for key in ms_denominador_fonasa:
     print(key)
-    df_numerador_est2 = calcular_numerador(metas_sanitarias, df_rem, key, region_id, cols_df, cols_grup)
+    df_numerador_est2 = calcular_numerador(metas_sanitarias, df_rem_2024, key, region_id, cols_df, cols_grup)
     df_denominador_est2 = calcular_denominador_fonasa(fonasa_rm, metas_sanitarias, key)
     df_resultado2=df_numerador_est2.merge(df_denominador_est2, on='IdEstablecimiento', how='outer')
     resultado[key]=df_resultado2

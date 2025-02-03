@@ -1,0 +1,2060 @@
+{
+    "111370": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13101,
+        "Comuna": "Santiago",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Consultorio Padre Orellana"
+    },
+    "111372": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13101,
+        "Comuna": "Santiago",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Arauco "
+    },
+    "111376": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13101,
+        "Comuna": "Santiago",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Cesfam Matta Sur"
+    },
+    "111381": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13101,
+        "Comuna": "Santiago",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Ignacio Domeyko"
+    },
+    "111378": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13119,
+        "Comuna": "Maipú",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Iván Insunza"
+    },
+    "111379": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13119,
+        "Comuna": "Maipú",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Clotario Blest"
+    },
+    "111380": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13119,
+        "Comuna": "Maipú",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Carlos Godoy"
+    },
+    "111382": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13119,
+        "Comuna": "Maipú",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Presidenta Michelle Bachelet"
+    },
+    "111383": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13119,
+        "Comuna": "Maipú",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Luis Ferrada"
+    },
+    "111782": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13119,
+        "Comuna": "Maipú",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar El Abrazo"
+    },
+    "111783": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13119,
+        "Comuna": "Maipú",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Lo Errázuriz"
+    },
+    "111784": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13119,
+        "Comuna": "Maipú",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Bueras"
+    },
+    "109302": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13104,
+        "Comuna": "Conchalí",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Lucas Sierra"
+    },
+    "109308": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13104,
+        "Comuna": "Conchalí",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Alberto Bachelet Martínez"
+    },
+    "109309": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13104,
+        "Comuna": "Conchalí",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar José Symon Ojeda"
+    },
+    "109314": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13104,
+        "Comuna": "Conchalí",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Juanita Aguirre"
+    },
+    "109709": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13104,
+        "Comuna": "Conchalí",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Dr. José Symón Ojeda"
+    },
+    "200347": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13104,
+        "Comuna": "Conchalí",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Alberto Bachelet"
+    },
+    "109305": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13107,
+        "Comuna": "Huechuraba",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar  La Pincoya"
+    },
+    "109317": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13107,
+        "Comuna": "Huechuraba",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar El Barrero"
+    },
+    "109323": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13107,
+        "Comuna": "Huechuraba",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Salvador Allende Gossens (Huechuraba)"
+    },
+    "109718": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13107,
+        "Comuna": "Huechuraba",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Los Libertadores"
+    },
+    "200961": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13107,
+        "Comuna": "Huechuraba",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Cesfam Dr. Victor Castro Wirén"
+    },
+    "109300": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13108,
+        "Comuna": "Independencia",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Agustín Cruz Melo"
+    },
+    "109321": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13108,
+        "Comuna": "Independencia",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Juan Antonio Ríos"
+    },
+    "200554": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13108,
+        "Comuna": "Independencia",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Cecof Las Enredaderas"
+    },
+    "109313": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13125,
+        "Comuna": "Quilicura",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar  Irene Frei De Cid"
+    },
+    "109315": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13125,
+        "Comuna": "Quilicura",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar  Manuel Bustos De Quilicura"
+    },
+    "109324": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13125,
+        "Comuna": "Quilicura",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Presidente Salvador Allende Gossens (Quilicura)"
+    },
+    "109713": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13125,
+        "Comuna": "Quilicura",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar La Foresta"
+    },
+    "109715": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13125,
+        "Comuna": "Quilicura",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Pucara De Lasana"
+    },
+    "200304": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13125,
+        "Comuna": "Quilicura",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Beato Padre Hurtado"
+    },
+    "201091": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13125,
+        "Comuna": "Quilicura",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Cesfam Marta Ugarte Roman"
+    },
+    "109301": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13127,
+        "Comuna": "Recoleta",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Recoleta"
+    },
+    "109303": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13127,
+        "Comuna": "Recoleta",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Quinta Bella"
+    },
+    "109304": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13127,
+        "Comuna": "Recoleta",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Valdivieso"
+    },
+    "109307": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13127,
+        "Comuna": "Recoleta",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Juan Petrinovic (Ex Scroggie)"
+    },
+    "109390": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13127,
+        "Comuna": "Recoleta",
+        "Dependencia Adm.": "Otra Institución",
+        "Centro": "Centro De Salud Familiar Cristo Vive (Ong)"
+    },
+    "109310": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13301,
+        "Comuna": "Colina",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Colina"
+    },
+    "109316": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13301,
+        "Comuna": "Colina",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Esmeralda"
+    },
+    "109416": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13301,
+        "Comuna": "Colina",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Colorado"
+    },
+    "109417": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13301,
+        "Comuna": "Colina",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Los Ingleses"
+    },
+    "109418": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13301,
+        "Comuna": "Colina",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Las Canteras"
+    },
+    "109419": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13301,
+        "Comuna": "Colina",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Santa Marta De Liray"
+    },
+    "109420": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13301,
+        "Comuna": "Colina",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Chacabuco (Colina)"
+    },
+    "109716": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13301,
+        "Comuna": "Colina",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Esmeralda"
+    },
+    "109311": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13302,
+        "Comuna": "Lampa",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar  José Bauza Frau"
+    },
+    "109312": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13302,
+        "Comuna": "Lampa",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Batuco"
+    },
+    "109407": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13302,
+        "Comuna": "Lampa",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Juan Pablo Ii De Lampa"
+    },
+    "109711": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13302,
+        "Comuna": "Lampa",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Sol De Septiembre"
+    },
+    "109712": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13302,
+        "Comuna": "Lampa",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Batuco"
+    },
+    "109320": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13303,
+        "Comuna": "Tiltil",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Huertos Familiares"
+    },
+    "109410": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13303,
+        "Comuna": "Tiltil",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural La Capilla De Caleu"
+    },
+    "109412": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13303,
+        "Comuna": "Tiltil",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Montenegro"
+    },
+    "109413": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13303,
+        "Comuna": "Tiltil",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Rungue"
+    },
+    "109414": {
+        "Servicio de Salud": "Metropolitano Norte",
+        "Código Comuna": 13303,
+        "Comuna": "Tiltil",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Polpaico"
+    },
+    "110330": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13103,
+        "Comuna": "Cerro Navia",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Adalberto Steeger"
+    },
+    "110331": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13103,
+        "Comuna": "Cerro Navia",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Lo Amor"
+    },
+    "110335": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13103,
+        "Comuna": "Cerro Navia",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Cerro Navia"
+    },
+    "110355": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13103,
+        "Comuna": "Cerro Navia",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Arturo Albertz"
+    },
+    "110735": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13103,
+        "Comuna": "Cerro Navia",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Los Lagos (Unidad Vecinal Nº 33)"
+    },
+    "110315": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13117,
+        "Comuna": "Lo Prado",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Santa Anita"
+    },
+    "110316": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13117,
+        "Comuna": "Lo Prado",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Pablo Neruda"
+    },
+    "110340": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13117,
+        "Comuna": "Lo Prado",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Raúl Yazigi"
+    },
+    "110345": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13117,
+        "Comuna": "Lo Prado",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Avendaño"
+    },
+    "110350": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13124,
+        "Comuna": "Pudahuel",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Pudahuel Estrella"
+    },
+    "110351": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13124,
+        "Comuna": "Pudahuel",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Consultorio Pudahuel Poniente"
+    },
+    "110352": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13124,
+        "Comuna": "Pudahuel",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Gustavo Molina"
+    },
+    "110353": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13124,
+        "Comuna": "Pudahuel",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Cardenal Raúl Silva Henríquez De Pudahuel"
+    },
+    "110354": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13124,
+        "Comuna": "Pudahuel",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Violeta Parra"
+    },
+    "110410": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13124,
+        "Comuna": "Pudahuel",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Irene Frei Montalva"
+    },
+    "110601": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13124,
+        "Comuna": "Pudahuel",
+        "Dependencia Adm.": "Otra Institución",
+        "Centro": "Consultorio Coaniquem"
+    },
+    "110627": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13124,
+        "Comuna": "Pudahuel",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Mental"
+    },
+    "110750": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13124,
+        "Comuna": "Pudahuel",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Concejal Guillermo Flores O."
+    },
+    "110752": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13124,
+        "Comuna": "Pudahuel",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Padre Félix Gutiérrez Donoso"
+    },
+    "110754": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13124,
+        "Comuna": "Pudahuel",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Río Claro"
+    },
+    "110756": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13124,
+        "Comuna": "Pudahuel",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Mar Caribe"
+    },
+    "110758": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13124,
+        "Comuna": "Pudahuel",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Santa Corina"
+    },
+    "110320": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13126,
+        "Comuna": "Quinta Normal",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Lo Franco"
+    },
+    "110325": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13126,
+        "Comuna": "Quinta Normal",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Garín"
+    },
+    "110720": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13126,
+        "Comuna": "Quinta Normal",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Catamarca"
+    },
+    "110725": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13126,
+        "Comuna": "Quinta Normal",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Antumalal"
+    },
+    "200342": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13126,
+        "Comuna": "Quinta Normal",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud  Familiar Salud Plaza México"
+    },
+    "110360": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13128,
+        "Comuna": "Renca",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Renca"
+    },
+    "110361": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13128,
+        "Comuna": "Renca",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Bicentenario"
+    },
+    "110362": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13128,
+        "Comuna": "Renca",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Hernán Urzúa Merino"
+    },
+    "110364": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13128,
+        "Comuna": "Renca",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Huamachuco"
+    },
+    "110378": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13501,
+        "Comuna": "Melipilla",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Edelberto Elgueta"
+    },
+    "110379": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13501,
+        "Comuna": "Melipilla",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Francisco Boris Soler"
+    },
+    "110380": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13501,
+        "Comuna": "Melipilla",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar San Manuel"
+    },
+    "110381": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13501,
+        "Comuna": "Melipilla",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Rural Alfarera Rosa Reyes Vilches"
+    },
+    "110440": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13501,
+        "Comuna": "Melipilla",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Bollenar"
+    },
+    "110445": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13501,
+        "Comuna": "Melipilla",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Pahuilmo"
+    },
+    "110455": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13501,
+        "Comuna": "Melipilla",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Pabellón"
+    },
+    "110778": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13501,
+        "Comuna": "Melipilla",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Padre Demetrio Bravo"
+    },
+    "110781": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13501,
+        "Comuna": "Melipilla",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Obispo Pablo Lizama"
+    },
+    "110783": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13501,
+        "Comuna": "Melipilla",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Codigua"
+    },
+    "200965": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13501,
+        "Comuna": "Melipilla",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Cesfam Florencia"
+    },
+    "110393": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13502,
+        "Comuna": "Alhué",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Villa Alhué"
+    },
+    "110503": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13502,
+        "Comuna": "Alhué",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Hacienda Alhué"
+    },
+    "110505": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13502,
+        "Comuna": "Alhué",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Pichi"
+    },
+    "110510": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13502,
+        "Comuna": "Alhué",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural El Asiento"
+    },
+    "110515": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13502,
+        "Comuna": "Alhué",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Santa María"
+    },
+    "110385": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13504,
+        "Comuna": "María Pinto",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Adriana Madrid De Costabal"
+    },
+    "110465": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13504,
+        "Comuna": "María Pinto",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Santa Emilia"
+    },
+    "110470": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13504,
+        "Comuna": "María Pinto",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Las Mercedes ( María Pinto )"
+    },
+    "110475": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13504,
+        "Comuna": "María Pinto",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Chorombo"
+    },
+    "110387": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13505,
+        "Comuna": "San Pedro",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar San Pedro"
+    },
+    "110485": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13505,
+        "Comuna": "San Pedro",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Loica"
+    },
+    "110490": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13505,
+        "Comuna": "San Pedro",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural La Manga"
+    },
+    "110492": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13505,
+        "Comuna": "San Pedro",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Nihue"
+    },
+    "110495": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13505,
+        "Comuna": "San Pedro",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural El Prado"
+    },
+    "110390": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13601,
+        "Comuna": "Talagante",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Alberto Allende Jones"
+    },
+    "110400": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13601,
+        "Comuna": "Talagante",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Aliro Cárcarmo (Lonquén)"
+    },
+    "200365": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13601,
+        "Comuna": "Talagante",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Villa Los Presidentes"
+    },
+    "110370": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13602,
+        "Comuna": "El Monte",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar El Monte"
+    },
+    "200454": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13602,
+        "Comuna": "El Monte",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Lo Chacón "
+    },
+    "110375": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13603,
+        "Comuna": "Isla De Maipo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Isla De Maipo"
+    },
+    "110425": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13603,
+        "Comuna": "Isla De Maipo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar La Islita"
+    },
+    "110430": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13603,
+        "Comuna": "Isla De Maipo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural San Antonio De Naltagua"
+    },
+    "110431": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13603,
+        "Comuna": "Isla De Maipo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Gacitúa"
+    },
+    "110432": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13603,
+        "Comuna": "Isla De Maipo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Las Mercedes ( Isla De Maipo )"
+    },
+    "110775": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13603,
+        "Comuna": "Isla De Maipo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar La Islita"
+    },
+    "200385": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13603,
+        "Comuna": "Isla De Maipo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar San Vicente De Naltagua"
+    },
+    "110366": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13604,
+        "Comuna": "Padre Hurtado",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Juan Pablo Ii De Padre Hurtado"
+    },
+    "110308": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13605,
+        "Comuna": "Peñaflor",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Peñaflor"
+    },
+    "110369": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13605,
+        "Comuna": "Peñaflor",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Fernando Monckeberg"
+    },
+    "112317": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13113,
+        "Comuna": "La Reina",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar La Reina"
+    },
+    "112320": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13113,
+        "Comuna": "La Reina",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Juan Pablo Ii"
+    },
+    "112717": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13113,
+        "Comuna": "La Reina",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Dragones De La Reina"
+    },
+    "200080": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13113,
+        "Comuna": "La Reina",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Odontológico La Reina"
+    },
+    "112304": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13114,
+        "Comuna": "Las Condes",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Apoquindo"
+    },
+    "112306": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13114,
+        "Comuna": "Las Condes",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Aníbal Ariztía"
+    },
+    "112307": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13115,
+        "Comuna": "Lo Barnechea",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Lo Barnechea"
+    },
+    "112407": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13115,
+        "Comuna": "Lo Barnechea",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Farellones"
+    },
+    "112707": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13115,
+        "Comuna": "Lo Barnechea",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Lo Barnechea"
+    },
+    "112799": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13115,
+        "Comuna": "Lo Barnechea",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Bicentenario"
+    },
+    "112312": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13118,
+        "Comuna": "Macul",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Félix De Amesti"
+    },
+    "112313": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13118,
+        "Comuna": "Macul",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Santa Julia"
+    },
+    "112319": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13118,
+        "Comuna": "Macul",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Padre Alberto Hurtado"
+    },
+    "112323": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13118,
+        "Comuna": "Macul",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Odontológico Macul"
+    },
+    "112310": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13120,
+        "Comuna": "Ñuñoa",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Rosita Renard"
+    },
+    "112311": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13120,
+        "Comuna": "Ñuñoa",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Salvador Bustos"
+    },
+    "200236": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13120,
+        "Comuna": "Ñuñoa",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Villa Olímpica"
+    },
+    "112314": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13122,
+        "Comuna": "Peñalolén",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar La Faena"
+    },
+    "112315": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13122,
+        "Comuna": "Peñalolén",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar San Luis"
+    },
+    "112316": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13122,
+        "Comuna": "Peñalolén",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Carol Urzúa Ibáñez De Peñalolén"
+    },
+    "112318": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13122,
+        "Comuna": "Peñalolén",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Lo Hermida"
+    },
+    "112321": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13122,
+        "Comuna": "Peñalolén",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Cardenal Silva Henríquez"
+    },
+    "112322": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13122,
+        "Comuna": "Peñalolén",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Padre Gerardo Whelan"
+    },
+    "112716": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13122,
+        "Comuna": "Peñalolén",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar General Carol Urzúa Ibáñez"
+    },
+    "201112": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13122,
+        "Comuna": "Peñalolén",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Cesfam Las Torres"
+    },
+    "112301": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13123,
+        "Comuna": "Providencia",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Hernán Alessandri"
+    },
+    "112302": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13123,
+        "Comuna": "Providencia",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Alfonso Leng"
+    },
+    "112303": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13123,
+        "Comuna": "Providencia",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Aguilucho"
+    },
+    "200037": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13123,
+        "Comuna": "Providencia",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Elena Caffarena"
+    },
+    "200188": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13123,
+        "Comuna": "Providencia",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Especialidades Odontológicas Leng"
+    },
+    "200265": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13123,
+        "Comuna": "Providencia",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Andacollo"
+    },
+    "112309": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13132,
+        "Comuna": "Vitacura",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Vitacura"
+    },
+    "113312": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13105,
+        "Comuna": "El Bosque",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Carlos Lorca"
+    },
+    "113314": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13105,
+        "Comuna": "El Bosque",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Cóndores De Chile"
+    },
+    "113317": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13105,
+        "Comuna": "El Bosque",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Santa Laura"
+    },
+    "113323": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13105,
+        "Comuna": "El Bosque",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Mario Salcedo"
+    },
+    "113324": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13105,
+        "Comuna": "El Bosque",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dra. Haydeé López Casoou"
+    },
+    "113329": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13105,
+        "Comuna": "El Bosque",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Orlando Letelier"
+    },
+    "113717": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13105,
+        "Comuna": "El Bosque",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Santa Laura"
+    },
+    "200962": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13105,
+        "Comuna": "El Bosque",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Cecosf Los Sauces"
+    },
+    "113311": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13109,
+        "Comuna": "La Cisterna",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Santa Anselma"
+    },
+    "113326": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13109,
+        "Comuna": "La Cisterna",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Eduardo Frei Montalva"
+    },
+    "200360": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13109,
+        "Comuna": "La Cisterna",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Eduardo Frei Montalva"
+    },
+    "113307": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13111,
+        "Comuna": "La Granja",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Padre Esteban Gumucio"
+    },
+    "113308": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13116,
+        "Comuna": "Lo Espejo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Clara Estrella"
+    },
+    "113309": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13116,
+        "Comuna": "Lo Espejo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Julio Acuña Pinzón"
+    },
+    "113310": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13116,
+        "Comuna": "Lo Espejo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Mariela Salgado"
+    },
+    "113396": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13116,
+        "Comuna": "Lo Espejo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Pueblo Lo Espejo"
+    },
+    "111303": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13121,
+        "Comuna": "Pedro Aguirre Cerda",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Lo Valledor Norte"
+    },
+    "113303": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13121,
+        "Comuna": "Pedro Aguirre Cerda",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Amador Neghme"
+    },
+    "113304": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13121,
+        "Comuna": "Pedro Aguirre Cerda",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Consultorio Villa Sur"
+    },
+    "113306": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13121,
+        "Comuna": "Pedro Aguirre Cerda",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Padre Pierre Dubois"
+    },
+    "113331": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13121,
+        "Comuna": "Pedro Aguirre Cerda",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Edgardo Enríquez"
+    },
+    "113703": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13121,
+        "Comuna": "Pedro Aguirre Cerda",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Cooperación"
+    },
+    "113301": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13129,
+        "Comuna": "San Joaquín",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar San Joaquín"
+    },
+    "113305": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13129,
+        "Comuna": "San Joaquín",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Arturo Baeza Goñi"
+    },
+    "113322": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13129,
+        "Comuna": "San Joaquín",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Santa Teresa De Los Andes"
+    },
+    "113701": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13129,
+        "Comuna": "San Joaquín",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Yalta"
+    },
+    "113702": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13129,
+        "Comuna": "San Joaquín",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familia Sierra Bella"
+    },
+    "113722": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13129,
+        "Comuna": "San Joaquín",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Juan Aravena"
+    },
+    "113753": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13129,
+        "Comuna": "San Joaquín",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Reverendo Javier Peró"
+    },
+    "200210": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13129,
+        "Comuna": "San Joaquín",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Coñimo"
+    },
+    "200337": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13129,
+        "Comuna": "San Joaquín",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familia Martin Henríquez"
+    },
+    "113300": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13130,
+        "Comuna": "San Miguel",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Barros Luco"
+    },
+    "113302": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13130,
+        "Comuna": "San Miguel",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Recreo"
+    },
+    "200361": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13130,
+        "Comuna": "San Miguel",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Atacama"
+    },
+    "113313": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13401,
+        "Comuna": "San Bernardo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Raúl Cuevas (Ex-San Bernardo)"
+    },
+    "113315": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13401,
+        "Comuna": "San Bernardo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Confraternidad"
+    },
+    "113316": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13401,
+        "Comuna": "San Bernardo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Carol Urzúa De San Bernardo"
+    },
+    "113328": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13401,
+        "Comuna": "San Bernardo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Joan Alsina"
+    },
+    "113330": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13401,
+        "Comuna": "San Bernardo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Raúl Brañes F."
+    },
+    "113332": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13401,
+        "Comuna": "San Bernardo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Juan Pablo Ii"
+    },
+    "113394": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13401,
+        "Comuna": "San Bernardo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar El Manzano"
+    },
+    "113713": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13401,
+        "Comuna": "San Bernardo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Cerrillos De Nos"
+    },
+    "113716": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13401,
+        "Comuna": "San Bernardo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Rapa Nui"
+    },
+    "113728": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13401,
+        "Comuna": "San Bernardo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Lo Herrera"
+    },
+    "200377": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13401,
+        "Comuna": "San Bernardo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Dr. Raúl Brañes"
+    },
+    "113320": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13402,
+        "Comuna": "Buin",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Maipo"
+    },
+    "113333": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13402,
+        "Comuna": "Buin",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Alto Jahuel"
+    },
+    "113390": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13402,
+        "Comuna": "Buin",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Héctor García"
+    },
+    "113402": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13402,
+        "Comuna": "Buin",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Linderos"
+    },
+    "113404": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13402,
+        "Comuna": "Buin",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Valdivia De Paine"
+    },
+    "113405": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13402,
+        "Comuna": "Buin",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Viluco"
+    },
+    "113406": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13402,
+        "Comuna": "Buin",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural El Recurso"
+    },
+    "113407": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13402,
+        "Comuna": "Buin",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Los Morros"
+    },
+    "113790": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13402,
+        "Comuna": "Buin",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Dr. Héctor García"
+    },
+    "113321": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13403,
+        "Comuna": "Calera De Tango",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Calera De Tango"
+    },
+    "113334": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13403,
+        "Comuna": "Calera De Tango",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Los Bajos De San Agustín"
+    },
+    "113413": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13403,
+        "Comuna": "Calera De Tango",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Santa Inés"
+    },
+    "113318": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13404,
+        "Comuna": "Paine",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Miguel Ángel Solar (Ex Cesfam Paine)"
+    },
+    "113319": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13404,
+        "Comuna": "Paine",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Raúl Moya"
+    },
+    "113408": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13404,
+        "Comuna": "Paine",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Pintué"
+    },
+    "113409": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13404,
+        "Comuna": "Paine",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Huelquén"
+    },
+    "113410": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13404,
+        "Comuna": "Paine",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Rangue"
+    },
+    "113411": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13404,
+        "Comuna": "Paine",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Abrantes"
+    },
+    "113412": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13404,
+        "Comuna": "Paine",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Chada"
+    },
+    "114302": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13110,
+        "Comuna": "La Florida",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Los Castaños"
+    },
+    "114303": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13110,
+        "Comuna": "La Florida",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Bellavista"
+    },
+    "114304": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13110,
+        "Comuna": "La Florida",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Villa O'Higgins"
+    },
+    "114305": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13110,
+        "Comuna": "La Florida",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Los Quillayes"
+    },
+    "114316": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13110,
+        "Comuna": "La Florida",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. Fernando Maffioletti"
+    },
+    "114324": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13110,
+        "Comuna": "La Florida",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Santa Amalia"
+    },
+    "114330": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13110,
+        "Comuna": "La Florida",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Trinidad"
+    },
+    "114331": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13110,
+        "Comuna": "La Florida",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar La Florida"
+    },
+    "114334": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13110,
+        "Comuna": "La Florida",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar José Alvo"
+    },
+    "114409": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13110,
+        "Comuna": "La Florida",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Las Perdices"
+    },
+    "114306": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13111,
+        "Comuna": "La Granja",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar La Granja"
+    },
+    "114315": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13111,
+        "Comuna": "La Granja",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Malaquías Concha"
+    },
+    "114325": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13111,
+        "Comuna": "La Granja",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Granja Sur"
+    },
+    "114706": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13111,
+        "Comuna": "La Granja",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Millalemu"
+    },
+    "114796": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13111,
+        "Comuna": "La Granja",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar San Gregorio"
+    },
+    "114308": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13112,
+        "Comuna": "La Pintana",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar San Rafael (La Pintana)"
+    },
+    "114309": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13112,
+        "Comuna": "La Pintana",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Pablo De Rokha"
+    },
+    "114311": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13112,
+        "Comuna": "La Pintana",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Santiago De Nueva Extremadura"
+    },
+    "114317": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13112,
+        "Comuna": "La Pintana",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Santo Tomás"
+    },
+    "114318": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13112,
+        "Comuna": "La Pintana",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Flor Fernández"
+    },
+    "114319": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13112,
+        "Comuna": "La Pintana",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar El Roble"
+    },
+    "114327": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13112,
+        "Comuna": "La Pintana",
+        "Dependencia Adm.": "Otra Institución",
+        "Centro": "Centro De Salud Familiar Juan Pablo Ii"
+    },
+    "114307": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13131,
+        "Comuna": "San Ramón",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar La Bandera"
+    },
+    "114314": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13131,
+        "Comuna": "San Ramón",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Consultorio San Ramón"
+    },
+    "114328": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13131,
+        "Comuna": "San Ramón",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Poetisa Gabriela Mistral"
+    },
+    "114714": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13131,
+        "Comuna": "San Ramón",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro Comunitario De Salud Familiar Modelo"
+    },
+    "114301": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13201,
+        "Comuna": "Puente Alto",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Consultorio Dr. Alejandro Del Río"
+    },
+    "114312": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13201,
+        "Comuna": "Puente Alto",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar San Gerónimo"
+    },
+    "114313": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13201,
+        "Comuna": "Puente Alto",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Vista Hermosa"
+    },
+    "114320": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13201,
+        "Comuna": "Puente Alto",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Bernardo Leighton"
+    },
+    "114321": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13201,
+        "Comuna": "Puente Alto",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Cardenal Silva Henríquez De Puente Alto"
+    },
+    "114322": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13201,
+        "Comuna": "Puente Alto",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Padre Manuel Villaseca"
+    },
+    "114323": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13201,
+        "Comuna": "Puente Alto",
+        "Dependencia Adm.": "Otra Institución",
+        "Centro": "Centro De Salud Familiar Madre Teresa De Calcuta (Organizaciones Sin Fines De Lucro Y Ong)"
+    },
+    "114326": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13201,
+        "Comuna": "Puente Alto",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Karol Wojtyla"
+    },
+    "114329": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13201,
+        "Comuna": "Puente Alto",
+        "Dependencia Adm.": "Otra Institución",
+        "Centro": "Centro De Salud Familiar San Alberto Hurtado"
+    },
+    "114332": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13201,
+        "Comuna": "Puente Alto",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Laurita Vicuña"
+    },
+    "114310": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13202,
+        "Comuna": "Pirque",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Familiar Dr. José Manuel Balmaceda"
+    },
+    "114333": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13202,
+        "Comuna": "Pirque",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Centro De Salud Rural El Principal"
+    },
+    "114401": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13202,
+        "Comuna": "Pirque",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Puntilla"
+    },
+    "114403": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13202,
+        "Comuna": "Pirque",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Santa Rita"
+    },
+    "114406": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13202,
+        "Comuna": "Pirque",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural San Vicente"
+    },
+    "114407": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13203,
+        "Comuna": "San José De Maipo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural Las Vertientes"
+    },
+    "114408": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13203,
+        "Comuna": "San José De Maipo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural El Volcán"
+    },
+    "114410": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13203,
+        "Comuna": "San José De Maipo",
+        "Dependencia Adm.": "Municipal ",
+        "Centro": "Posta De Salud Rural San Gabriel"
+    },
+    "111300": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13101,
+        "Comuna": "Santiago",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Salud Familiar N° 1 Dr. Ramón Corbalán Melgarejo"
+    },
+    "111301": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13101,
+        "Comuna": "Santiago",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Salud Familiar Nº 5 "
+    },
+    "111305": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13102,
+        "Comuna": "Cerrillos",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Salud Familiar Dr. Norman Voulliéme"
+    },
+    "111307": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13102,
+        "Comuna": "Cerrillos",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Salud Familiar Enfermera Sofía Pincheira"
+    },
+    "200346": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13102,
+        "Comuna": "Cerrillos",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro Comunitario De Salud Familiar Buzeta"
+    },
+    "111302": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13106,
+        "Comuna": "Estación Central",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Salud Familiar Padre Vicente Irarrázabal"
+    },
+    "111306": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13106,
+        "Comuna": "Estación Central",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Salud Familiar San José De Chuchunco"
+    },
+    "111310": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13106,
+        "Comuna": "Estación Central",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Salud Familiar Las Mercedes"
+    },
+    "111781": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13106,
+        "Comuna": "Estación Central",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro Comunitario De Salud Familiar Villa Francia"
+    },
+    "111304": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13119,
+        "Comuna": "Maipú",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Salud Familiar Maipú"
+    },
+    "111308": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13119,
+        "Comuna": "Maipú",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Salud Familiar Dr. José Eduardo Ahués Salame"
+    },
+    "111309": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13119,
+        "Comuna": "Maipú",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Salud Familiar Dra. Ana María Juricic"
+    },
+    "111351": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13119,
+        "Comuna": "Maipú",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Referencia De Salud De Maipú"
+    },
+    "111400": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13119,
+        "Comuna": "Maipú",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Posta De Salud Rural Rinconada De Maipú"
+    },
+    "111704": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13119,
+        "Comuna": "Maipú",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro Comunitario De Salud Familiar Futramapu"
+    },
+    "111780": {
+        "Servicio de Salud": "Metropolitano Central",
+        "Código Comuna": 13119,
+        "Comuna": "Maipú",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro Comunitario De Salud Familiar Europa"
+    },
+    "110300": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13124,
+        "Comuna": "Pudahuel",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Referencia De Salud Salvador Allende"
+    },
+    "110310": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13126,
+        "Comuna": "Quinta Normal",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Salud Familiar Andes"
+    },
+    "110160": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13503,
+        "Comuna": "Curacaví",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Hospital De Curacaví"
+    },
+    "110477": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13503,
+        "Comuna": "Curacaví",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro Comunitario De Salud Familiar María Salas"
+    },
+    "110760": {
+        "Servicio de Salud": "Metropolitano Occidente",
+        "Código Comuna": 13503,
+        "Comuna": "Curacaví",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro Comunitario De Salud Familiar Curacaví"
+    },
+    "112300": {
+        "Servicio de Salud": "Metropolitano Oriente",
+        "Código Comuna": 13122,
+        "Comuna": "Peñalolén",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Referencia De Salud Cordillera Oriente"
+    },
+    "113181": {
+        "Servicio de Salud": "Metropolitano Sur",
+        "Código Comuna": 13401,
+        "Comuna": "San Bernardo",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Referencia De Salud El Pino"
+    },
+    "114150": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13110,
+        "Comuna": "La Florida",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Referencia De Salud San Rafael"
+    },
+    "114010": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13201,
+        "Comuna": "Puente Alto",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Actividades Gestionadas Por La Dirección Del Servicio Para Apoyo De La Red (S.S Metropolitano Sur Oriente)"
+    },
+    "200282": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13201,
+        "Comuna": "Puente Alto",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Centro De Referencia De Salud Hospital Provincia Cordillera"
+    },
+    "114102": {
+        "Servicio de Salud": "Metropolitano Sur Oriente",
+        "Código Comuna": 13203,
+        "Comuna": "San José De Maipo",
+        "Dependencia Adm.": "Servicio de Salud",
+        "Centro": "Hospital San José De Maipo"
+    }
+}
