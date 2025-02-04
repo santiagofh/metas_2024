@@ -147,7 +147,8 @@ metas_sanitarias = {
             "col2":["Col01"]
         },
         "denominador": {
-            "edad": [list(range(40, 120)), list(range(5, 40))],
+            "edad": [list(range(40, 120)), 
+                     list(range(5, 40))],
             "prevalencia": [0.117, 
                             0.10]
         }
