@@ -208,9 +208,9 @@ if "Todos" not in selected_establecimientos:
 # -----------------------------------------------------
 # 8) FILTRO de Mes (ejemplo)
 # -----------------------------------------------------
-all_meses = sorted(df_ms4b_filtered['Mes'].unique())
-selected_meses = st.selectbox('Seleccione mes de corte', all_meses, index=len(all_meses)-1)
-df_ms4b_filtered = df_ms4b_filtered[df_ms4b_filtered['Mes'] == selected_meses]
+# all_meses = sorted(df_ms4b_filtered['Mes'].unique())
+# selected_meses = st.selectbox('Seleccione mes de corte', all_meses, index=len(all_meses)-1)
+# df_ms4b_filtered = df_ms4b_filtered[df_ms4b_filtered['Mes'] == selected_meses]
 #%%
 # Mostrar datos filtrados
 st.write("## Datos para la Meta Sanitaria")
