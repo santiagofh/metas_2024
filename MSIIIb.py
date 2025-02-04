@@ -20,9 +20,9 @@ df_ms3b = df_ms.loc[df_ms.MetaSanitaria == 'MSIIIb']
 df_ms3b = df_ms3b.merge(df_est, on='IdEstablecimiento', how='left')
 
 # Preparar los datos
-df_ms3b = df_ms3b.dropna(subset=['Ano', 'Mes'])
-df_ms3b['Ano'] = df_ms3b['Ano'].astype(int)
-df_ms3b['Mes'] = df_ms3b['Mes'].astype(int)
+# df_ms3b = df_ms3b.dropna(subset=['Ano', 'Mes'])
+# df_ms3b['Ano'] = df_ms3b['Ano'].astype(int)
+# df_ms3b['Mes'] = df_ms3b['Mes'].astype(int)
 df_ms3b['Porcentaje'] = df_ms3b['Numerador'] / df_ms3b['Denominador']
 df_ms3b['IdEstablecimiento'] = df_ms3b['IdEstablecimiento'].astype(str)
 df_ms3b['nombre_establecimiento'] = df_ms3b['nombre_establecimiento'].astype(str)
