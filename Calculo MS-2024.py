@@ -170,8 +170,8 @@ print(all_codes)
 
 
 #%% Lectura y filtrado de datos
-directory_2024 = r"C:\Users\fariass\OneDrive - SUBSECRETARIA DE SALUD PUBLICA\Escritorio\REM\REM 2024\archivos_extraidos"
-directory_2023 = r"C:\Users\fariass\OneDrive - SUBSECRETARIA DE SALUD PUBLICA\Escritorio\REM\REM 2023\archivos_extraidos"
+directory_2024 = r"C:\Users\fariass\OneDrive - SUBSECRETARIA DE SALUD PUBLICA\Escritorio\DATA\REM\REM_2024"
+directory_2023 = r"C:\Users\fariass\OneDrive - SUBSECRETARIA DE SALUD PUBLICA\Escritorio\DATA\REM\REM_2023"
 
 filtered_data_2024 = []
 filtered_data_2023 = []
