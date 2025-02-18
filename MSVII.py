@@ -37,7 +37,7 @@ df_ms7['Mes'] = df_ms7['Mes'].astype(int)
 # df_ms7=pd.concat([df_ms7,df_ms_faltantes])
 df_ms7['IdEstablecimiento'] = df_ms7['IdEstablecimiento'].astype(str)
 df_ms7['nombre_establecimiento'] = df_ms7['nombre_establecimiento'].astype(str)
-df_ms7 = df_ms7.dropna(subset=["servicio_salud", "comuna"])
+# df_ms7 = df_ms7.dropna(subset=["servicio_salud", "comuna"])
 df_ms7["servicio_salud"] = df_ms7["servicio_salud"].fillna("No especificado").astype(str)
 df_ms7["comuna"] = df_ms7["comuna"].fillna("No especificado").astype(str)
 df_ms7['codigo_nombre']=df_ms7['IdEstablecimiento']+' - '+df_ms7['nombre_establecimiento']

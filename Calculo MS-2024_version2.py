@@ -542,7 +542,7 @@ def calcular_MSVII(df_rem, fonasa_rm, region_id):
     # Denominador (FONASA): 
     # Rango1: 40-120 => prevalencia=0.117
     # Rango2: 5-120   => prevalencia=0.10
-    edades_list = [range(40,200), range(5,40)]
+    edades_list = [range(40,200), range(5,200)]
     prevalencias_list = [0.117, 0.10]
     df_den_fona = sumar_denominador_fonasa(
         fonasa_rm=fonasa_rm,
@@ -556,7 +556,24 @@ def calcular_MSVII(df_rem, fonasa_rm, region_id):
     df_merge = pd.merge(df_numerador, df_den_fona, 
                         on='IdEstablecimiento', 
                         how='outer')
-    return df_merge
+        # Asegurar que cada establecimiento tenga datos en el mes 12
+    registros_extra = []
+    for establecimiento in df_merge['IdEstablecimiento'].unique():
+        if not ((df_merge['IdEstablecimiento'] == establecimiento) & (df_merge['Mes'] == 12)).any():
+            denominador = df_merge.loc[df_merge['IdEstablecimiento'] == establecimiento, 'Denominador_MSVII'].values[0]
+            ano = df_merge.loc[df_merge['IdEstablecimiento'] == establecimiento, 'Ano'].values[0]
+
+            registros_extra.append({
+                'IdEstablecimiento': establecimiento,
+                'Ano': ano,
+                'Mes': 12,
+                'Numerador_MSVII': 0,  # No hay datos de numerador
+                'Denominador_MSVII': denominador
+            })
+
+    df_extra = pd.DataFrame(registros_extra)
+    df_final = pd.concat([df_merge, df_extra], ignore_index=True)
+    return df_final
 
 #%% -----------------------------------------------------------------------------------------
 # Cálculo de cada Meta por separado
