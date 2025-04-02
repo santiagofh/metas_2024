@@ -43,6 +43,7 @@ df_ms7["comuna"] = df_ms7["comuna"].fillna("No especificado").astype(str)
 df_ms7['codigo_nombre']=df_ms7['IdEstablecimiento']+' - '+df_ms7['nombre_establecimiento']
 #%%
 df_ms7['Porcentaje'] = df_ms7['Numerador']/df_ms7['Denominador']
+df_ms7=df_ms7.dropna(subset=['Numerador'])
 #%%
 # Título del dashboard
 st.title('Meta VII: Cobertura efectiva de tratamiento en enfermedades respiratorias crónicas (asma y EPOC) en personas de 5 años y más')

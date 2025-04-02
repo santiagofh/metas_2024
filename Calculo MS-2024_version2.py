@@ -510,7 +510,7 @@ def calcular_MSVII(df_rem, fonasa_rm, region_id):
 
     Denominador (FONASA) con prevalencia en dos rangos:
       - 40+ (0.117)
-      - 5-39 (0.10)
+      - 5+ (0.10)
       (basado en el prototipo original: "edad": [list(range(40,120)), list(range(5,40))], "prevalencia": [0.117, 0.10])
     """
     # Numerador 1
@@ -542,7 +542,7 @@ def calcular_MSVII(df_rem, fonasa_rm, region_id):
     # Denominador (FONASA): 
     # Rango1: 40-120 => prevalencia=0.117
     # Rango2: 5-120   => prevalencia=0.10
-    edades_list = [range(40,200), range(5,200)]
+    edades_list = [range(40, 200), range(5, 200)]
     prevalencias_list = [0.117, 0.10]
     df_den_fona = sumar_denominador_fonasa(
         fonasa_rm=fonasa_rm,
