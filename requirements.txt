@@ -2,3 +2,4 @@ plotly
 pandas
 openpyxl
 io
+xlsxwriter
