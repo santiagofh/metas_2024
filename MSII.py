@@ -246,6 +246,26 @@ st.write('## Tabla de establecimientos')
 st.write('A continuación se muestra la tabla de los establecimientos, su numerador, denominador y cumplimiento de la meta sanitaria')
 st.write(df_ms2_filtered[col_ms2].rename(columns=rename_ms2))
 #%%
+#%% Descargar Excel con la tabla de establecimientos
+import io
+
+# Filtrar columnas y renombrar para el archivo
+df_export = df_ms2_filtered[col_ms2].rename(columns=rename_ms2)
+
+# Crear un buffer en memoria
+output = io.BytesIO()
+with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+    df_export.to_excel(writer, index=False, sheet_name='Tabla_Establecimientos')
+
+# Botón de descarga
+st.download_button(
+    label="📥 Descargar tabla de establecimientos (Excel)",
+    data=output.getvalue(),
+    file_name="tabla_establecimientos.xlsx",
+    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+)
+
+#%%
 # Calcular el total del numerador y denominador
 total_numerador = df_ms2_filtered['Numerador'].sum()
 total_denominador = df_ms2_filtered['Denominador'].sum()

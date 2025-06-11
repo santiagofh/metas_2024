@@ -251,7 +251,24 @@ rename_ms3b = {
     'Porcentaje': 'Cumplimiento de la MS'
 }
 st.write(df_ms3b_filtered[col_ms3b].rename(columns=rename_ms3b))
+#%%
+import io
 
+# Filtrar columnas y renombrar para el archivo
+df_export = df_ms3b_filtered[col_ms3b].rename(columns=rename_ms3b)
+
+# Crear un buffer en memoria
+output = io.BytesIO()
+with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+    df_export.to_excel(writer, index=False, sheet_name='Tabla_Establecimientos')
+
+# Botón de descarga
+st.download_button(
+    label="📥 Descargar tabla de establecimientos (Excel)",
+    data=output.getvalue(),
+    file_name="tabla_establecimientos.xlsx",
+    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+)
 
 #%%
 # DATOS CUMPLIMIENTO y GRAFICO GAUGE
@@ -319,7 +336,9 @@ df_cumplimiento = df_cumplimiento.sort_values(by='porcentaje_cumplimiento', asce
 # Mostrar el DataFrame resultante
 st.write("## Tabla de cumplimiento por comuna")
 st.write(df_cumplimiento.rename(columns=rename_cumplimiento))
+#%%
 
+#%%
 # Crear el gráfico de barras
 fig = px.bar(
     df_cumplimiento,

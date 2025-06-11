@@ -243,7 +243,27 @@ rename_ms4b={
     'Porcentaje':'Cumplimiento de la MS'
 }
 st.write(df_ms4b_filtered[col_ms4b].rename(columns=rename_ms4b))
+#%%
 
+import io
+
+# Filtrar columnas y renombrar para el archivo
+df_export = df_ms4b_filtered[col_ms4b].rename(columns=rename_ms4b)
+
+# Crear un buffer en memoria
+output = io.BytesIO()
+with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+    df_export.to_excel(writer, index=False, sheet_name='Tabla_Establecimientos')
+
+# Botón de descarga
+st.download_button(
+    label="📥 Descargar tabla de establecimientos (Excel)",
+    data=output.getvalue(),
+    file_name="tabla_establecimientos.xlsx",
+    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+)
+
+#%%
 col_ms4b = ['IdEstablecimiento', 'nombre_establecimiento', 'servicio_salud', 'comuna', 'Numerador', 'Denominador', 'Porcentaje']
 
 
